@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+body {
+	font-family: "Trebuchet MS" Arial, Helvetica, sans-serif;
+	font-size:80%;/*62.5%; /* Sets default font size to 10px */
+	background-color:#B6E853;
+}
+
+* {
+	margin:0;
+	padding:0;
+}
+
+img {
+	border:0;
+}
+
+p {
+	margin-bottom:1.75em;
+}
+
+a {
+	text-decoration:none;
+	color:#B4C835;
+}
+a:hover {
+	text-decoration:none;
+	color:#6CC7DC;
+}
+
+/* Structure */
+
+#wrapper {
+	margin:0 auto;
+	width:1024px;
+	background:#ffffff;
+	font-size:1.20em;
+}
+#header {
+	height:177px;
+	background:url(../images/banner.jpg) no-repeat;
+}
+#menu {
+	height:35px;
+	line-height:35px;
+	background-color:#354D01;
+	padding:0 20px;
+}
+#content {
+	float:left;
+	background:url(../images/maincontent.jpg) no-repeat;
+	width:1024px;
+	min-height:543px;
+}
+
+#frameset{
+	color:#AAAAAA;
+	width:1024px;
+	min-height:543px;
+}
+
+/* Menu */
+
+#menu ul {
+	list-style-type:none;
+}
+#menu li {
+	float:left;
+}
+#menu li a {
+	padding:0 8px;
+	display:block;
+	color:#ffffff;
+	margin-right:2px;
+}
+#menu li a:hover {
+	/*background:url(../images/bg-menu-hover.png) no-repeat center center;*/
+	background-color:#5DBF20;
+}
+
+/* Heading's */
+
+h1 {
+	font-size:2.5em;
+	font-weight:normal;
+	cursor:default;
+	position:relative; top:50px; left:30px;
+	letter-spacing:1px;
+	color:#aaaaaa;
+	font-style:italic;
+}

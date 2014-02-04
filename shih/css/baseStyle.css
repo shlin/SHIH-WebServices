@@ -1,0 +1,153 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#F5F4F4;
+}
+
+#foreign{
+	background:url(../img/contenter.png) center no-repeat;
+}
+
+#container {
+	/*border:#99CC00 1px solid;*/
+	background:#FFFFFF;
+	width:950px;
+	margin:0 auto;
+	/*border-style: solid solid solid solid;*/
+	border-color: #D8D5D1;
+	border-size: 1px;
+	border-width: 1px;
+}
+
+#header {
+	padding:0px;
+	height:140px;
+}
+
+#content {
+	margin-bottom:5px;
+	padding:0;
+}
+
+#allFrame{
+	width: 100%;
+	float: left;
+	clear: both;
+	/*border-top:#696505 1px solid;*/
+}
+
+#listmenu{
+	float: left;
+	width: auto;
+	padding: 0;
+}
+
+#menu {
+	width: 200px;
+	/*border-style: solid none none solid;
+	border-color: #D8D5D1;
+	border-size: 1px;
+	border-width: 1px;*/
+	font-family: 微軟;
+	font-weight:bolder;
+}
+	
+#menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menu li a {
+	height: 32px;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 24px;
+	text-decoration: none;
+}	
+
+#menu li a:link, #menu li a:visited {
+	color: #696505;
+	display: block;
+	/*background:  url(../img/menu.gif);*/
+	padding: 8px 0 0 30px;
+}
+	
+#menu li a:hover {
+	color: #3688BA;
+	background:url(../img/list_tree.png) no-repeat left;
+	padding: 8px 0 0 32px;
+}
+
+.menuact{
+	/*color: #3688BA !important;
+	background:url(../img/menu.gif) 0 -32px !important;
+	padding: 8px 0 0 32px !important;*/
+}
+
+
+#main-content{
+	float: left;
+	text-align:center;
+	width: 750px;
+	padding-top: 10px;
+	/*border-left:#D8D5D1 1px solid;*/
+	height:490px;
+}
+
+#footer{
+	width:auto;
+	padding:10px;
+	margin:10px 0 0 0;
+	background:url(../img/foot.png) no-repeat scroll right bottom;
+	/*border-top:#999 2px solid;*/
+	font-size:13px;
+	font-weight:normal;
+	line-height:1.5em;
+	text-align:center;
+}
+
+#footer a, #footer a:link, #footer a:visited{
+	text-decoration: none;
+	color:#000;
+}
+
+#footer a:hover{
+	text-decoration:underline;
+	color:#333;
+}
+
+#footer-width{
+	width:420px;
+	margin:10px auto;
+}
+
+#footer-left{
+	text-align:left;
+	padding-left:50px;
+}
+
+#footer-site-left{
+	float:left;
+	margin:2px auto;
+	width:120px;
+}
+#footer-site-rigth{
+	float:left;
+	margin:2px auto;
+	width:300px;
+}
+
+/* slightly enhanced, universal clearfix hack */
+.clearfix:after { 
+	content:" "; 
+	display:block; 
+	height:0; 
+	clear:both; 
+	visibility:hidden; 
+} 
+.clearfix {display:inline-block;} 
+/* Hide from IE Mac \*/ 
+.clearfix {display:block;} 
+/* End hide from IE Mac */ 
+

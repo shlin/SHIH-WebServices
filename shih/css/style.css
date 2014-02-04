@@ -1,0 +1,293 @@
+@charset "big5";
+
+/*		Styles for all
+----------------------------------------------------------*/
+body,div,ul,li,h1,h2,h3,p,blockquote
+{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+		background-color: #fbfbf9;
+		text-align: center;
+		font-family: "新細明體", Osaka, "華康中黑體",Arial, Helvetica, sans-serif;
+}
+
+img {
+		border: 0;
+		vertical-align: bottom;
+}
+#wrapper {
+		width: 746px;
+		margin: 0 auto;
+		background: url(../img/contentBg.gif) 
+		repeat-y 0 76px;
+}
+#wrapper:after {
+		content: ".";
+		display: block;
+		height: 0;
+		clear: both;
+		visibility: hidden;
+}
+#wrapper {
+		display: inline-table;
+		clear: both;
+}
+/* MacIE begin \*/
+*+html #wrapper {height: 1%;}
+* html #wrapper {height: 1%;}
+#wrapper {display: block;}
+/* MacIE end */
+
+
+
+/*		Header Area
+----------------------------------------------------------*/
+#header	{
+		width: 100%;
+		margin: 0 auto;
+		background: #fbfbf9 url(../img/headBg.gif) 
+no-repeat left bottom;
+}
+#header	h1 {
+		margin: 20px 0 11px 0;
+		float: left;
+}
+#header	p {
+		margin: 20px 0 0 0;
+		font-size: 69%;
+		text-align: right;
+		color: #333333;
+		float: right;
+}
+#header:after {
+		content: ".";
+		display: block;
+		height: 0;
+		clear: both;
+		visibility: hidden;
+}
+/* MacIE begin \*/
+*+html #header {
+height: 1%;
+}
+*html #header {
+height: 1%;}
+#header {
+display: block;
+}
+/* MacIE end */
+*:first-child+html #header	h1 {
+padding: 0 0 11px 0;
+}
+/*\*/
+* html #header	h1 {padding: 0 0 11px 0;}	
+/* For Win IE */
+/* */
+*:first-child+html #header	h1 {padding: 0 0 11px 0;
+}
+
+
+/*		Topic Path Area
+----------------------------------------------------------*/
+#topicPath {
+		width: 734px;
+		margin: 1px auto 0 auto;
+		text-align: left;
+		font-size: 69%;
+		color: #333333;
+		background-color: #f4f3e3;
+}
+#topicPath p {
+		padding: 0.6em 1em;
+}
+#topicPath p a {
+		color: #333333;
+}
+#topicPath p a:link,
+#topicPath p a:visited {
+		text-decoration: underline;
+}
+#topicPath p a:hover {
+		text-decoration: none;
+}
+#topicPath p a:active {
+		color: #723a11;
+		text-decoration: none;
+}
+
+
+/*		Key
+---------------------------*/
+#key {
+		text-align: center;
+}
+
+
+/*		Main Content Area
+----------------------------------------------------------*/
+#mainContentArea {
+		width: 710px;
+		margin: 11px auto 0 auto;
+		display: inline-table;
+		clear: both;
+}
+#mainContentArea:after {
+		content: ".";
+		display: block;
+		height: 0;
+		clear: both;
+		visibility: hidden;
+}
+/* MacIE begin \*/
+*+html #mainContentArea {height: 1%;}
+* html #mainContentArea {height: 1%;}
+#mainContentArea		{display: block;}
+/* MacIE end */
+
+
+/*		Main
+-----------------------*/
+
+#main {
+		width: 485px;
+		height: 510px;
+		float: right;
+}
+#main h2 {
+		margin-bottom: 25px;
+		padding-bottom: 2px;
+		text-align: left;
+		border-bottom: solid 3px #3e231c;
+}
+
+
+/*		Side Content Area
+----------------------------------------------------------*/
+#sideContentArea {
+		width: 205px;
+		float: left;
+}
+
+
+/*		Local Navigation
+-----------------------*/
+#sideContentArea #localNavigation {
+		width: 205px;
+		margin-bottom: 18px;
+}
+#sideContentArea #localNavigation ul {
+		margin: 0;
+		padding: 0;
+}
+#sideContentArea #localNavigation ul li {
+		margin-bottom: 5px;
+}
+#sideContentArea #localNavigation ul li,
+#sideContentArea #localNavigation ul li a {
+		width: 205px;
+		height: 25px;
+		list-style: none;
+		display: block;
+}
+#sideContentArea #localNavigation ul li span {
+		display: none;
+}
+#sideContentArea #localNavigation ul li.lnavi a{
+		color: #fff;
+		text-decoration: none;
+}
+
+#sideContentArea #localNavigation ul li.lnavi,
+#sideContentArea #localNavigation ul li.lnavi a:link,
+#sideContentArea #localNavigation ul li.lnavi a:visited {
+		background: url(../img/lnavi.gif) no-repeat 0 0;
+}
+#sideContentArea #localNavigation ul li.lnavi a:hover,
+#sideContentArea #localNavigation ul li.lnavi a:active{
+		background: url(../img/lnavi_o.gif) no-repeat 0 0;
+}
+
+
+/*		Information
+-----------------------*/
+#sideContentArea div.info {
+		padding: 1.2em;
+		font-size: 75%;
+		text-align: left;
+		background-color: #f4f3e3;
+}
+#sideContentArea div.info h3 {
+		margin-bottom: 7px;
+		color: #2f87c4;
+}
+#sideContentArea div.info address {
+		color: #333333;
+		font-style: normal;
+		line-height: 1.2em;
+}
+
+
+/*		Footer Area
+----------------------------------------------------------*/
+#footer {
+		clear: both;
+		margin-top: 50px;
+		color: #ffffff;
+		background:url(../img/footBg.gif) 
+		no-repeat 0 0;
+}
+#footer a {
+		color: #ffffff;
+}
+#footer ul {
+		float: left;
+}
+#footer ul li {
+		margin: 1.5em 0 0 1.5em;
+		padding: 0 1.5em 0 0;
+		font-size: 69%;
+		border-right: solid 1px #ffffff;
+		list-style: none;
+		white-space: nowrap;
+		float: left;
+}
+/*\*/
+* html #footer ul li {margin: 1.5em 0 0 1em;}	
+/* */
+
+#footer ul li.noBorder {
+		border: none;
+}
+#footer address {
+		margin:15px 15px 0 0;
+		font-size: 69%;
+		font-style: normal;
+		float: right;
+}
+/*\*/
+* html #footer address {
+  margin: 1.5em 1em 0 0;
+}	
+/* */
+#footer address a:link,
+#footer address a:visited,
+#footer ul li a:link,
+#footer ul li a:visited {
+	text-decoration: none;
+}
+#footer address a:hover,
+#footer address a:active,
+#footer ul li a:hover,
+#footer ul li a:active {
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
