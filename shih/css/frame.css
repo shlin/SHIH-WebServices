@@ -1,37 +1,43 @@
 /* CSS Document */
-html{
+#content {
 	/*scrollbar setup in IE*/
 	scrollbar-face-color:#EDF8F9;	/*移動棒的顏色*/
 	scrollbar-arrow-color:#333;		/*按鈕箭頭顏色*/
 	scrollbar-3dlight-color:#EEE;	/*移動棒邊框顏色*/
 	scrollbar-track-color:#FFF;
-	
+}
+
+#content p
+{
+    margin-bottom:0;
 }
 
 #nowsite{
 	font-size:x-small;
 	padding-bottom:10px;
 }
-h3{
+#content h3{
 	background:#f4f3e3;
 	margin-bottom:5;
 	font-size:11pt;
 }
-ul{
-	list-style-image:url(../img/list_tree.png);
+#content ul{
+	list-style-image:url(../images/list_tree.png);
 }
-ol{
-	margin-top:2;
+#content ol
+{
+	margin-top: 2px;
+	margin-left: 30px;
 	line-height:15pt;
 	font-size:12px;
 	letter-spacing:1px;
 }
 
-a{
+#content a{
 	text-decoration:none;
 	color:#696505;
 }
-a:hover{
+#content a:hover{
 	font-size:larger;
 	text-decoration:underline;
 }
@@ -44,7 +50,7 @@ a:hover{
 #showalbum-shih{
 	height:290px;
 	width:320px;
-	background:url(../img/photobg.png) top center no-repeat;
+	background:url(../images/photobg.png) top center no-repeat;
 	padding:25px 15px 5px 15px;
 	text-align:center;
 }
@@ -84,23 +90,23 @@ a:hover{
 	height:50px;
 	width:300px;
 }
-.x{
+#content .x{
 	width:280px;
 	height:220px;
 	margin:auto;
 	overflow:hidden;
 }
-.x img{
+#content .x img{
 	width:100%;
 	height:100%;
 }
-.y{
+#content .y{
 	height:200px;
 	width:148px;
 	margin:auto;
 	overflow:hidden;
 }
-.y img{
+#content .y img{
 	height:100%;
 	width:100%;
 }

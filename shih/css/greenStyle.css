@@ -49,8 +49,10 @@ a:hover {
 #content {
 	float:left;
 	background:url(../images/maincontent.jpg) no-repeat;
-	width:1024px;
-	min-height:543px;
+	width:1010px;
+	height: 543px;
+	padding: 0px 7px 0px 7px;
+	overflow: auto;
 }
 
 #frameset{
