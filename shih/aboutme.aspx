@@ -25,7 +25,7 @@
                                 <td>國別</td>
                                 <td width="200">主修學門系所</td>
                                 <td width="45">學位</td>
-                                <td>起訖年月(<u>西元年</u>/<u>月</u>)</td>
+                                <td width="185">起訖年月(<u>西元年</u>/<u>月</u>)</td>
                             </tr>
                         </tbody>
                     </table>
@@ -34,54 +34,12 @@
                 <h3>現職與專長相關之經歷</h3>
                 <div align="center">
                     <table cellspacing="0" cellpadding="0" border="1">
-                        <tbody>
-                            <tr>
-                                <td valign="top" width="213"><p align="center">服務機關</p></td>
-                                <td valign="top" width="201"><p align="center">服務部門／系所</p></td>
-                                <td valign="top" width="73"><p align="center">職稱</p></td>
-                                <td valign="top" width="184"><p align="center">起訖年月(<u>西元年</u>/<u>月</u>)</p></td>
-                            </tr>
-                            <tr>
-                                <td valign="top" width="213"><p>現職：<a href="http://www.tku.edu.tw" target="_blank">淡江大學</a></p></td>
-                                <td valign="top" width="201"><p>管理科學研究所</p></td>
-                                <td valign="top" width="73"><p>教授</p></td>
-                                <td valign="top" width="184"><p><u>2006</u>/<u>02</u></p></td>
-                            </tr>
-                            <tr>
-                                <td valign="top" width="213"><p>經歷：<a href="http://www.tku.edu.tw" target="_blank">淡江大學</a></p></td>
-                                <td valign="top" width="201"><p>管理科學研究所</p></td>
-                                <td valign="top" width="73"><p>所長</p></td>
-                                <td valign="top" width="184"><p><u>2008</u>/<u>08 </u>至<u> 2009</u>/<u>07</u></p></td>
-                            </tr>
-                            <tr>
-                                <td valign="top" width="213"><p><a href="#">阿圖大學</a></p></td>
-                                <td valign="top" width="201"><p>系統分析實驗室</p></td>
-                                <td valign="top" width="73"><p>訪問學者</p></td>
-                                <td valign="top" width="184"><p><u>2010</u>/<u>06 </u>至<u> 2010</u>/<u>09</u></p></td>
-                            </tr>
-                            <tr>
-                                <td valign="top" width="213"><p><a href="http://www.pitt.edu/" target="_blank">匹茲堡大學</a></p></td>
-                                <td valign="top" width="201"><p>凱茲商學研究院 </p></td>
-                                <td valign="top" width="73"><p>訪問學者</p></td>
-                                <td valign="top" width="184"><p><u>2007</u>/<u>06 </u>至<u> 2007</u>/<u>09</u></p></td>
-                            </tr>
-                            <tr>
-                                <td valign="top" width="213"><p><a href="http://www.tku.edu.tw" target="_blank">淡江大學</a></p></td>
-                                <td valign="top" width="201"><p>管理科學研究所 </p></td>
-                                <td valign="top" width="73"><p>副教授</p></td>
-                                <td valign="top" width="184"><p><u>2002</u>/<u>08 </u>至<u> 2006</u>/<u>01</u></p></td>
-                            </tr>
-                            <tr>
-                                <td valign="top" width="213"><p><a href="http://www.isu.edu.tw" target="_blank">義守大學</a> </p></td>
-                                <td valign="top" width="201"><p>工業工程與管理學系 </p></td>
-                                <td valign="top" width="73"><p>副教授</p></td>
-                                <td valign="top" width="184"><p><u>2002</u>/<u>02 </u>至<u> 2002</u>/<u>07</u></p></td>
-                            </tr>
-                            <tr>
-                                <td valign="top" width="213"><p><a href="http://www.isu.edu.tw" target="_blank">義守大學</a></p></td>
-                                <td valign="top" width="201"><p>工業工程與管理學系 </p></td>
-                                <td valign="top" width="73"><p>助理教授</p></td>
-                                <td valign="top" width="184"><p><u>1998</u>/<u>08 </u>至<u> 2002</u>/<u>01</u></p></td>
+                        <tbody id="expTable" runat="server">
+                            <tr align="center">
+                                <td width="200">服務機關</td>
+                                <td width="200">服務部門／系所</td>
+                                <td width="75">職稱</td>
+                                <td width="185">起訖年月(<u>西元年</u>/<u>月</u>)</td>
                             </tr>
                         </tbody>
                     </table>

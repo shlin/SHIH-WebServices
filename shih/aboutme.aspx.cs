@@ -12,6 +12,7 @@ public partial class aboutme : System.Web.UI.Page
     protected void Page_Load(object sender, EventArgs e)
     {
         loadEducation();
+        loadExperience();
     }
 
     protected void loadEducation()
@@ -33,7 +34,7 @@ public partial class aboutme : System.Web.UI.Page
 
             // 學校
             newCell = new HtmlGenericControl("td");
-            newCell.InnerHtml = "<a href=\"" + current.SelectSingleNode("School").Attributes["Link"].Value + "\">" + current.SelectSingleNode("School").InnerText + "</a>";
+            newCell.InnerHtml = "<a href=\"" + current.SelectSingleNode("School").Attributes["Link"].Value + "\" target=\"_blank\">" + current.SelectSingleNode("School").InnerText + "</a>";
             newRow.Controls.Add(newCell);
 
             // 國別
@@ -57,6 +58,47 @@ public partial class aboutme : System.Web.UI.Page
             newRow.Controls.Add(newCell);
 
             eduTable.Controls.Add(newRow);
+        }
+    }
+
+    protected void loadExperience()
+    {
+        XmlDocument xmlDocEdu = new XmlDocument();
+        XmlNode rootNode;
+        XmlNodeList entries;
+
+        xmlDocEdu.Load(Server.MapPath("xmlDB/Experience.xml"));
+
+        rootNode = xmlDocEdu.SelectSingleNode("Experience");
+        entries = rootNode.SelectNodes("Entry");
+
+        foreach (XmlNode current in entries)
+        {
+            HtmlGenericControl newRow, newCell;
+            newRow = new HtmlGenericControl("tr");
+            newRow.Attributes.Add("align", "center");
+
+            // 學校
+            newCell = new HtmlGenericControl("td");
+            newCell.InnerHtml = "<a href=\"" + current.SelectSingleNode("Organization").Attributes["Link"].Value + "\" target=\"_blank\">" + current.SelectSingleNode("Organization").InnerText + "</a>";
+            newRow.Controls.Add(newCell);
+
+            // 國別
+            newCell = new HtmlGenericControl("td");
+            newCell.InnerHtml = current.SelectSingleNode("Department").InnerText;
+            newRow.Controls.Add(newCell);
+
+            // 主修學系
+            newCell = new HtmlGenericControl("td");
+            newCell.InnerHtml = current.SelectSingleNode("Title").InnerText;
+            newRow.Controls.Add(newCell);
+
+            // 起訖時間
+            newCell = new HtmlGenericControl("td");
+            newCell.InnerHtml = current.SelectSingleNode("During").InnerText;
+            newRow.Controls.Add(newCell);
+
+            expTable.Controls.Add(newRow);
         }
     }
 }
