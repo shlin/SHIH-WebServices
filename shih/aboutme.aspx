@@ -172,22 +172,4 @@
         <li>Research Award (Jun. 2001), National Science Council, Taipei, Taiwan.</li>
         <li>Research Award (Jun. 2000), National Science Council, Taipei, Taiwan.</li>
     </ol>
-    <!--跳出訊息-->
-    <script language="JavaScript"> 
-                    <!--
-        function MM_displayStatusMsg(msgStr) { //v2.0
-            status = msgStr;
-            document.MM_returnValue = true;
-        }
-        function click() {
-            if (event.button == 2) {
-                alert('請尊重著作權');
-            }
-        }
-        document.onmousedown = click
-        function MM_openBrWindow(theURL, winName, features) { //v2.0
-            window.open(theURL, winName, features);
-        }
-                    //-->
-    </script>
 </asp:Content>

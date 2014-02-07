@@ -21,22 +21,4 @@
         <marquee behavior="alternate" height="30" scrollamount="3" style="font-size: 14pt;
             font-family: 標楷體; font-weight: bold">利之所在&nbsp; 弊即寓焉&nbsp; 福之所起&nbsp; 禍即伏焉</marquee>
     </center>
-    <!--跳出訊息-->
-    <script language="JavaScript"> 
-                                <!--
-        function MM_displayStatusMsg(msgStr) { //v2.0
-            status = msgStr;
-            document.MM_returnValue = true;
-        }
-        function click() {
-            if (event.button == 2) {
-                alert('請尊重著作權');
-            }
-        }
-        document.onmousedown = click
-        function MM_openBrWindow(theURL, winName, features) { //v2.0
-            window.open(theURL, winName, features);
-        }
-                                //-->
-    </script>
 </asp:Content>

@@ -16,7 +16,8 @@
             <!--<h1>時光序曲</h1>-->
         </div>
         <div id="menu">
-            <ul id="menuList" runat="server"></ul>
+            <ul id="menuList" runat="server">
+            </ul>
         </div>
         <div id="content">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
@@ -24,5 +25,23 @@
         </div>
     </div>
     </form>
+    <!--跳出訊息-->
+    <script language="JavaScript"> 
+            <!--
+        function MM_displayStatusMsg(msgStr) { //v2.0
+            status = msgStr;
+            document.MM_returnValue = true;
+        }
+        function click() {
+            if (event.button == 2) {
+                alert('請尊重著作權');
+            }
+        }
+        document.onmousedown = click
+        function MM_openBrWindow(theURL, winName, features) { //v2.0
+            window.open(theURL, winName, features);
+        }
+            //-->
+    </script>
 </body>
 </html>
