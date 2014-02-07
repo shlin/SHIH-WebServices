@@ -18,32 +18,64 @@
     <h3>
         主要學歷</h3>
     <div align="center">
-                    <table border="1" cellspacing="0" cellpadding="0" id="table2">
-                        <tbody id="eduTable" runat="server">
-                            <tr align="center">
-                                <td>畢／肄業學校</td>
-                                <td>國別</td>
-                                <td width="200">主修學門系所</td>
-                                <td width="45">學位</td>
-                                <td width="185">起訖年月(<u>西元年</u>/<u>月</u>)</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div><br />
-
-                <h3>現職與專長相關之經歷</h3>
-                <div align="center">
-                    <table cellspacing="0" cellpadding="0" border="1">
-                        <tbody id="expTable" runat="server">
-                            <tr align="center">
-                                <td width="200">服務機關</td>
-                                <td width="200">服務部門／系所</td>
-                                <td width="75">職稱</td>
-                                <td width="185">起訖年月(<u>西元年</u>/<u>月</u>)</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+        <table border="1" cellspacing="0" cellpadding="0" id="table2">
+            <thead>
+                <tr align="center">
+                    <td>
+                        畢／肄業學校
+                    </td>
+                    <td>
+                        國別
+                    </td>
+                    <td width="200">
+                        主修學門系所
+                    </td>
+                    <td width="45">
+                        學位
+                    </td>
+                    <td width="185">
+                        起訖年月(<u>西元年</u>/<u>月</u>)
+                    </td>
+                </tr>
+            </thead>
+            <tbody id="eduTable" runat="server"></tbody>
+        </table>
+    </div>
+    <br />
+    <h3>
+        現職與專長相關之經歷</h3>
+    <div align="center">
+        <table cellspacing="0" cellpadding="0" border="1">
+            <thead>
+                <tr align="center">
+                    <td width="200">
+                        服務機關
+                    </td>
+                    <td width="200">
+                        服務部門／系所
+                    </td>
+                    <td width="75">
+                        職稱
+                    </td>
+                    <td width="185">
+                        起訖年月(<u>西元年</u>/<u>月</u>)
+                    </td>
+                </tr>
+            </thead>
+            <tbody id="expTable" runat="server">
+                <tr align="center" runat="server">
+                    <td colspan="4">
+                        現職
+                    </td>
+                </tr>
+                <tr align="center" runat="server">
+                    <td colspan="4">
+                        經歷
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
     <br />
     <h3>
         服務</h3>

@@ -98,7 +98,11 @@ public partial class aboutme : System.Web.UI.Page
             newCell.InnerHtml = current.SelectSingleNode("During").InnerText;
             newRow.Controls.Add(newCell);
 
-            expTable.Controls.Add(newRow);
+
+            if (current.SelectSingleNode("Organization").Attributes["ING"].Value == "1")
+                expTable.Controls.AddAt(expTable.Controls.Count - 2, newRow);
+            else
+                expTable.Controls.Add(newRow);
         }
     }
 }
