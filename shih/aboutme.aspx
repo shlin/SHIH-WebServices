@@ -18,35 +18,14 @@
     <h3>
         主要學歷</h3>
     <div align="center">
-                    <table border="1" cellspacing="0" cellpadding="0" id="table1">
-                        <tbody>
-                            <tr>
-                                <td valign="top"><p align="center">畢／肄業學校</p></td>
-                                <td valign="top"><p align="center">國別</p></td>
-                                <td width="184" valign="top"><p align="center">主修學門系所</p></td>
-                                <td width="45" valign="top"><p align="center">學位</p></td>
-                                <td valign="top"><p align="center">起訖年月(<u>西元年</u>/<u>月</u>)</p></td>
-                            </tr>
-                            <tr>
-                                <td valign="top"><p><a href="http://www.ksu.edu/" target="_blank">堪薩斯州立大學</a></p></td>
-                                <td valign="top"><p>美國</p></td>
-                                <td width="184" valign="top"><p>作業研究∕<u>工業工程</u></p></td>
-                                <td width="45" valign="top"><p>博士</p></td>
-                                <td valign="top"><p><u>1991</u>/<u>08 </u>至<u>1995</u>/<u>12</u></p></td>
-                            </tr>
-                            <tr>
-                                <td valign="top"><p><a href="http://www.ccit.edu.tw/" target="_blank">中正理工學院</a></p></td>
-                                <td valign="top"><p>中華民國</p></td>
-                                <td width="184" valign="top"><p>液壓工程∕<u>機械工程</u></p></td>
-                                <td width="45" valign="top"><p>碩士</p></td>
-                                <td valign="top"><p><u>1981</u>/<u>09 </u>至<u>1983</u>/<u>07</u></p></td>
-                            </tr>
-                            <tr>
-                                <td valign="top"><p><a href="http://www.ccit.edu.tw/" target="_blank">中正理工學院</a></p></td>
-                                <td valign="top"><p>中華民國</p></td>
-                                <td width="184" valign="top"><p><u>造船工程</u></p></td>
-                                <td width="45" valign="top"><p>學士</p></td>
-                                <td valign="top"><p><u>1974</u>/<u>08 </u>至<u>1978</u>/<u>08</u></p></td>
+                    <table border="1" cellspacing="0" cellpadding="0" id="table2">
+                        <tbody id="eduTable" runat="server">
+                            <tr align="center">
+                                <td>畢／肄業學校</td>
+                                <td>國別</td>
+                                <td width="200">主修學門系所</td>
+                                <td width="45">學位</td>
+                                <td>起訖年月(<u>西元年</u>/<u>月</u>)</td>
                             </tr>
                         </tbody>
                     </table>
