@@ -61,7 +61,7 @@
 #showalbum-sub{
 	height:300px;
 	width:320px;
-	background:url(../img/photobg.png) top center no-repeat;
+	background:url(../images/photobg.png) top center no-repeat;
 	margin:2px;
 	padding-top:15px;
 	float:left;
@@ -76,7 +76,7 @@
 #showalbum-sub-height{
 	height:300px;
 	width:320px;
-	background:url(../img/photobg.png) top center no-repeat;
+	background:url(../images/photobg.png) top center no-repeat;
 	padding:15px 10px 5px 10px;
 	margin:2 2 2 2;
 	float:left;
