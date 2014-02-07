@@ -6,6 +6,35 @@
     <title>時光序曲</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="css/greenStyle.css" type="text/css" media="screen" />
+    <!--跳出訊息-->
+    <script language="JavaScript"> 
+            <!--
+        function MM_displayStatusMsg(msgStr) { //v2.0
+            status = msgStr;
+            document.MM_returnValue = true;
+        }
+        function click() {
+            if (event.button == 2) {
+                alert('請尊重著作權');
+            }
+        }
+        document.onmousedown = click
+        function MM_openBrWindow(theURL, winName, features) { //v2.0
+            window.open(theURL, winName, features);
+        }
+        //-->
+
+        // Google Analytics
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-46611640-3', 'tku.edu.tw');
+        ga('send', 'pageview');
+    </script>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -25,23 +54,5 @@
         </div>
     </div>
     </form>
-    <!--跳出訊息-->
-    <script language="JavaScript"> 
-            <!--
-        function MM_displayStatusMsg(msgStr) { //v2.0
-            status = msgStr;
-            document.MM_returnValue = true;
-        }
-        function click() {
-            if (event.button == 2) {
-                alert('請尊重著作權');
-            }
-        }
-        document.onmousedown = click
-        function MM_openBrWindow(theURL, winName, features) { //v2.0
-            window.open(theURL, winName, features);
-        }
-            //-->
-    </script>
 </body>
 </html>
