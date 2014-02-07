@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Education>
+  <Entry>
+    <ID>1</ID>
+    <School></School>
+    <Contry></Contry>
+    <Major></Major>
+    <Degree></Degree>
+    <During></During>
+  </Entry>
+  <Entry>
+    <ID>2</ID>
+    <School></School>
+    <Contry></Contry>
+    <Major></Major>
+    <Degree></Degree>
+    <During></During>
+  </Entry>
+  <Entry>
+    <ID>3</ID>
+    <School></School>
+    <Contry></Contry>
+    <Major></Major>
+    <Degree></Degree>
+    <During></During>
+  </Entry>
+</Education>
