@@ -50,4 +50,9 @@
     <Title>學生榮耀</Title>
     <Link>sthonorphoto.aspx</Link>
   </Item>
+  <Item>
+    <ID>11</ID>
+    <Title>決策分析實驗室</Title>
+    <Link>http://dal.ms.tku.edu.tw/</Link>
+  </Item>
 </globalMenu>
