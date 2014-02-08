@@ -11,13 +11,14 @@ public partial class MasterPage : System.Web.UI.MasterPage
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        // 處理 #menuList 的選單讀取，來源是 xmlDB/globalMenu.xml
+        // 處理 #menuList 的選單讀取，來源是 xmlDB/shihDB.xml
+        // XPath = //shih/Global/Menu
         XmlDocument xmlDoc = new XmlDocument();
         XmlNode rootNode;
         XmlNodeList currentNodeList;
 
-        xmlDoc.Load(Server.MapPath("xmlDB/globalMenu.xml"));
-        rootNode = xmlDoc.SelectSingleNode("globalMenu");
+        xmlDoc.Load(Server.MapPath("xmlDB/shihDB.xml"));
+        rootNode = xmlDoc.SelectSingleNode("//shih/Global/Menu");
 
         currentNodeList = rootNode.SelectNodes("Item");
 

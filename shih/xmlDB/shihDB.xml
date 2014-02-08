@@ -1,5 +1,64 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <shih>
+  <Global>
+    <Menu>
+      <Item>
+        <ID>1</ID>
+        <Title>首頁</Title>
+        <Link>index.aspx</Link>
+      </Item>
+      <Item>
+        <ID>2</ID>
+        <Title>時光序曲</Title>
+        <Link>aboutme.aspx</Link>
+      </Item>
+      <Item>
+        <ID>3</ID>
+        <Title>著作</Title>
+        <Link>literarywork.aspx</Link>
+      </Item>
+      <Item>
+        <ID>4</ID>
+        <Title>研究計畫</Title>
+        <Link>researchplan.aspx</Link>
+      </Item>
+      <Item>
+        <ID>5</ID>
+        <Title>教學與研究資源</Title>
+        <Link>teachresource.aspx</Link>
+      </Item>
+      <Item>
+        <ID>6</ID>
+        <Title>學術交流</Title>
+        <Link>eduphoto.aspx</Link>
+      </Item>
+      <Item>
+        <ID>7</ID>
+        <Title>企業交流</Title>
+        <Link>businessphoto.aspx</Link>
+      </Item>
+      <Item>
+        <ID>8</ID>
+        <Title>生活剪影</Title>
+        <Link>homephoto.aspx</Link>
+      </Item>
+      <Item>
+        <ID>9</ID>
+        <Title>時光榮耀</Title>
+        <Link>myhonorphoto.aspx</Link>
+      </Item>
+      <Item>
+        <ID>10</ID>
+        <Title>學生榮耀</Title>
+        <Link>sthonorphoto.aspx</Link>
+      </Item>
+      <Item>
+        <ID>11</ID>
+        <Title>決策分析實驗室</Title>
+        <Link>http://dal.ms.tku.edu.tw/</Link>
+      </Item>
+    </Menu>
+  </Global>
   <About>
     <Education>
       <Entry>
