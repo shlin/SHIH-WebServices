@@ -18,7 +18,7 @@ public partial class MasterPage : System.Web.UI.MasterPage
         XmlNodeList currentNodeList;
 
         xmlDoc.Load(Server.MapPath("xmlDB/shihDB.xml"));
-        rootNode = xmlDoc.SelectSingleNode("//shih/Global/Menu");
+        rootNode = xmlDoc.SelectSingleNode("/shih/Global/Menu");
 
         currentNodeList = rootNode.SelectNodes("Item");
 

@@ -14,8 +14,10 @@ public partial class aboutme : System.Web.UI.Page
         XmlDocument xmlDoc = new XmlDocument();
 
         xmlDoc.Load(Server.MapPath("xmlDB/shihDB.xml"));
-        loadEducation(xmlDoc.SelectSingleNode("//shih/About/Education"));
-        loadExperience(xmlDoc.SelectSingleNode("//shih/About/Experience"));
+        loadEducation(xmlDoc.SelectSingleNode("/shih/About/Education"));
+        loadExperience(xmlDoc.SelectSingleNode("/shih/About/Experience"));
+        loadService(xmlDoc.SelectSingleNode("/shih/About/Service"));
+        loadHonor(xmlDoc.SelectSingleNode("/shih/About/Honor"));
     }
 
     protected void loadEducation(XmlNode rootNode)
@@ -96,6 +98,33 @@ public partial class aboutme : System.Web.UI.Page
                 expTable.Controls.AddAt(expTable.Controls.Count - 2, newRow);
             else
                 expTable.Controls.Add(newRow);
+        }
+    }
+
+    protected void loadService(XmlNode rootNode) {
+        XmlNodeList entries = rootNode.SelectNodes("Entry");
+
+        foreach (XmlNode current in entries)
+        {
+            HtmlGenericControl newList = new HtmlGenericControl("li");
+
+            newList.InnerHtml = current.InnerText;
+
+            serviceList.Controls.Add(newList);
+        }
+    }
+
+    protected void loadHonor(XmlNode rootNode)
+    {
+        XmlNodeList entries = rootNode.SelectNodes("Entry");
+
+        foreach (XmlNode current in entries)
+        {
+            HtmlGenericControl newList = new HtmlGenericControl("li");
+
+            newList.InnerHtml = current.InnerText;
+
+            honorList.Controls.Add(newList);
         }
     }
 }
