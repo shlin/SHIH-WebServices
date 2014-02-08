@@ -12,12 +12,16 @@ public partial class aboutme : System.Web.UI.Page
     protected void Page_Load(object sender, EventArgs e)
     {
         XmlDocument xmlDoc = new XmlDocument();
+        XmlNode nodeAbout;
 
         xmlDoc.Load(Server.MapPath("xmlDB/shihDB.xml"));
-        loadEducation(xmlDoc.SelectSingleNode("/shih/About/Education"));
-        loadExperience(xmlDoc.SelectSingleNode("/shih/About/Experience"));
-        loadService(xmlDoc.SelectSingleNode("/shih/About/Service"));
-        loadHonor(xmlDoc.SelectSingleNode("/shih/About/Honor"));
+
+        nodeAbout = xmlDoc.SelectSingleNode("/shih/About");
+
+        loadEducation(nodeAbout.SelectSingleNode("Education"));
+        loadExperience(nodeAbout.SelectSingleNode("Experience"));
+        loadService(nodeAbout.SelectSingleNode("Service"));
+        loadHonor(nodeAbout.SelectSingleNode("Honor"));
     }
 
     protected void loadEducation(XmlNode rootNode)
@@ -101,7 +105,8 @@ public partial class aboutme : System.Web.UI.Page
         }
     }
 
-    protected void loadService(XmlNode rootNode) {
+    protected void loadService(XmlNode rootNode)
+    {
         XmlNodeList entries = rootNode.SelectNodes("Entry");
 
         foreach (XmlNode current in entries)
