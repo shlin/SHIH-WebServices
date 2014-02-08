@@ -11,19 +11,17 @@ public partial class aboutme : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        loadEducation();
-        loadExperience();
+        XmlDocument xmlDoc = new XmlDocument();
+
+        xmlDoc.Load(Server.MapPath("xmlDB/shihDB.xml"));
+        loadEducation(xmlDoc.SelectSingleNode("//shih/About/Education"));
+        loadExperience(xmlDoc.SelectSingleNode("//shih/About/Experience"));
     }
 
-    protected void loadEducation()
+    protected void loadEducation(XmlNode rootNode)
     {
-        XmlDocument xmlDocEdu = new XmlDocument();
-        XmlNode rootNode;
         XmlNodeList entries;
 
-        xmlDocEdu.Load(Server.MapPath("xmlDB/Education.xml"));
-
-        rootNode = xmlDocEdu.SelectSingleNode("Education");
         entries = rootNode.SelectNodes("Entry");
 
         foreach (XmlNode current in entries)
@@ -61,15 +59,10 @@ public partial class aboutme : System.Web.UI.Page
         }
     }
 
-    protected void loadExperience()
+    protected void loadExperience(XmlNode rootNode)
     {
-        XmlDocument xmlDocEdu = new XmlDocument();
-        XmlNode rootNode;
         XmlNodeList entries;
 
-        xmlDocEdu.Load(Server.MapPath("xmlDB/Experience.xml"));
-
-        rootNode = xmlDocEdu.SelectSingleNode("Experience");
         entries = rootNode.SelectNodes("Entry");
 
         foreach (XmlNode current in entries)

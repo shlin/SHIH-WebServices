@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<shih>
+  <About>
+    <Education>
+      <Entry>
+        <ID>1</ID>
+        <School Link="http://www.ksu.edu/">堪薩斯州立大學</School>
+        <Country>美國</Country>
+        <Major><![CDATA[作業研究∕<u>工業工程</u>]]></Major>
+        <Degree>博士</Degree>
+        <During><![CDATA[<u>1991</u>/<u>08 </u>至<u>1995</u>/<u>12</u>]]></During>
+      </Entry>
+      <Entry>
+        <ID>2</ID>
+        <School Link="http://www.ccit.ndu.edu.tw/">中正理工學院</School>
+        <Country>中華民國</Country>
+        <Major>
+          <![CDATA[<u>機械工程</u>]]>
+        </Major>
+        <Degree>碩士</Degree>
+        <During>
+          <![CDATA[<u>1981</u>/<u>09 </u>至<u>1983</u>/<u>07</u>]]>
+        </During>
+      </Entry>
+      <Entry>
+        <ID>3</ID>
+        <School Link="http://www.ccit.ndu.edu.tw/">中正理工學院</School>
+        <Country>中華民國</Country>
+        <Major>
+          <![CDATA[<u>造船工程</u>]]>
+        </Major>
+        <Degree>學士</Degree>
+        <During>
+          <![CDATA[<u>1974</u>/<u>08 </u>至<u>1978</u>/<u>08</u>]]>
+        </During>
+      </Entry>
+    </Education>
+    <Experience>
+      <Entry>
+        <Organization Link="http://www.tku.edu.tw" ING="1">淡江大學</Organization>
+        <Department>管理科學研究所</Department>
+        <Title>教授</Title>
+        <During><![CDATA[<u>2006</u>/<u>02</u>]]></During>
+      </Entry>
+      <Entry>
+        <Organization Link="http://www.tku.edu.tw" ING="0">淡江大學</Organization>
+        <Department>管理科學研究所</Department>
+        <Title>所長</Title>
+        <During><![CDATA[<u>2008</u>/<u>08 </u>至<u> 2009</u>/<u>07</u>]]></During>
+      </Entry>
+      <Entry>
+        <Organization Link="#" ING="0">阿圖大學</Organization>
+        <Department>系統分析實驗室</Department>
+        <Title>訪問學者</Title>
+        <During><![CDATA[<u>2010</u>/<u>06 </u>至<u> 2010</u>/<u>09</u>]]></During>
+      </Entry>
+      <Entry>
+        <Organization Link="http://www.pitt.edu/" ING="0">匹茲堡大學</Organization>
+        <Department>凱茲商學研究院</Department>
+        <Title>訪問學者</Title>
+        <During><![CDATA[<u>2007</u>/<u>06 </u>至<u> 2007</u>/<u>09</u>]]></During>
+      </Entry>
+      <Entry>
+        <Organization Link="http://www.tku.edu.tw" ING="0">淡江大學</Organization>
+        <Department>管理科學研究所</Department>
+        <Title>副教授</Title>
+        <During><![CDATA[<u>2002</u>/<u>08 </u>至<u> 2006</u>/<u>01</u>]]></During>
+      </Entry>
+      <Entry>
+        <Organization Link="http://www.isu.edu.tw" ING="0">義守大學</Organization>
+        <Department>工業工程與管理學系</Department>
+        <Title>副教授</Title>
+        <During><![CDATA[<u>2002</u>/<u>02 </u>至<u> 2002</u>/<u>07</u>]]></During>
+      </Entry>
+      <Entry>
+        <Organization Link="http://www.isu.edu.tw" ING="0">義守大學</Organization>
+        <Department>工業工程與管理學系</Department>
+        <Title>助理教授</Title>
+        <During><![CDATA[<u>1998</u>/<u>08 </u>至<u> 2002</u>/<u>01</u>]]></During>
+      </Entry>
+    </Experience>
+  </About>
+</shih>
