@@ -1,0 +1,213 @@
+<html>
+
+<head>
+<title>動素</title>
+<META content="text/html; charset=big5" http-equiv=Content-Type>
+<STYLE>.spanstyle {
+	COLOR: red; FONT-FAMILY: monotype corsiva; FONT-SIZE: 10pt; FONT-WEIGHT: bold; POSITION: absolute; TOP: -50px; VISIBILITY: visible
+}
+</STYLE>
+
+<SCRIPT>
+<!--
+var x,y
+var step=10
+var flag=0
+var message="Therbligs"
+message=message.split("")
+var xpos=new Array()
+for (i=0;i<=message.length;i++) {
+	xpos[i]=-50
+}
+var ypos=new Array()
+for (i=0;i<=message.length;i++) {
+	ypos[i]=-50
+}
+function handlerMM(e){
+	x = (document.layers) ? e.pageX : document.body.scrollLeft+event.clientX
+	y = (document.layers) ? e.pageY : document.body.scrollTop+event.clientY
+	flag=1
+}
+function makesnake() {
+	if (flag==1 && document.all) {
+    	for (i=message.length; i>=1; i--) {
+   			xpos[i]=xpos[i-1]+step
+			ypos[i]=ypos[i-1]
+    	}
+		xpos[0]=x+step
+		ypos[0]=y
+	
+		for (i=0; i<message.length; i++) {
+    		var thisspan = eval("span"+(i)+".style")
+    		thisspan.posLeft=xpos[i]
+			thisspan.posTop=ypos[i]
+    	}
+	}
+	
+	else if (flag==1 && document.layers) {
+    	for (i=message.length; i>=1; i--) {
+   			xpos[i]=xpos[i-1]+step
+			ypos[i]=ypos[i-1]
+        	}
+		xpos[0]=x+step
+		ypos[0]=y
+	
+		for (i=0; i<message.length; i++) {
+    		var thisspan = eval("document.span"+i)
+    		thisspan.left=xpos[i]
+			thisspan.top=ypos[i]
+    	}
+	}
+		var timer=setTimeout("makesnake()",30)
+}
+
+function MM_showHideLayers() { //v2.0
+  var i, visStr, args, theObj;
+  args = MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) { //with arg triples (objNS,objIE,visStr)
+    visStr   = args[i+2];
+    if (navigator.appName == 'Netscape' && document.layers != null) {
+      theObj = eval(args[i]);
+      if (theObj) theObj.visibility = visStr;
+    } else if (document.all != null) { //IE
+      if (visStr == 'show') visStr = 'visible'; //convert vals
+      if (visStr == 'hide') visStr = 'hidden';
+      theObj = eval(args[i+1]);
+      if (theObj) theObj.style.visibility = visStr;
+  } }
+}
+//-->
+</SCRIPT>
+
+<META content="Microsoft FrontPage 4.0" name=GENERATOR>
+
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" onload=makesnake() background="cittext.gif" bgproperties="fixed">
+<div id="Layer1" style="position:absolute; left:100px; top:141px; width:268px; height:28px; z-index:1; visibility: hidden; background-color: #FBFAD0; layer-background-color: #FBFAD0; border: 1px none #000000"><font size="2" color="#339933">有效益動素是能夠提昇工作過程的效率，這些動素是無法刪除的，但花費的時間越少越好。</font></div>
+<div id="Layer2" style="position:absolute; left:430px; top:143px; width:198px; height:28px; z-index:2; visibility: hidden; background-color: #FBFAD0; layer-background-color: #FBFAD0; border: 1px none #000000"><font size="2" color="#339933">無效益動素無法提昇工作效率，而且這些動素應該從工作過程中刪除</font></div>
+<div id="Layer5" style="position:absolute; left:100px; top:184px; width:282px; height:28px; z-index:5; visibility: hidden; background-color: #FBFAD0; layer-background-color: #FBFAD0"><font size="2" color="#339933">Reach  
+  代表空手去拿工具與零件，是不能刪除的，若是能減少手移動的距離，可以減少工作時間。</font></div> 
+<div id="Layer3" style="position:absolute; left:430px; top:185px; width:247px; height:28px; z-index:3; visibility: hidden; background-color: #FBFAD0; layer-background-color: #FBFAD0"><font size="2" color="#339933">如果能把所有工具與零件放在定位，就不用每次都要浪費時間找工具，減少工作時間。</font></div> 
+<div id="Layer4" style="position:absolute; left:430px; top:223px; width:215px; height:28px; z-index:4; visibility: hidden; background-color: #FBFAD0; layer-background-color: #FBFAD0"><font color="#339933" size="2">Select與Search相同，只要能將工具與零件放置定位，就能減少工作時間。</font></div> 
+<div id="Layer6" style="position:absolute; left:100px; top:261px; width:284px; height:28px; z-index:6; visibility: hidden; background-color: #FBFAD0; layer-background-color: #FBFAD0"><font size="2" color="#339933">Grasp代表抓取工具與零件，零件的排列最好依照工作流程順序，呈圓弧形排列，比較方便抓取。</font></div>  
+<div id="Layer7" style="position:absolute; left:100px; top:223px; width:249px; height:28px; z-index:7; visibility: hidden; background-color: #FBFAD0; layer-background-color: #FBFAD0"><font size="2" color="#339933">Move  
+  所花的時間必須根據移動的距離、零件的重量、移動的方式，最好利用斜坡道。</font></div>  
+<div id="Layer8" style="position:absolute; left:100px; top:341px; width:254px; height:28px; z-index:8; visibility: hidden; background-color: #FBFAD0; layer-background-color: #FBFAD0"><font size="2" color="#339933">Pre-position是通常是與移動動素同時發生的，但真正要去計算這個的時間是非常難的。</font></div>  
+<div id="Layer9" style="position:absolute; left:430px; top:508px; width:292px; height:28px; z-index:9; visibility: hidden; background-color: #FBFAD0; layer-background-color: #FBFAD0; border: 1px none #000000">  
+  <p><font size="2" color="#339933">Hold 是當一隻手在工作，另一隻手卻拿著零件，影響工作效率，所以必須要設計設備來刪除這個動素</font></p>  
+</div>  
+<div id="Layer10" style="position:absolute; left:100px; top:429px; width:211px; height:14px; z-index:10; visibility: hidden; background-color: #FBFAD0; layer-background-color: #FBFAD0"><font size="2" color="#339933">Assemble是將兩個零件組合在一起。</font></div>  
+<div id="Layer11" style="position:absolute; left:100px; top:464px; width:211px; height:28px; z-index:11; visibility: hidden; background-color: #FBFAD0; layer-background-color: #FBFAD0"><font color="#339933" size="2">Disassemble是和Assemble相反，發生在當零件組合錯誤的時候。</font></div>  
+<div id="Layer12" style="position:absolute; left:430px; top:345px; width:241px; height:28px; z-index:12; visibility: hidden; background-color: #FBFAD0; layer-background-color: #FBFAD0; border: 1px none #000000"><font size="2" color="#339933">Plan通常發生新進員工的身上，因為他們必須停頓一下，想想下一步應該做什麼？</font></div>  
+<SCRIPT>  
+<!--  
+for (i=0;i<=message.length;i++) {  
+    document.write("<span id='span"+i+"' class='spanstyle'>")  
+	document.write(message[i])  
+    document.write("</span>")  
+}  
+if (document.layers){  
+	document.captureEvents(Event.MOUSEMOVE);  
+}  
+document.onmousemove = handlerMM;  
+-->  
+</SCRIPT>  
+  
+<div align="center">  
+  <table border="0" cellspacing="1" width="67%">  
+    <tr>  
+      <td width="91%">  
+        <p align="center"><font color="#008000">動素<font face="Fixedsys">(Therbligs)為吉爾博斯(Gilbreth)所整理出來</font></font></p>  
+      </td>  
+    </tr>  
+  </table>  
+</div>  
+  
+<p align="center"><font color="#000000">動素的分類分為</font><font color="#FF9933"><b>有效益動素<font face="Fixedsys">﹝Effective﹞</font></b></font><font color="#000000" face="Fixedsys">與</font><b><font color="#FF9933">無效益動素</font><font color="#FF9933" face="Fixedsys">﹝Ineffective﹞</font></b></p> 
+<div align="center"> 
+  <table border="0" cellspacing="1" width="88%" height="445"> 
+    <tr> 
+      <td width="50%" valign="top" height="441"> 
+        <p align="left"><font face="Fixedsys" color="#000000"><img border="0" src="按14.gif" width="40" height="40"></font><font color="#000000" onMouseOver="MM_showHideLayers('document.layers[\'Layer1\']','document.all[\'Layer1\']','show','document.layers[\'Layer2\']','document.all[\'Layer2\']','hide','document.layers[\'Layer3\']','document.all[\'Layer3\']','hide','document.layers[\'Layer4\']','document.all[\'Layer4\']','hide','document.layers[\'Layer5\']','document.all[\'Layer5\']','hide','document.layers[\'Layer6\']','document.all[\'Layer6\']','hide','document.layers[\'Layer7\']','document.all[\'Layer7\']','hide','document.layers[\'Layer8\']','document.all[\'Layer8\']','hide','document.layers[\'Layer9\']','document.all[\'Layer9\']','hide','document.layers[\'Layer10\']','document.all[\'Layer10\']','hide','document.layers[\'Layer11\']','document.all[\'Layer11\']','hide','document.layers[\'Layer12\']','document.all[\'Layer12\']','hide')" onMouseOut="MM_showHideLayers('document.layers[\'Layer1\']','document.all[\'Layer1\']','hide','document.layers[\'Layer2\']','document.all[\'Layer2\']','hide','document.layers[\'Layer3\']','document.all[\'Layer3\']','hide','document.layers[\'Layer4\']','document.all[\'Layer4\']','hide','document.layers[\'Layer5\']','document.all[\'Layer5\']','hide','document.layers[\'Layer6\']','document.all[\'Layer6\']','hide','document.layers[\'Layer7\']','document.all[\'Layer7\']','hide','document.layers[\'Layer8\']','document.all[\'Layer8\']','hide','document.layers[\'Layer9\']','document.all[\'Layer9\']','hide','document.layers[\'Layer10\']','document.all[\'Layer10\']','hide','document.layers[\'Layer11\']','document.all[\'Layer11\']','hide','document.layers[\'Layer12\']','document.all[\'Layer12\']','hide')">有效益動素<font face="Fixedsys">﹝Effective﹞</font></font></p> 
+        <ul> 
+          <li onMouseOver="MM_showHideLayers('document.layers[\'Layer1\']','document.all[\'Layer1\']','hide','document.layers[\'Layer2\']','document.all[\'Layer2\']','hide','document.layers[\'Layer3\']','document.all[\'Layer3\']','hide','document.layers[\'Layer4\']','document.all[\'Layer4\']','hide','document.layers[\'Layer5\']','document.all[\'Layer5\']','show','document.layers[\'Layer6\']','document.all[\'Layer6\']','hide','document.layers[\'Layer7\']','document.all[\'Layer7\']','hide','document.layers[\'Layer8\']','document.all[\'Layer8\']','hide','document.layers[\'Layer9\']','document.all[\'Layer9\']','hide','document.layers[\'Layer10\']','document.all[\'Layer10\']','hide','document.layers[\'Layer11\']','document.all[\'Layer11\']','hide','document.layers[\'Layer12\']','document.all[\'Layer12\']','hide')" onMouseOut="MM_showHideLayers('document.layers[\'Layer1\']','document.all[\'Layer1\']','hide','document.layers[\'Layer2\']','document.all[\'Layer2\']','hide','document.layers[\'Layer3\']','document.all[\'Layer3\']','hide','document.layers[\'Layer4\']','document.all[\'Layer4\']','hide','document.layers[\'Layer5\']','document.all[\'Layer5\']','hide','document.layers[\'Layer6\']','document.all[\'Layer6\']','hide','document.layers[\'Layer7\']','document.all[\'Layer7\']','hide','document.layers[\'Layer8\']','document.all[\'Layer8\']','hide','document.layers[\'Layer9\']','document.all[\'Layer9\']','hide','document.layers[\'Layer10\']','document.all[\'Layer10\']','hide','document.layers[\'Layer11\']','document.all[\'Layer11\']','hide','document.layers[\'Layer12\']','document.all[\'Layer12\']','hide')">  
+            <p align="left"><font face="Fixedsys" color="#000000">Reach </font><img border="0" src="RE.gif" align="middle" width="67" height="40"> 
+          </li> 
+          <li>  
+            <p align="left"><font face="Fixedsys" color="#000000" onMouseOver="MM_showHideLayers('document.layers[\'Layer1\']','document.all[\'Layer1\']','hide','document.layers[\'Layer2\']','document.all[\'Layer2\']','hide','document.layers[\'Layer3\']','document.all[\'Layer3\']','hide','document.layers[\'Layer4\']','document.all[\'Layer4\']','hide','document.layers[\'Layer5\']','document.all[\'Layer5\']','hide','document.layers[\'Layer6\']','document.all[\'Layer6\']','hide','document.layers[\'Layer7\']','document.all[\'Layer7\']','show','document.layers[\'Layer8\']','document.all[\'Layer8\']','hide','document.layers[\'Layer9\']','document.all[\'Layer9\']','hide','document.layers[\'Layer10\']','document.all[\'Layer10\']','hide','document.layers[\'Layer11\']','document.all[\'Layer11\']','hide','document.layers[\'Layer12\']','document.all[\'Layer12\']','hide')" onMouseOut="MM_showHideLayers('document.layers[\'Layer1\']','document.all[\'Layer1\']','hide','document.layers[\'Layer2\']','document.all[\'Layer2\']','hide','document.layers[\'Layer3\']','document.all[\'Layer3\']','hide','document.layers[\'Layer4\']','document.all[\'Layer4\']','hide','document.layers[\'Layer5\']','document.all[\'Layer5\']','hide','document.layers[\'Layer6\']','document.all[\'Layer6\']','hide','document.layers[\'Layer7\']','document.all[\'Layer7\']','hide','document.layers[\'Layer8\']','document.all[\'Layer8\']','hide','document.layers[\'Layer9\']','document.all[\'Layer9\']','hide','document.layers[\'Layer10\']','document.all[\'Layer10\']','hide','document.layers[\'Layer11\']','document.all[\'Layer11\']','hide','document.layers[\'Layer12\']','document.all[\'Layer12\']','hide')">Move  
+              <img border="0" src="M.gif" align="middle" width="67" height="40"></font> 
+          </li> 
+          <li>  
+            <p align="left"><font face="Fixedsys" color="#000000" onMouseOver="MM_showHideLayers('document.layers[\'Layer1\']','document.all[\'Layer1\']','hide','document.layers[\'Layer2\']','document.all[\'Layer2\']','hide','document.layers[\'Layer3\']','document.all[\'Layer3\']','hide','document.layers[\'Layer4\']','document.all[\'Layer4\']','hide','document.layers[\'Layer5\']','document.all[\'Layer5\']','hide','document.layers[\'Layer6\']','document.all[\'Layer6\']','show','document.layers[\'Layer7\']','document.all[\'Layer7\']','hide','document.layers[\'Layer8\']','document.all[\'Layer8\']','hide','document.layers[\'Layer9\']','document.all[\'Layer9\']','hide','document.layers[\'Layer10\']','document.all[\'Layer10\']','hide','document.layers[\'Layer11\']','document.all[\'Layer11\']','hide','document.layers[\'Layer12\']','document.all[\'Layer12\']','hide')" onMouseOut="MM_showHideLayers('document.layers[\'Layer1\']','document.all[\'Layer1\']','hide','document.layers[\'Layer2\']','document.all[\'Layer2\']','hide','document.layers[\'Layer3\']','document.all[\'Layer3\']','hide','document.layers[\'Layer4\']','document.all[\'Layer4\']','hide','document.layers[\'Layer5\']','document.all[\'Layer5\']','hide','document.layers[\'Layer6\']','document.all[\'Layer6\']','hide','document.layers[\'Layer7\']','document.all[\'Layer7\']','hide','document.layers[\'Layer8\']','document.all[\'Layer8\']','hide','document.layers[\'Layer9\']','document.all[\'Layer9\']','hide','document.layers[\'Layer10\']','document.all[\'Layer10\']','hide','document.layers[\'Layer11\']','document.all[\'Layer11\']','hide','document.layers[\'Layer12\']','document.all[\'Layer12\']','hide')">Grasp  
+              <img border="0" src="G.gif" align="middle" width="67" height="40"></font> 
+          </li> 
+          <li>  
+            <p align="left"><font face="Fixedsys" color="#000000">Release <img border="0" src="RL.gif" align="middle" width="67" height="40"></font> 
+          </li> 
+          <li>  
+            <p align="left"><font face="Fixedsys" color="#000000" onMouseOver="MM_showHideLayers('document.layers[\'Layer1\']','document.all[\'Layer1\']','hide','document.layers[\'Layer2\']','document.all[\'Layer2\']','hide','document.layers[\'Layer3\']','document.all[\'Layer3\']','hide','document.layers[\'Layer4\']','document.all[\'Layer4\']','hide','document.layers[\'Layer5\']','document.all[\'Layer5\']','hide','document.layers[\'Layer6\']','document.all[\'Layer6\']','hide','document.layers[\'Layer7\']','document.all[\'Layer7\']','hide','document.layers[\'Layer8\']','document.all[\'Layer8\']','show','document.layers[\'Layer9\']','document.all[\'Layer9\']','hide','document.layers[\'Layer10\']','document.all[\'Layer10\']','hide','document.layers[\'Layer11\']','document.all[\'Layer11\']','hide','document.layers[\'Layer12\']','document.all[\'Layer12\']','hide')" onMouseOut="MM_showHideLayers('document.layers[\'Layer1\']','document.all[\'Layer1\']','hide','document.layers[\'Layer2\']','document.all[\'Layer2\']','hide','document.layers[\'Layer3\']','document.all[\'Layer3\']','hide','document.layers[\'Layer4\']','document.all[\'Layer4\']','hide','document.layers[\'Layer5\']','document.all[\'Layer5\']','hide','document.layers[\'Layer6\']','document.all[\'Layer6\']','hide','document.layers[\'Layer7\']','document.all[\'Layer7\']','hide','document.layers[\'Layer8\']','document.all[\'Layer8\']','hide','document.layers[\'Layer9\']','document.all[\'Layer9\']','hide','document.layers[\'Layer10\']','document.all[\'Layer10\']','hide','document.layers[\'Layer11\']','document.all[\'Layer11\']','hide','document.layers[\'Layer12\']','document.all[\'Layer12\']','hide')">Pre-position  
+              <img border="0" src="PP.gif" align="middle" width="67" height="40"></font> 
+          </li> 
+          <li>  
+            <p align="left"><font face="Fixedsys" color="#000000">Use <img border="0" src="U.gif" align="middle" width="67" height="40"></font> 
+          </li> 
+          <li>  
+            <p align="left"><font face="Fixedsys" color="#000000" onMouseOver="MM_showHideLayers('document.layers[\'Layer1\']','document.all[\'Layer1\']','hide','document.layers[\'Layer2\']','document.all[\'Layer2\']','hide','document.layers[\'Layer3\']','document.all[\'Layer3\']','hide','document.layers[\'Layer4\']','document.all[\'Layer4\']','hide','document.layers[\'Layer5\']','document.all[\'Layer5\']','hide','document.layers[\'Layer6\']','document.all[\'Layer6\']','hide','document.layers[\'Layer7\']','document.all[\'Layer7\']','hide','document.layers[\'Layer8\']','document.all[\'Layer8\']','hide','document.layers[\'Layer9\']','document.all[\'Layer9\']','hide','document.layers[\'Layer10\']','document.all[\'Layer10\']','show','document.layers[\'Layer11\']','document.all[\'Layer11\']','hide','document.layers[\'Layer12\']','document.all[\'Layer12\']','hide')" onMouseOut="MM_showHideLayers('document.layers[\'Layer1\']','document.all[\'Layer1\']','hide','document.layers[\'Layer2\']','document.all[\'Layer2\']','hide','document.layers[\'Layer3\']','document.all[\'Layer3\']','hide','document.layers[\'Layer4\']','document.all[\'Layer4\']','hide','document.layers[\'Layer5\']','document.all[\'Layer5\']','hide','document.layers[\'Layer6\']','document.all[\'Layer6\']','hide','document.layers[\'Layer7\']','document.all[\'Layer7\']','hide','document.layers[\'Layer8\']','document.all[\'Layer8\']','hide','document.layers[\'Layer9\']','document.all[\'Layer9\']','hide','document.layers[\'Layer10\']','document.all[\'Layer10\']','hide','document.layers[\'Layer11\']','document.all[\'Layer11\']','hide','document.layers[\'Layer12\']','document.all[\'Layer12\']','hide')">Assemble  
+              <img border="0" src="A.gif" align="middle" width="67" height="40"></font> 
+          </li> 
+          <li>  
+            <p align="left"><font face="Fixedsys" color="#000000" onMouseOver="MM_showHideLayers('document.layers[\'Layer1\']','document.all[\'Layer1\']','hide','document.layers[\'Layer2\']','document.all[\'Layer2\']','hide','document.layers[\'Layer3\']','document.all[\'Layer3\']','hide','document.layers[\'Layer4\']','document.all[\'Layer4\']','hide','document.layers[\'Layer5\']','document.all[\'Layer5\']','hide','document.layers[\'Layer6\']','document.all[\'Layer6\']','hide','document.layers[\'Layer7\']','document.all[\'Layer7\']','hide','document.layers[\'Layer8\']','document.all[\'Layer8\']','hide','document.layers[\'Layer9\']','document.all[\'Layer9\']','hide','document.layers[\'Layer10\']','document.all[\'Layer10\']','hide','document.layers[\'Layer11\']','document.all[\'Layer11\']','show','document.layers[\'Layer12\']','document.all[\'Layer12\']','hide')" onMouseOut="MM_showHideLayers('document.layers[\'Layer1\']','document.all[\'Layer1\']','hide','document.layers[\'Layer2\']','document.all[\'Layer2\']','hide','document.layers[\'Layer3\']','document.all[\'Layer3\']','hide','document.layers[\'Layer4\']','document.all[\'Layer4\']','hide','document.layers[\'Layer5\']','document.all[\'Layer5\']','hide','document.layers[\'Layer6\']','document.all[\'Layer6\']','hide','document.layers[\'Layer7\']','document.all[\'Layer7\']','hide','document.layers[\'Layer8\']','document.all[\'Layer8\']','hide','document.layers[\'Layer9\']','document.all[\'Layer9\']','hide','document.layers[\'Layer10\']','document.all[\'Layer10\']','hide','document.layers[\'Layer11\']','document.all[\'Layer11\']','hide','document.layers[\'Layer12\']','document.all[\'Layer12\']','hide')">Disassemble  
+              <img border="0" src="DA.gif" align="middle" width="67" height="40"></font> 
+          </li> 
+        </ul>  
+        <center>  
+        <p>　</center></td>
+      <td width="50%" valign="top" height="441">
+        <p align="left" onMouseOver="MM_showHideLayers('document.layers[\'Layer1\']','document.all[\'Layer1\']','hide','document.layers[\'Layer2\']','document.all[\'Layer2\']','show','document.layers[\'Layer3\']','document.all[\'Layer3\']','hide','document.layers[\'Layer4\']','document.all[\'Layer4\']','hide','document.layers[\'Layer5\']','document.all[\'Layer5\']','hide','document.layers[\'Layer6\']','document.all[\'Layer6\']','hide','document.layers[\'Layer7\']','document.all[\'Layer7\']','hide','document.layers[\'Layer8\']','document.all[\'Layer8\']','hide','document.layers[\'Layer9\']','document.all[\'Layer9\']','hide','document.layers[\'Layer10\']','document.all[\'Layer10\']','hide','document.layers[\'Layer11\']','document.all[\'Layer11\']','hide','document.layers[\'Layer12\']','document.all[\'Layer12\']','hide')" onMouseOut="MM_showHideLayers('document.layers[\'Layer1\']','document.all[\'Layer1\']','hide','document.layers[\'Layer2\']','document.all[\'Layer2\']','hide','document.layers[\'Layer3\']','document.all[\'Layer3\']','hide','document.layers[\'Layer4\']','document.all[\'Layer4\']','hide','document.layers[\'Layer5\']','document.all[\'Layer5\']','hide','document.layers[\'Layer6\']','document.all[\'Layer6\']','hide','document.layers[\'Layer7\']','document.all[\'Layer7\']','hide','document.layers[\'Layer8\']','document.all[\'Layer8\']','hide','document.layers[\'Layer9\']','document.all[\'Layer9\']','hide','document.layers[\'Layer10\']','document.all[\'Layer10\']','hide','document.layers[\'Layer11\']','document.all[\'Layer11\']','hide','document.layers[\'Layer12\']','document.all[\'Layer12\']','hide')"><font face="Fixedsys" color="#000000"><img border="0" src="按14.gif" width="40" height="40"></font>無效益動素<font face="Fixedsys" color="#000000">﹝Ineffective﹞</font> 
+        <ul>
+      <li>
+            <p align="left"><font face="Fixedsys" color="#000000" onMouseOver="MM_showHideLayers('document.layers[\'Layer1\']','document.all[\'Layer1\']','hide','document.layers[\'Layer2\']','document.all[\'Layer2\']','hide','document.layers[\'Layer3\']','document.all[\'Layer3\']','show','document.layers[\'Layer4\']','document.all[\'Layer4\']','hide','document.layers[\'Layer5\']','document.all[\'Layer5\']','hide','document.layers[\'Layer6\']','document.all[\'Layer6\']','hide','document.layers[\'Layer7\']','document.all[\'Layer7\']','hide','document.layers[\'Layer8\']','document.all[\'Layer8\']','hide','document.layers[\'Layer9\']','document.all[\'Layer9\']','hide','document.layers[\'Layer10\']','document.all[\'Layer10\']','hide','document.layers[\'Layer11\']','document.all[\'Layer11\']','hide','document.layers[\'Layer12\']','document.all[\'Layer12\']','hide')" onMouseOut="MM_showHideLayers('document.layers[\'Layer1\']','document.all[\'Layer1\']','hide','document.layers[\'Layer2\']','document.all[\'Layer2\']','hide','document.layers[\'Layer3\']','document.all[\'Layer3\']','hide','document.layers[\'Layer4\']','document.all[\'Layer4\']','hide','document.layers[\'Layer5\']','document.all[\'Layer5\']','hide','document.layers[\'Layer6\']','document.all[\'Layer6\']','hide','document.layers[\'Layer7\']','document.all[\'Layer7\']','hide','document.layers[\'Layer8\']','document.all[\'Layer8\']','hide','document.layers[\'Layer9\']','document.all[\'Layer9\']','hide','document.layers[\'Layer10\']','document.all[\'Layer10\']','hide','document.layers[\'Layer11\']','document.all[\'Layer11\']','hide','document.layers[\'Layer12\']','document.all[\'Layer12\']','hide')">Search  
+              <img border="0" src="S.gif" align="middle" width="67" height="40"></font> 
+          </li>  
+      <li>  
+            <p align="left"><font face="Fixedsys" color="#000000" onMouseOver="MM_showHideLayers('document.layers[\'Layer1\']','document.all[\'Layer1\']','hide','document.layers[\'Layer2\']','document.all[\'Layer2\']','hide','document.layers[\'Layer3\']','document.all[\'Layer3\']','hide','document.layers[\'Layer4\']','document.all[\'Layer4\']','show','document.layers[\'Layer5\']','document.all[\'Layer5\']','hide','document.layers[\'Layer6\']','document.all[\'Layer6\']','hide','document.layers[\'Layer7\']','document.all[\'Layer7\']','hide','document.layers[\'Layer8\']','document.all[\'Layer8\']','hide','document.layers[\'Layer9\']','document.all[\'Layer9\']','hide','document.layers[\'Layer10\']','document.all[\'Layer10\']','hide','document.layers[\'Layer11\']','document.all[\'Layer11\']','hide','document.layers[\'Layer12\']','document.all[\'Layer12\']','hide')" onMouseOut="MM_showHideLayers('document.layers[\'Layer1\']','document.all[\'Layer1\']','hide','document.layers[\'Layer2\']','document.all[\'Layer2\']','hide','document.layers[\'Layer3\']','document.all[\'Layer3\']','hide','document.layers[\'Layer4\']','document.all[\'Layer4\']','hide','document.layers[\'Layer5\']','document.all[\'Layer5\']','hide','document.layers[\'Layer6\']','document.all[\'Layer6\']','hide','document.layers[\'Layer7\']','document.all[\'Layer7\']','hide','document.layers[\'Layer8\']','document.all[\'Layer8\']','hide','document.layers[\'Layer9\']','document.all[\'Layer9\']','hide','document.layers[\'Layer10\']','document.all[\'Layer10\']','hide','document.layers[\'Layer11\']','document.all[\'Layer11\']','hide','document.layers[\'Layer12\']','document.all[\'Layer12\']','hide')">Select  
+              <img border="0" src="SE.gif" align="middle" width="67" height="40"></font> 
+          </li>  
+      <li>  
+        <p align="left"><font face="Fixedsys" color="#000000">Position <img border="0" src="P.gif" align="middle" width="67" height="40"></font></li>  
+      <li>  
+        <p align="left"><font face="Fixedsys" color="#000000">Inspect <img border="0" src="I.gif" align="middle" width="67" height="40"></font></li>  
+          <li onMouseOver="MM_showHideLayers('document.layers[\'Layer1\']','document.all[\'Layer1\']','hide','document.layers[\'Layer2\']','document.all[\'Layer2\']','hide','document.layers[\'Layer3\']','document.all[\'Layer3\']','hide','document.layers[\'Layer4\']','document.all[\'Layer4\']','hide','document.layers[\'Layer5\']','document.all[\'Layer5\']','hide','document.layers[\'Layer6\']','document.all[\'Layer6\']','hide','document.layers[\'Layer7\']','document.all[\'Layer7\']','hide','document.layers[\'Layer8\']','document.all[\'Layer8\']','hide','document.layers[\'Layer9\']','document.all[\'Layer9\']','hide','document.layers[\'Layer10\']','document.all[\'Layer10\']','hide','document.layers[\'Layer11\']','document.all[\'Layer11\']','hide','document.layers[\'Layer12\']','document.all[\'Layer12\']','show')" onMouseOut="MM_showHideLayers('document.layers[\'Layer1\']','document.all[\'Layer1\']','hide','document.layers[\'Layer2\']','document.all[\'Layer2\']','hide','document.layers[\'Layer3\']','document.all[\'Layer3\']','hide','document.layers[\'Layer4\']','document.all[\'Layer4\']','hide','document.layers[\'Layer5\']','document.all[\'Layer5\']','hide','document.layers[\'Layer6\']','document.all[\'Layer6\']','hide','document.layers[\'Layer7\']','document.all[\'Layer7\']','hide','document.layers[\'Layer8\']','document.all[\'Layer8\']','hide','document.layers[\'Layer9\']','document.all[\'Layer9\']','hide','document.layers[\'Layer10\']','document.all[\'Layer10\']','hide','document.layers[\'Layer11\']','document.all[\'Layer11\']','hide','document.layers[\'Layer12\']','document.all[\'Layer12\']','hide')">  
+            <p align="left"><font face="Fixedsys" color="#000000">Plan <img border="0" src="PL.gif" align="middle" width="67" height="40"></font></li> 
+      <li> 
+        <p align="left"><font face="Fixedsys" color="#000000">Unavoidable     
+        delay <img border="0" src="UD.gif" align="middle" width="67" height="40"></font></li>  
+      <li>  
+        <p align="left"><font face="Fixedsys" color="#000000">Avoidable delay <img border="0" src="AD.gif" align="middle" width="67" height="40"></font></li>  
+      <li>  
+        <p align="left"><font face="Fixedsys" color="#000000">Rest to overcome     
+        fatigue<img border="0" src="R.gif" align="middle" width="67" height="40"></font></li>   
+      <li>   
+            <p align="left"><font face="Fixedsys" color="#000000" onMouseOver="MM_showHideLayers('document.layers[\'Layer1\']','document.all[\'Layer1\']','hide','document.layers[\'Layer2\']','document.all[\'Layer2\']','hide','document.layers[\'Layer3\']','document.all[\'Layer3\']','hide','document.layers[\'Layer4\']','document.all[\'Layer4\']','hide','document.layers[\'Layer5\']','document.all[\'Layer5\']','hide','document.layers[\'Layer6\']','document.all[\'Layer6\']','hide','document.layers[\'Layer7\']','document.all[\'Layer7\']','hide','document.layers[\'Layer8\']','document.all[\'Layer8\']','hide','document.layers[\'Layer9\']','document.all[\'Layer9\']','show','document.layers[\'Layer10\']','document.all[\'Layer10\']','hide','document.layers[\'Layer11\']','document.all[\'Layer11\']','hide','document.layers[\'Layer12\']','document.all[\'Layer12\']','hide')" onMouseOut="MM_showHideLayers('document.layers[\'Layer1\']','document.all[\'Layer1\']','hide','document.layers[\'Layer2\']','document.all[\'Layer2\']','hide','document.layers[\'Layer3\']','document.all[\'Layer3\']','hide','document.layers[\'Layer4\']','document.all[\'Layer4\']','hide','document.layers[\'Layer5\']','document.all[\'Layer5\']','hide','document.layers[\'Layer6\']','document.all[\'Layer6\']','hide','document.layers[\'Layer7\']','document.all[\'Layer7\']','hide','document.layers[\'Layer8\']','document.all[\'Layer8\']','hide','document.layers[\'Layer9\']','document.all[\'Layer9\']','hide','document.layers[\'Layer10\']','document.all[\'Layer10\']','hide','document.layers[\'Layer11\']','document.all[\'Layer11\']','hide','document.layers[\'Layer12\']','document.all[\'Layer12\']','hide')">Hold  
+              <img border="0" src="H.gif" align="middle" width="67" height="40"></font> 
+          </li>  
+    </ul>  
+        <center>  
+        <p>　</center></td> 
+      </tr> 
+    </table> 
+</div> 
+<table border="0" cellspacing="0" width="96%" height="23"> 
+  <tr> 
+    <td align="center" bgcolor="#FAE389" height="22"> 
+      <p align="right" style="line-height: 150%; margin-left: 20; margin-right: 20"><font class="tool" size="2" face="新細明體">&nbsp;|    
+      </font><a href="javascript:history.back();"><font size="2" face="新細明體">回上頁</font></a><font size="2" face="新細明體">    
+      | </font></p>   
+    </td>   
+  </tr>   
+</table>   
+   
+</body>   
+   
+</html>   

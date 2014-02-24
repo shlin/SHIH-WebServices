@@ -1,0 +1,52 @@
+.td1 {
+	background-color: #646464;
+	color: #FFFFFF;
+}
+
+.td2 {
+	background-color: #CCCCCC;
+}
+
+.td3 {
+	background-color: #FEFEFE;
+	padding-left: 10px;
+	font-size: 16px;
+	color: #666666;
+	text-decoration: none;
+}
+
+.table_login{
+	font-size: 12px;
+	width:400px;
+}
+.table_login td{
+	height:30px;
+	border: 1px solid #CCCCCC;
+	padding-left: 5px;
+}
+
+.table1{
+	font-size: 12px;
+/*
+	border: 1px solid #cccccc;
+*/
+	width:100%;
+}
+
+.table1 td{
+	height:20px;
+	border: 1px solid #CCCCCC;
+	padding-left: 5px;
+}
+
+.table1 a{
+	color:#666666;
+}
+
+.table_t{
+	font-size: 16px;
+	background-color:#999999;
+}
+.table_t a{
+	color:#666666;
+}

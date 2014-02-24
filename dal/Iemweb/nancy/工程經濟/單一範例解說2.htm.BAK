@@ -1,0 +1,82 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<title>單一問題範例解說步驟2</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+</head>
+
+<body background="背景5.jpg">
+
+<p align="center"><big><big><big><span style="font-family: 華康儷粗黑"><font
+color="#0000FF">單一問題範例</font></span></big></big></big></p>
+
+<p align="center"><big><big><span style="font-family: 華康儷粗黑"><font
+color="#FF8040">解說步驟2</font></span></big></big></p>
+<div align="center"><center>
+
+<table border="1" width="93%">
+  <tr>
+    <td width="100%"><img src="單一範例解說之線2.gif" width="693" height="270"
+    alt="單一範例解說之線2.gif (7393 bytes)"></td>
+  </tr>
+</table>
+</center></div>
+
+<table border="0" width="100%">
+  <tr>
+    <td width="100%" valign="top"><img src="其2.gif" width="137" height="72"
+    alt="其2.gif (7678 bytes)"> &nbsp;&nbsp;我們可以知道現值的求法是&nbsp;&nbsp; <strong><big><input
+    type="button" value="單一問題範例題目"
+    onclick="window.open('單一問題範例題目.htm', 'Win3', 'resizeable=yes,status=yes,width=500,height=200')"
+    style="background-color: rgb(192,192,192); font-size: small; color: rgb(255,55,155); font-family: 華康少女文字W6"></big></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    <font face="標楷體" size="4">P=&nbsp;</font><font face="標楷體" size="4"
+    color="#FF8000"> 2500〈P/A,1.5%,6〉</font><font face="標楷體" size="4">+</font><font
+    face="標楷體" size="4" color="#0000FF">2000〈P/A,1.5%,6〉〈P/F, </font></strong></p>
+    <p><strong><font face="標楷體" size="4" color="#0000FF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    1.5%,6〉</font><font face="標楷體" size="4">+<font color="#008080">2500〈P/A，1.5%，6〉〈P/F，1.5%，12〉</font></font></strong></p>
+    <p><strong><font face="標楷體" size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +</font><font
+    color="#FF0000" face="標楷體" size="4"> 2000〈P/A</font><font color="#FF0000"><font
+    size="4"><font face="標楷體">,</font></font><font face="標楷體" size="4">1.5%</font></font><font
+    color="#FF0000" face="標楷體" size="4">,6〉〈P/F,1.5%,18〉 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></strong></p>
+    <p><font face="標楷體" size="4"><strong><font color="#FF0000">經查表</font>&nbsp;，我們可以求出<font
+    color="#008000">&nbsp;$4529200</font>→<font color="#FF0080">這就是所要求的答案了！</font></strong></font></td>
+  </tr>
+</table>
+
+<table border="0" width="100%">
+  <tr>
+    <td width="53%"><p align="center">　</p>
+    <p align="center"><strong>是不是很容易就知道你應該支付多少了！</strong></p>
+    <p align="center"><font color="#FF0000"><strong>懂了沒？要挑戰一下嗎？</strong></font></td>
+    <td width="47%"><strong><img src="16.gif" width="107" height="98"> 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="job_0032.gif" width="35" height="45"
+    alt="博士老"><big><input type="button" value="小小常識"
+    onclick="window.open('工經的小常識.htm', 'Win3', 'resizeable=yes,status=yes,width=600,height=400')"
+    style="background-color: rgb(192,192,192); font-size: small; color: rgb(255,55,155); font-family: 華康少女文字W6"> 
+    &nbsp;&nbsp;</big></strong></td>
+  </tr>
+</table>
+
+<p align="center"><strong>
+<applet code="fphover.class" codebase="./" width="120" height="24">
+  <param name="textcolor" value="#FFFFFF">
+  <param name="text" value="挑戰去">
+  <param name="color" value="#008000">
+  <param name="hovercolor" value="#FFFF00">
+  <param name="effect" value="fill">
+  <param name="url" value="工經單一問題進階題目.htm" valuetype="ref">
+</applet>
+&nbsp;&nbsp; 
+<applet code="fphover.class" codebase="./" width="120" height="24">
+  <param name="textcolor" value="#FFFFFF">
+  <param name="text" value="到決策方案範例">
+  <param name="color" value="#FF00FF">
+  <param name="hovercolor" value="#C0C0C0">
+  <param name="effect" value="lightGlow">
+  <param name="url" value="工經單一問題進階題目.htm" valuetype="ref">
+</applet>
+</strong></p>
+</body>
+</html>

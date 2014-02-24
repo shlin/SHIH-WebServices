@@ -1,0 +1,181 @@
+﻿body {
+    background-image: url(img/body.gif);
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    font-family: 微軟正黑體,Arial;
+}
+
+div {
+    overflow: hidden;
+}
+
+#header {
+    display: block;
+    width: 100%;
+    background: url(img/banner.gif) center no-repeat;
+    height: 115px;
+    cursor:pointer;
+}
+
+#aspnetForm {
+    display: block;
+    width: 758px;
+    margin: 0 auto;
+    background: #FFFFFF;
+}
+
+#ctl00_Label1 {
+    float: right;
+}
+
+#form1 {
+    width: 758px;
+    min-height: 100%;
+    margin: 0 auto;
+    background: #FFFFFF;
+    display: block;
+    
+}
+
+#Label1 {
+    float: right;
+}
+
+#date {
+    width: 100%;
+    /*background:rgba(0, 0, 0, 1);*/
+    background: url(img/body.gif);
+}
+
+#menuPanel {
+    width: 175px;
+    min-height: 300px;
+    background-color: #fff;
+    background-image: url(img/menu-bg.png);
+    background-repeat: repeat-x;
+    background-position: top;
+    padding-top: 30px;
+    float: left;
+    display: block;
+}
+
+    #menuPanel ul {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 50px;
+        display: block;
+        width: 100%;
+        height: 300px;
+    }
+
+    #menuPanel li {
+        position: relative;
+        list-style-image: url(img/nav-item.png);
+        list-style-position: inside;
+        width: 100%;
+        height: 30px;
+        background: url(img/line.gif) bottom no-repeat;
+    }
+
+        #menuPanel li:hover {
+            background: rgb(127, 127, 127);
+            list-style-image: url(img/nav-item2.png);
+        }
+
+        #menuPanel li a {
+            position: absolute;
+            top: 0;
+            left: 0;
+            text-decoration: none;
+            color: #808080;
+            width: 100%;
+            height: 100%;
+            display: block;
+            text-align: center;
+            font-weight: bold;
+            font-size: large;
+        }
+
+            #menuPanel li a:hover {
+                color: #FFFFFF;
+            }
+
+#ContentPlace {
+    width: 583px;
+    min-height: 500px;
+    float: left;
+}
+
+h1 {
+    font-size: large;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #0782de;
+    margin: 0;
+    width: 583px;
+    float: left;
+}
+
+#quick {
+    width: 100%;
+    background: url(img/crab.png) repeat-x center;
+}
+
+    #quick span {
+        width: 75px;
+        text-align: center;
+        padding-left: 5px;
+        padding-right: 5px;
+        display: block;
+        font-size: small;
+        background: #FFFFFF;
+        margin: 0 auto;
+    }
+
+.jquery-shadow-raised {
+    -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+#links h6 {
+    margin: 10px 0 0;
+}
+
+a {
+    color: #808080;
+    text-decoration: none;
+    font-size: small;
+}
+
+links a {
+    display: block;
+}
+
+a:hover {
+    color: #d334fa;
+}
+
+#links {
+    margin: 5px 0px 15px 10px;
+}
+
+#footer {
+    width: 100%;
+    height: 37px;
+    background: url(img/copyright.gif) right no-repeat;
+    font-size: 12px;
+}
+
+h2 {
+    text-align: center;
+    color: #808080;
+    background: url(img/menu-bg.png) repeat-x top;
+    margin: 0;
+    width: 100%;
+    padding-top: 20px;
+    float: left;
+}

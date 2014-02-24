@@ -1,0 +1,89 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<title>設施規劃</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<bgsound src="超時空之鑰.mid" loop="-1">
+
+
+<meta name="Microsoft Theme" content="neon 111, default">
+<meta name="Microsoft Border" content="t">
+</head>
+<script Language="JavaScript">
+
+var msg="盡信書不如無書，讀萬卷書不如行千里路。  還是得親自動手做做看喔！";
+var interval = 100;
+
+
+var spacelen = 120;
+var space10=" ";
+var seq=0;
+
+function Scroll() {
+len = msg.length;
+window.status = msg.substring(0, seq+1);
+seq++;
+if ( seq >= len ) { 
+seq = spacelen; 
+window.setTimeout("Scroll2();", interval );
+}
+else
+window.setTimeout("Scroll();", interval );
+} 
+
+function Scroll2() {
+var out="";
+
+for (i=1; i<=spacelen/space10.length; i++) out += space10;
+out = out + msg;
+len=out.length;
+window.status=out.substring(seq, len);
+seq++;
+if ( seq >= len ) { seq = 0; };
+window.setTimeout("Scroll2();", interval );
+} 
+
+</script>
+
+
+<body OnLoad="Scroll();" background="_themes/neon/neobkgnd.gif" bgcolor="#000000" text="#66FF33" link="#CCFF00" vlink="#66CC00" alink="#FFFF00"><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
+
+<p align="center"><font size="6"><strong><img src="_derived/index.htm_cmp_neon110_bnr.gif" width="600" height="60" border="0" alt="設施規劃"></strong></font></p>
+
+<p align="center">　</p>
+</td></tr><!--msnavigation--></table><!--msnavigation--><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><!--msnavigation--><td valign="top">
+<!--msthemeseparator--><p align="center"><img src="_themes/neon/neoarule.gif" width="300" height="10"></p>
+<div align="center"><center>
+
+<table border="1" width="554" height="130" bordercolordark="#FFFF33" bordercolorlight="#FFFF99">
+  <tr>
+    <td width="558" height="130">
+      <!--msthemelist--><table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <!--msthemelist--><tr><td valign="baseline" width="42"><img src="_themes/neon/neoabull1.gif" width="20" height="20" hspace="11"></td><td valign="top" width="100%"><p align="left"><font size="4">設施規劃的目標</font></p>
+        <!--msthemelist--></td></tr>
+      <!--msthemelist--></table>
+      <p style="line-height: 20px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font face="標楷體" size="4"> 
+      設施規劃是希望找出某一空間內，其設備最有利的擺設，例如一間工廠，我們可以利用工廠內各部門的關係，找出他們最適合的位置，以期能減少空間的浪費，縮短搬運距離，讓生產時程可以縮短，生產流程更順暢，這樣成本就可以降低，利潤也就可以追增加。</font></td>
+  </tr>
+</table>
+</center></div>
+
+<p>　</p>
+
+<!--msthemelist--><table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <!--msthemelist--><tr><td valign="baseline" width="42"><img src="_themes/neon/neoabull1.gif" width="20" height="20" hspace="11"></td><td valign="top" width="100%">下圖為一張簡易的設施規劃的佈置圖<!--msthemelist--></td></tr>
+<!--msthemelist--></table>
+<div align="center"><center>
+
+<table border="1" width="234" height="67" bordercolordark="#FFFF33" bordercolorlight="#FFFF99">
+  <tr>
+    <td width="234" height="67"><img src="_borders/佈置圖.jpg" width="646" height="334" alt="3.jpg (55328 個位元組)"></td>
+  </tr>
+</table>
+</center></div>
+
+<p align="center"><a href="問題.htm"><img src="_borders/電子軌道.gif" width="66" height="48" alt="電子軌道.gif (18375 個位元組)" border="0"></a><br>
+<a href="問題.htm"><font color="#F14582">挑戰題目</font></a> 
+<!--msnavigation--></td></tr><!--msnavigation--></table></body>
+</html>

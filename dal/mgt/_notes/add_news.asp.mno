@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_get_news" value="name:mid;datatype:3,name:Name;datatype:202,name:Email;datatype:202,name:Subject;datatype:203,name:Memo;datatype:203,name:Time;datatype:135,name:ClientIP;datatype:202" />
+</info>

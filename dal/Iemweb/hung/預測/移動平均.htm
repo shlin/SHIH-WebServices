@@ -1,0 +1,1131 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=Big5">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 9">
+<link rel=File-List href="./移動平均.files/filelist.xml">
+<link rel=Edit-Time-Data href="./移動平均.files/editdata.mso">
+<link rel=OLE-Object-Data href="./移動平均.files/oledata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+x\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>預測--移動平均</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>WINNIE</o:Author>
+  <o:LastAuthor>WINNIE</o:LastAuthor>
+  <o:Created>1999-12-20T16:32:03Z</o:Created>
+  <o:LastSaved>2000-05-09T03:28:13Z</o:LastSaved>
+  <o:Version>9.2812</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:DownloadComponents/>
+  <o:LocationOfComponents HRef="file:///D:/msowc.cab"/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:1.0in .75in 1.0in .75in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;}
+.font7
+	{color:#339966;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:新細明體, serif;
+	mso-font-charset:136;}
+.font8
+	{color:#339966;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;}
+.font9
+	{color:#339966;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;}
+.font11
+	{color:windowtext;
+	font-size:9.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:細明體, monospace;
+	mso-font-charset:136;}
+.font13
+	{color:#969696;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:新細明體, serif;
+	mso-font-charset:136;}
+.font14
+	{color:#969696;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;}
+.font15
+	{color:#339966;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:細明體, monospace;
+	mso-font-charset:136;}
+.font16
+	{color:#969696;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:細明體, monospace;
+	mso-font-charset:136;}
+tr
+	{mso-height-source:auto;
+	mso-ruby-visibility:none;}
+col
+	{mso-width-source:auto;
+	mso-ruby-visibility:none;}
+br
+	{mso-data-placement:same-cell;}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:windowtext;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:新細明體;
+	mso-generic-font-family:auto;
+	mso-font-charset:136;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:一般;
+	mso-style-id:0;}
+td
+	{mso-style-parent:style0;
+	padding:0px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:12.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:新細明體;
+	mso-generic-font-family:auto;
+	mso-font-charset:136;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl24
+	{mso-style-parent:style0;
+	font-size:10.0pt;
+	font-family:新細明體, serif;
+	mso-font-charset:136;}
+.xl25
+	{mso-style-parent:style0;
+	color:#339966;
+	font-family:新細明體, serif;
+	mso-font-charset:136;}
+.xl26
+	{mso-style-parent:style0;
+	color:#339966;
+	font-family:新細明體, serif;
+	mso-font-charset:136;
+	white-space:normal;}
+.xl27
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#FF99CC;
+	mso-pattern:auto none;}
+.xl28
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:新細明體, serif;
+	mso-font-charset:136;
+	background:#99CCFF;
+	mso-pattern:auto none;}
+.xl29
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:新細明體, serif;
+	mso-font-charset:136;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:none;
+	background:#99CCFF;
+	mso-pattern:auto none;}
+.xl30
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:新細明體, serif;
+	mso-font-charset:136;
+	text-align:center;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	background:#FF99CC;
+	mso-pattern:auto none;}
+.xl31
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:新細明體, serif;
+	mso-font-charset:136;
+	border-top:.5pt solid black;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid black;}
+.xl32
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:新細明體, serif;
+	mso-font-charset:136;
+	border-top:.5pt solid black;
+	border-right:none;
+	border-bottom:none;
+	border-left:none;}
+.xl33
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:新細明體, serif;
+	mso-font-charset:136;
+	border-top:.5pt solid black;
+	border-right:.5pt solid black;
+	border-bottom:none;
+	border-left:none;}
+.xl34
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	background:#FF99CC;
+	mso-pattern:auto none;}
+.xl35
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:新細明體, serif;
+	mso-font-charset:136;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:silver;
+	mso-pattern:auto none;}
+.xl36
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:新細明體, serif;
+	mso-font-charset:136;
+	mso-number-format:"0\.000";
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:silver;
+	mso-pattern:auto none;}
+.xl37
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:新細明體, serif;
+	mso-font-charset:136;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:silver;
+	mso-pattern:auto none;}
+.xl38
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	text-align:center;
+	background:white;
+	mso-pattern:auto none;}
+.xl39
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:新細明體, serif;
+	mso-font-charset:136;
+	background:white;
+	mso-pattern:auto none;}
+.xl40
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:新細明體, serif;
+	mso-font-charset:136;
+	mso-number-format:"0\.000";
+	background:white;
+	mso-pattern:auto none;}
+.xl41
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;}
+.xl42
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:新細明體, serif;
+	mso-font-charset:136;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;}
+.xl43
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:新細明體, serif;
+	mso-font-charset:136;
+	mso-number-format:"0\.000";
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;}
+.xl44
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	background:#FFFF99;
+	mso-pattern:auto none;}
+.xl45
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:新細明體, serif;
+	mso-font-charset:136;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:#FFFF99;
+	mso-pattern:auto none;}
+.xl46
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:新細明體, serif;
+	mso-font-charset:136;
+	mso-number-format:"0\.000";
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:#FFFF99;
+	mso-pattern:auto none;}
+.xl47
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:新細明體, serif;
+	mso-font-charset:136;
+	mso-number-format:"0\.000";
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:#FFFF99;
+	mso-pattern:auto none;}
+.xl48
+	{mso-style-parent:style0;
+	vertical-align:justify;}
+.xl49
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:新細明體, serif;
+	mso-font-charset:136;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:silver;
+	mso-pattern:auto none;}
+.xl50
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:新細明體, serif;
+	mso-font-charset:136;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:silver;
+	mso-pattern:auto none;}
+.xl51
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:新細明體, serif;
+	mso-font-charset:136;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:#FFFF99;
+	mso-pattern:auto none;}
+.xl52
+	{mso-style-parent:style0;
+	color:#339966;
+	font-family:新細明體, serif;
+	mso-font-charset:136;
+	vertical-align:justify;}
+.xl53
+	{mso-style-parent:style0;
+	color:#339966;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+.xl54
+	{mso-style-parent:style0;
+	color:#339966;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:white;
+	mso-pattern:auto none;}
+.xl55
+	{mso-style-parent:style0;
+	color:#339966;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	text-align:left;
+	vertical-align:justify;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:white;
+	mso-pattern:auto none;}
+.xl56
+	{mso-style-parent:style0;
+	color:#339966;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;}
+.xl57
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;
+	text-align:center;
+	border:.5pt solid windowtext;}
+.xl58
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:新細明體, serif;
+	mso-font-charset:136;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;}
+.xl59
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:新細明體, serif;
+	mso-font-charset:136;
+	mso-number-format:"0\.000";
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;}
+.xl60
+	{mso-style-parent:style0;
+	font-size:11.0pt;
+	font-family:新細明體, serif;
+	mso-font-charset:136;
+	border:.5pt solid windowtext;}
+ruby
+	{ruby-align:left;}
+rt
+	{color:windowtext;
+	font-size:9.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:新細明體, serif;
+	mso-font-charset:136;
+	mso-char-type:none;
+	display:none;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+  <x:ExcelWorksheets>
+   <x:ExcelWorksheet>
+    <x:Name>移動平均</x:Name>
+    <x:WorksheetOptions>
+     <x:DefaultRowHeight>330</x:DefaultRowHeight>
+     <x:Selected/>
+     <x:Panes>
+      <x:Pane>
+       <x:Number>3</x:Number>
+       <x:ActiveRow>14</x:ActiveRow>
+       <x:ActiveCol>4</x:ActiveCol>
+      </x:Pane>
+     </x:Panes>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+  </x:ExcelWorksheets>
+  <x:WindowHeight>6780</x:WindowHeight>
+  <x:WindowWidth>11745</x:WindowWidth>
+  <x:WindowTopX>120</x:WindowTopX>
+  <x:WindowTopY>75</x:WindowTopY>
+  <x:ProtectStructure>False</x:ProtectStructure>
+  <x:ProtectWindows>False</x:ProtectWindows>
+ </x:ExcelWorkbook>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1061"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body link=blue vlink=purple>
+
+<table x:str border=0 cellpadding=0 cellspacing=0 width=603 style='border-collapse:
+ collapse;table-layout:fixed;width:450pt'>
+ <col width=20 style='mso-width-source:userset;mso-width-alt:640;width:15pt'>
+ <col class=xl24 width=73 style='mso-width-source:userset;mso-width-alt:2336;
+ width:55pt'>
+ <col class=xl24 width=51 span=10 style='mso-width-source:userset;mso-width-alt:
+ 1632;width:38pt'>
+ <tr height=22 style='mso-height-source:userset;height:16.5pt'>
+  <td height=22 width=20 style='height:16.5pt;width:15pt'></td>
+  <td colspan=11 class=xl52 width=583 style='width:435pt'>移動平均是使用一群最近的真實資料加以平均來進行預測。</td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+  <td colspan=11 class=xl52>移動平均的基本公式：<font class=font8>MAN=(</font><font
+  class=font7>最近</font><font class=font8>N</font><font class=font7>期資料總和</font><font
+  class=font8>)/N</font></td>
+ </tr>
+ <tr height=25 style='height:18.75pt'>
+  <td height=25 style='height:18.75pt'></td>
+  <td colspan=11 class=xl25>舉例來說，<font class=font8>MA</font><font class=font9><sub>3</sub></font><font
+  class=font7>就是以最近</font><font class=font8>3</font><font class=font7>期銷售量的平均值為預測值。</font></td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+  <td colspan=11 class=xl26 width=583 style='width:435pt'>使用移動平均法會以<font
+  class=font8> 3</font><font class=font7>天、</font><font class=font8>5</font><font
+  class=font7>天、</font><font class=font8>6</font><font class=font7>天為基礎來求預測值，再評估何種最適合。</font></td>
+ </tr>
+ <tr height=10 style='mso-height-source:userset;height:7.5pt'>
+  <td height=10 style='height:7.5pt'></td>
+  <td class=xl26></td>
+  <td colspan=10 class=xl25 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+  <td colspan=11 class=xl53 width=583 style='width:435pt'>1.<span
+  style="mso-spacerun: yes">&nbsp; </span><font class=font7>利用公式將以</font><font
+  class=font8>3-period</font><font class=font7>的預測值算出</font></td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+  <td class=xl27>Day<ruby><font class=font11><rt class=font11></rt></font></ruby></td>
+  <td class=xl28 align=right x:num>1</td>
+  <td class=xl28 align=right x:num>2</td>
+  <td class=xl28 align=right x:num>3</td>
+  <td class=xl28 align=right x:num>4</td>
+  <td class=xl28 align=right x:num>5</td>
+  <td class=xl28 align=right x:num>6</td>
+  <td class=xl28 align=right x:num>7</td>
+  <td class=xl28 align=right x:num>8</td>
+  <td class=xl28 align=right x:num>9</td>
+  <td class=xl29 align=right x:num>10</td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+  <td class=xl30>銷售量<ruby><font class=font11><rt class=font11></rt></font></ruby></td>
+  <td class=xl31 align=right x:num>275</td>
+  <td class=xl32 align=right x:num>290</td>
+  <td class=xl32 align=right x:num>335</td>
+  <td class=xl32 align=right x:num>310</td>
+  <td class=xl32 align=right x:num>360</td>
+  <td class=xl32 align=right x:num>400</td>
+  <td class=xl32 align=right x:num>450</td>
+  <td class=xl32 align=right x:num>390</td>
+  <td class=xl32 align=right x:num>420</td>
+  <td class=xl33 align=right x:num>490</td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+  <td class=xl34>3 day<ruby><font class=font11><rt class=font11></rt></font></ruby></td>
+  <td class=xl35>　</td>
+  <td align=left valign=top><!--[if gte vml 1]><v:oval id="_x0000_s1028"
+   style='position:absolute;margin-left:81pt;margin-top:.75pt;width:35.25pt;
+   height:17.25pt;z-index:1' filled="f" fillcolor="white [9]" strokecolor="#f9c [45]"
+   strokeweight="1.5pt" o:insetmode="auto"/><v:rect id="_x0000_s1030" style='position:absolute;
+   margin-left:26.25pt;margin-top:22.5pt;width:99.75pt;height:28.5pt;z-index:2;
+   mso-wrap-style:tight' fillcolor="white [9]" strokecolor="#f9c [45]"
+   strokeweight="1.5pt" o:insetmode="auto">
+   <v:textbox>
+    <![if gte mso 9]>
+    <div><font class=font13>最近</font><font class=font14>3</font><font
+    class=font13>期的銷售量平均<br>
+    </font><font class=font14>=(275+290+335)÷3=300</font></div>
+    <![endif]></v:textbox>
+   <x:ClientData ObjectType="Rect">
+    <x:TextVAlign>Justify</x:TextVAlign>
+   </x:ClientData>
+  </v:rect><v:line id="_x0000_s1031" style='position:absolute;flip:x;z-index:3'
+   from="79.5pt,18pt" to="90pt,22.5pt" strokecolor="#f9c [45]" strokeweight="1.5pt"
+   o:insetmode="auto"/><![endif]--><![if !vml]><span style='mso-ignore:vglayout;
+  position:absolute;z-index:0;margin-left:34px;margin-top:0px;width:135px;
+  height:69px'><span style='mso-ignore:vglayout;position:absolute;z-index:1;
+  margin-left:0px;margin-top:29px;width:135px;height:40px'><![endif]><![if !mso]><img
+  width=135 height=40 src="./移動平均.files/image001.gif"
+  alt="文字方塊: 最近3期的銷售量平均&#10;=(275+290+335)÷3=300" v:shapes="_x0000_s1030"
+  class=shape v:dpi="96"><![endif]><![if !vml]></span><img width=135 height=69
+  src="./移動平均.files/image002.gif" v:shapes="_x0000_s1028 _x0000_s1031"></span><![endif]><span
+  style='mso-ignore:vglayout2'>
+  <table cellpadding=0 cellspacing=0>
+   <tr>
+    <td height=22 class=xl35 width=51 style='height:16.5pt;width:38pt'>　</td>
+   </tr>
+  </table>
+  </span></td>
+  <td class=xl35>　</td>
+  <td class=xl35 align=right x:num x:fmla="=AVERAGE(C8:E8)">300</td>
+  <td class=xl36 align=right x:num="311.66666666666669" x:fmla="=AVERAGE(D8:F8)">311.667</td>
+  <td class=xl35 align=right x:num x:fmla="=AVERAGE(E8:G8)">335</td>
+  <td class=xl36 align=right x:num="356.66666666666669" x:fmla="=AVERAGE(F8:H8)">356.667</td>
+  <td class=xl36 align=right x:num="403.33333333333331" x:fmla="=AVERAGE(G8:I8)">403.333</td>
+  <td class=xl36 align=right x:num="413.33333333333331" x:fmla="=AVERAGE(H8:J8)">413.333</td>
+  <td class=xl37 align=right x:num x:fmla="=AVERAGE(I8:K8)">420</td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+  <td class=xl38>　</td>
+  <td colspan=4 class=xl39 style='mso-ignore:colspan'>　</td>
+  <td class=xl40>　</td>
+  <td class=xl39>　</td>
+  <td colspan=3 class=xl40 style='mso-ignore:colspan'>　</td>
+  <td class=xl39>　</td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+  <td class=xl38>　</td>
+  <td colspan=4 class=xl39 style='mso-ignore:colspan'>　</td>
+  <td class=xl40>　</td>
+  <td class=xl39>　</td>
+  <td colspan=3 class=xl40 style='mso-ignore:colspan'>　</td>
+  <td class=xl39>　</td>
+ </tr>
+ <tr height=10 style='mso-height-source:userset;height:7.5pt'>
+  <td height=10 style='height:7.5pt'></td>
+  <td class=xl38>　</td>
+  <td colspan=4 class=xl39 style='mso-ignore:colspan'>　</td>
+  <td class=xl40>　</td>
+  <td class=xl39>　</td>
+  <td colspan=3 class=xl40 style='mso-ignore:colspan'>　</td>
+  <td class=xl39>　</td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+  <td colspan=11 class=xl54>2.<span style="mso-spacerun: yes">&nbsp; </span><font
+  class=font15>再利用之前提過的公式來看預測值是否可採信</font></td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+  <td class=xl57 style='border-top:none'>Error<ruby><font class=font11><rt
+  class=font11></rt></font></ruby></td>
+  <td align=left valign=top><!--[if gte vml 1]><v:oval id="_x0000_s1032"
+   style='position:absolute;margin-left:123.75pt;margin-top:1.5pt;width:35.25pt;
+   height:15.75pt;z-index:4' filled="f" fillcolor="white [9]" strokecolor="#f9c [45]"
+   strokeweight="1.5pt" o:insetmode="auto"/><v:rect id="_x0000_s1033" style='position:absolute;
+   margin-left:11.25pt;margin-top:84.75pt;width:93.75pt;height:27.75pt;
+   z-index:5;mso-wrap-style:tight' fillcolor="white [9]" strokecolor="#f9c [45]"
+   strokeweight="1.5pt" o:insetmode="auto">
+   <v:textbox>
+    <div style='text-align:left'><font class=font14>Error=</font><font
+    class=font13>實際值</font><font class=font14>-</font><font class=font13>預測值<br>
+    </font><font
+    class=font14><span style="mso-spacerun:
+    yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>=310-300=10</font></div>
+   </v:textbox>
+  </v:rect><v:line id="_x0000_s1034" style='position:absolute;flip:x;z-index:6'
+   from="63pt,16.5pt" to="132.75pt,84pt" strokecolor="#f9c [45]"
+   strokeweight="1.5pt" o:insetmode="auto"/><v:oval id="_x0000_s1035" style='position:absolute;
+   margin-left:191.25pt;margin-top:33.75pt;width:39pt;height:16.5pt;z-index:7'
+   filled="f" fillcolor="white [9]" strokecolor="#f9c [45]" strokeweight="1.5pt"
+   o:insetmode="auto"/><v:rect id="_x0000_s1036" style='position:absolute;
+   margin-left:114pt;margin-top:85.5pt;width:96.75pt;height:26.25pt;z-index:8;
+   mso-wrap-style:tight' filled="f" fillcolor="white [9]" strokecolor="#f9c [45]"
+   strokeweight="1.5pt" o:insetmode="auto">
+   <v:textbox>
+    <div style='text-align:left'><font class=font14>RSFE=Error</font><font
+    class=font13>累加值</font><font class=font14>=10+48.333+65=123.333</font></div>
+   </v:textbox>
+  </v:rect><v:line id="_x0000_s1037" style='position:absolute;flip:x;z-index:9'
+   from="153pt,50.25pt" to="210.75pt,87pt" strokecolor="#f9c [45]"
+   strokeweight="1.5pt" o:insetmode="auto"/><v:oval id="_x0000_s1039" style='position:absolute;
+   margin-left:232.5pt;margin-top:51.75pt;width:38.25pt;height:16.5pt;
+   z-index:10' filled="f" fillcolor="white [9]" strokecolor="#f9c [45]"
+   strokeweight="1.5pt" o:insetmode="auto"/><v:rect id="_x0000_s1040" style='position:absolute;
+   margin-left:195.75pt;margin-top:120pt;width:138pt;height:26.25pt;z-index:11;
+   mso-wrap-style:tight' fillcolor="white [9]" strokecolor="#f9c [45]"
+   strokeweight="1.5pt" o:insetmode="auto">
+   <v:textbox>
+    <div style='text-align:left'><font class=font14>MAD=Error</font><font
+    class=font16>絕對值的平均值<br>
+    </font><font class=font14>=(10+48.333+65+93.333)/4=54.167</font></div>
+   </v:textbox>
+  </v:rect><v:line id="_x0000_s1041" style='position:absolute;flip:x;z-index:12'
+   from="240pt,68.25pt" to="254.25pt,120pt" strokecolor="#f9c [45]"
+   strokeweight="1.5pt" o:insetmode="auto"/><v:oval id="_x0000_s1050" style='position:absolute;
+   margin-left:274.5pt;margin-top:67.5pt;width:32.25pt;height:15.75pt;
+   z-index:13' filled="f" fillcolor="white [9]" strokecolor="#f9c [45]"
+   strokeweight="1.5pt" o:insetmode="auto"/><v:rect id="_x0000_s1051" style='position:absolute;
+   margin-left:270pt;margin-top:88.5pt;width:95.25pt;height:24.75pt;z-index:14'
+   fillcolor="white [9]" strokecolor="#f9c [45]" strokeweight="1.5pt"
+   o:insetmode="auto">
+   <v:textbox>
+    <div style='text-align:left'><font class=font14>TS=RSFE/MAD<br>
+    <span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;
+    </span>=203.333/46=4.420</font></div>
+   </v:textbox>
+  </v:rect><v:line id="_x0000_s1052" style='position:absolute;z-index:15'
+   from="299.25pt,82.5pt" to="303.75pt,88.5pt" strokecolor="#f9c [45]"
+   strokeweight="1.5pt" o:insetmode="auto"/><![endif]--><![if !vml]><span
+  style='mso-ignore:vglayout;position:absolute;z-index:3;margin-left:14px;
+  margin-top:1px;width:474px;height:195px'><img width=474 height=195
+  src="./移動平均.files/image003.gif" v:shapes="_x0000_s1032 _x0000_s1033 _x0000_s1034 _x0000_s1035 _x0000_s1036 _x0000_s1037 _x0000_s1039 _x0000_s1040 _x0000_s1041 _x0000_s1050 _x0000_s1051 _x0000_s1052"></span><![endif]><span
+  style='mso-ignore:vglayout2'>
+  <table cellpadding=0 cellspacing=0>
+   <tr>
+    <td height=22 class=xl58 width=51 style='height:16.5pt;border-top:none;
+    width:38pt'>　</td>
+   </tr>
+  </table>
+  </span></td>
+  <td class=xl58 style='border-top:none'>　</td>
+  <td class=xl58 style='border-top:none'>　</td>
+  <td class=xl58 align=right style='border-top:none' x:num x:fmla="=F8-F9">10</td>
+  <td class=xl59 align=right style='border-top:none' x:num="48.333333333333314"
+  x:fmla="=G8-G9">48.333</td>
+  <td class=xl58 align=right style='border-top:none' x:num x:fmla="=H8-H9">65</td>
+  <td class=xl59 align=right style='border-top:none' x:num="93.333333333333314"
+  x:fmla="=I8-I9">93.333</td>
+  <td class=xl59 align=right style='border-top:none' x:num="-13.333333333333314"
+  x:fmla="=J8-J9">-13.333</td>
+  <td class=xl59 align=right style='border-top:none' x:num="6.6666666666666856"
+  x:fmla="=K8-K9">6.667</td>
+  <td class=xl58 align=right style='border-top:none' x:num x:fmla="=L8-L9">70</td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+  <td class=xl41>Abs. Error<ruby><font class=font11><rt class=font11></rt></font></ruby></td>
+  <td class=xl60 style='border-top:none;border-left:none'>　</td>
+  <td class=xl58 style='border-top:none'>　</td>
+  <td class=xl42>　</td>
+  <td class=xl42 align=right x:num x:fmla="=ABS(F14)">10</td>
+  <td class=xl43 align=right x:num="48.333333333333314" x:fmla="=ABS(G14)">48.333</td>
+  <td class=xl42 align=right x:num x:fmla="=ABS(H14)">65</td>
+  <td class=xl43 align=right x:num="93.333333333333314" x:fmla="=ABS(I14)">93.333</td>
+  <td class=xl43 align=right x:num="13.333333333333314" x:fmla="=ABS(J14)">13.333</td>
+  <td class=xl43 align=right x:num="6.6666666666666856" x:fmla="=ABS(K14)">6.667</td>
+  <td class=xl42 align=right x:num x:fmla="=ABS(L14)">70</td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+  <td class=xl41>RSFE<ruby><font class=font11><rt class=font11></rt></font></ruby></td>
+  <td class=xl42>　</td>
+  <td class=xl42>　</td>
+  <td class=xl42>　</td>
+  <td class=xl42 align=right x:num x:fmla="=SUM($C14:F14)">10</td>
+  <td class=xl43 align=right x:num="58.333333333333314" x:fmla="=SUM($C14:G14)">58.333</td>
+  <td class=xl43 align=right x:num="123.33333333333331" x:fmla="=SUM($C14:H14)">123.333</td>
+  <td class=xl43 align=right x:num="216.66666666666663" x:fmla="=SUM($C14:I14)">216.667</td>
+  <td class=xl43 align=right x:num="203.33333333333331" x:fmla="=SUM($C14:J14)">203.333</td>
+  <td class=xl42 align=right x:num x:fmla="=SUM($C14:K14)">210</td>
+  <td class=xl42 align=right x:num x:fmla="=SUM($C14:L14)">280</td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+  <td class=xl41>MAD<ruby><font class=font11><rt class=font11></rt></font></ruby></td>
+  <td class=xl42>　</td>
+  <td class=xl42>　</td>
+  <td class=xl42>　</td>
+  <td class=xl42 align=right x:num x:fmla="=AVERAGE($C15:F15)">10</td>
+  <td class=xl43 align=right x:num="29.166666666666657"
+  x:fmla="=AVERAGE($C15:G15)">29.167</td>
+  <td class=xl43 align=right x:num="41.111111111111107"
+  x:fmla="=AVERAGE($C15:H15)">41.111</td>
+  <td class=xl43 align=right x:num="54.166666666666657"
+  x:fmla="=AVERAGE($C15:I15)">54.167</td>
+  <td class=xl42 align=right x:num x:fmla="=AVERAGE($C15:J15)">46</td>
+  <td class=xl43 align=right x:num="39.444444444444436"
+  x:fmla="=AVERAGE($C15:K15)">39.444</td>
+  <td class=xl43 align=right x:num="43.809523809523803"
+  x:fmla="=AVERAGE($C15:L15)">43.810</td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+  <td class=xl44>TS<ruby><font class=font11><rt class=font11></rt></font></ruby></td>
+  <td class=xl45>　</td>
+  <td class=xl45>　</td>
+  <td class=xl45>　</td>
+  <td class=xl45 align=right x:num x:fmla="=F16/F17">1</td>
+  <td class=xl45 align=right x:num x:fmla="=G16/G17">2</td>
+  <td class=xl45 align=right x:num x:fmla="=H16/H17">3</td>
+  <td class=xl45 align=right x:num x:fmla="=I16/I17">4</td>
+  <td class=xl46 align=right x:num="4.4202898550724647" x:fmla="=J16/J17">4.420</td>
+  <td class=xl46 align=right x:num="5.3239436619718319" x:fmla="=K16/K17">5.324</td>
+  <td class=xl47 align=right x:num="6.3913043478260878" x:fmla="=L16/L17">6.391</td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+  <td class=xl38>　</td>
+  <td colspan=7 class=xl39 style='mso-ignore:colspan'>　</td>
+  <td colspan=3 class=xl40 style='mso-ignore:colspan'>　</td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+  <td class=xl38>　</td>
+  <td colspan=7 class=xl39 style='mso-ignore:colspan'>　</td>
+  <td colspan=3 class=xl40 style='mso-ignore:colspan'>　</td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+  <td class=xl38>　</td>
+  <td colspan=7 class=xl39 style='mso-ignore:colspan'>　</td>
+  <td colspan=3 class=xl40 style='mso-ignore:colspan'>　</td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+  <td class=xl38>　</td>
+  <td colspan=7 class=xl39 style='mso-ignore:colspan'>　</td>
+  <td colspan=3 class=xl40 style='mso-ignore:colspan'>　</td>
+ </tr>
+ <tr height=10 style='mso-height-source:userset;height:7.5pt'>
+  <td height=10 style='height:7.5pt'></td>
+  <td class=xl38>　</td>
+  <td colspan=7 class=xl39 style='mso-ignore:colspan'>　</td>
+  <td colspan=3 class=xl40 style='mso-ignore:colspan'>　</td>
+ </tr>
+ <tr class=xl48 height=22 style='height:16.5pt'>
+  <td height=22 class=xl48 style='height:16.5pt'></td>
+  <td colspan=11 class=xl55>3.<span style="mso-spacerun: yes">&nbsp; </span><font
+  class=font15>求以</font><font class=font8>5-period</font><font class=font15>為基礎的預測值與</font><font
+  class=font8>Error</font><font class=font15>、</font><font class=font8>RSFE</font><font
+  class=font15>、</font><font class=font8>MAD</font><font class=font15>、</font><font
+  class=font8>TS</font><font class=font15>，算法與</font><font class=font8>3-period</font><font
+  class=font15>相同</font></td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+  <td class=xl34>5 day<ruby><font class=font11><rt class=font11></rt></font></ruby></td>
+  <td class=xl49>　</td>
+  <td class=xl49>　</td>
+  <td class=xl49>　</td>
+  <td class=xl49>　</td>
+  <td class=xl49>　</td>
+  <td class=xl49 align=right x:num x:fmla="=AVERAGE(C8:G8)">314</td>
+  <td class=xl49 align=right x:num x:fmla="=AVERAGE(D8:H8)">339</td>
+  <td class=xl49 align=right x:num x:fmla="=AVERAGE(E8:I8)">371</td>
+  <td class=xl49 align=right x:num x:fmla="=AVERAGE(F8:J8)">382</td>
+  <td class=xl50 align=right x:num x:fmla="=AVERAGE(G8:K8)">404</td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+  <td class=xl41>Error<ruby><font class=font11><rt class=font11></rt></font></ruby></td>
+  <td class=xl42>　</td>
+  <td class=xl42>　</td>
+  <td class=xl42>　</td>
+  <td class=xl42>　</td>
+  <td class=xl42>　</td>
+  <td class=xl42 align=right x:num x:fmla="=H8-H25">86</td>
+  <td class=xl42 align=right x:num x:fmla="=I8-I25">111</td>
+  <td class=xl42 align=right x:num x:fmla="=J8-J25">19</td>
+  <td class=xl42 align=right x:num x:fmla="=K8-K25">38</td>
+  <td class=xl42 align=right x:num x:fmla="=L8-L25">86</td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+  <td class=xl41>Abs. Error<ruby><font class=font11><rt class=font11></rt></font></ruby></td>
+  <td class=xl42>　</td>
+  <td class=xl42>　</td>
+  <td class=xl42>　</td>
+  <td class=xl42>　</td>
+  <td class=xl42>　</td>
+  <td class=xl42 align=right x:num x:fmla="=ABS(H26)">86</td>
+  <td class=xl42 align=right x:num x:fmla="=ABS(I26)">111</td>
+  <td class=xl42 align=right x:num x:fmla="=ABS(J26)">19</td>
+  <td class=xl42 align=right x:num x:fmla="=ABS(K26)">38</td>
+  <td class=xl42 align=right x:num x:fmla="=ABS(L26)">86</td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+  <td class=xl41>RSFE<ruby><font class=font11><rt class=font11></rt></font></ruby></td>
+  <td class=xl42>　</td>
+  <td class=xl42>　</td>
+  <td class=xl42>　</td>
+  <td class=xl42>　</td>
+  <td class=xl42>　</td>
+  <td class=xl42 align=right x:num x:fmla="=SUM($C26:H26)">86</td>
+  <td class=xl42 align=right x:num x:fmla="=SUM($C26:I26)">197</td>
+  <td class=xl42 align=right x:num x:fmla="=SUM($C26:J26)">216</td>
+  <td class=xl42 align=right x:num x:fmla="=SUM($C26:K26)">254</td>
+  <td class=xl42 align=right x:num x:fmla="=SUM($C26:L26)">340</td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+  <td class=xl41>MAD<ruby><font class=font11><rt class=font11></rt></font></ruby></td>
+  <td class=xl42>　</td>
+  <td class=xl42>　</td>
+  <td class=xl42>　</td>
+  <td class=xl42>　</td>
+  <td class=xl42>　</td>
+  <td class=xl42 align=right x:num x:fmla="=AVERAGE($C27:H27)">86</td>
+  <td class=xl42 align=right x:num x:fmla="=AVERAGE($C27:I27)">98.5</td>
+  <td class=xl42 align=right x:num x:fmla="=AVERAGE($C27:J27)">72</td>
+  <td class=xl42 align=right x:num x:fmla="=AVERAGE($C27:K27)">63.5</td>
+  <td class=xl42 align=right x:num x:fmla="=AVERAGE($C27:L27)">68</td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+  <td class=xl44>TS<ruby><font class=font11><rt class=font11></rt></font></ruby></td>
+  <td class=xl45>　</td>
+  <td class=xl45>　</td>
+  <td class=xl45>　</td>
+  <td class=xl45>　</td>
+  <td class=xl45>　</td>
+  <td class=xl45 align=right x:num x:fmla="=H28/H29">1</td>
+  <td class=xl45 align=right x:num x:fmla="=I28/I29">2</td>
+  <td class=xl45 align=right x:num x:fmla="=J28/J29">3</td>
+  <td class=xl45 align=right x:num x:fmla="=K28/K29">4</td>
+  <td class=xl51 align=right x:num x:fmla="=L28/L29">5</td>
+ </tr>
+ <tr height=14 style='mso-height-source:userset;height:10.5pt'>
+  <td height=14 style='height:10.5pt'></td>
+  <td class=xl38>　</td>
+  <td colspan=10 class=xl39 style='mso-ignore:colspan'>　</td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+  <td colspan=11 class=xl56>4.<span style="mso-spacerun: yes">&nbsp; </span><font
+  class=font7>最後可以畫圖表來看哪種方法誤差較少</font></td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+  <td colspan=5 rowspan=9 height=198 class=xl24 width=277 style='mso-ignore:
+  colspan-rowspan;height:148.5pt;width:207pt'><!--[if gte vml 1]><v:shapetype
+   id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+   path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+   <v:stroke joinstyle="miter"/>
+   <v:formulas>
+    <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+    <v:f eqn="sum @0 1 0"/>
+    <v:f eqn="sum 0 0 @1"/>
+    <v:f eqn="prod @2 1 2"/>
+    <v:f eqn="prod @3 21600 pixelWidth"/>
+    <v:f eqn="prod @3 21600 pixelHeight"/>
+    <v:f eqn="sum @0 0 1"/>
+    <v:f eqn="prod @6 1 2"/>
+    <v:f eqn="prod @7 21600 pixelWidth"/>
+    <v:f eqn="sum @8 21600 0"/>
+    <v:f eqn="prod @7 21600 pixelHeight"/>
+    <v:f eqn="sum @10 21600 0"/>
+   </v:formulas>
+   <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" aspectratio="t"/>
+  </v:shapetype><v:shape id="_x0000_s1054" type="#_x0000_t75" style='position:absolute;
+   margin-left:18.75pt;margin-top:6pt;width:189pt;height:138pt;z-index:16'>
+   <v:imagedata src="./移動平均.files/image004.gif" o:title="M-4"/>
+   <x:ClientData ObjectType="Pict">
+    <x:SizeWithCells/>
+    <x:CF>Bitmap</x:CF>
+    <x:AutoPict/>
+   </x:ClientData>
+  </v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout'>
+  <table cellpadding=0 cellspacing=0>
+   <tr>
+    <td width=25 height=8></td>
+   </tr>
+   <tr>
+    <td></td>
+    <td><img width=252 height=184 src="./移動平均.files/image004.gif" v:shapes="_x0000_s1054"></td>
+    <td width=0></td>
+   </tr>
+   <tr>
+    <td height=6></td>
+   </tr>
+  </table>
+  </span><![endif]><!--[if !mso & vml]><span style='width:207.75pt;height:148.5pt'></span><![endif]--></td>
+  <td colspan=6 rowspan=9 height=198 class=xl24 width=306 style='mso-ignore:
+  colspan-rowspan;height:148.5pt;width:228pt'><!--[if gte vml 1]><v:shape id="_x0000_s1055"
+   type="#_x0000_t75" style='position:absolute;margin-left:22.5pt;margin-top:7.5pt;
+   width:189pt;height:138pt;z-index:17'>
+   <v:imagedata src="./移動平均.files/image005.gif" o:title="MTS-3"/>
+   <x:ClientData ObjectType="Pict">
+    <x:SizeWithCells/>
+    <x:CF>Bitmap</x:CF>
+    <x:AutoPict/>
+   </x:ClientData>
+  </v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout'>
+  <table cellpadding=0 cellspacing=0>
+   <tr>
+    <td width=30 height=10></td>
+   </tr>
+   <tr>
+    <td></td>
+    <td><img width=252 height=184 src="./移動平均.files/image005.gif" v:shapes="_x0000_s1055"></td>
+    <td width=24></td>
+   </tr>
+   <tr>
+    <td height=4></td>
+   </tr>
+  </table>
+  </span><![endif]><!--[if !mso & vml]><span style='width:229.5pt;height:148.5pt'></span><![endif]--></td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 colspan=4 style='height:16.5pt;mso-ignore:colspan'></td>
+  <td align=left valign=top><!--[if gte vml 1]><v:shape id="_x0000_s1057"
+   type="#_x0000_t75" href="forecast-3.htm" style='position:absolute;
+   margin-left:29.25pt;margin-top:6pt;width:105pt;height:45pt;z-index:18'
+   o:button="t">
+   <v:fill o:detectmouseclick="t"/>
+   <v:imagedata src="./移動平均.files/image006.gif" o:title="back-書籤"/>
+   <x:ClientData ObjectType="Pict">
+    <x:SizeWithCells/>
+    <x:CF>Bitmap</x:CF>
+    <x:AutoPict/>
+   </x:ClientData>
+  </v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout;
+  position:absolute;z-index:17;margin-left:39px;margin-top:8px;width:140px;
+  height:60px'><a href="forecast-3.htm"><img border=0 width=140 height=60
+  src="./移動平均.files/image006.gif" v:shapes="_x0000_s1057"></a></span><![endif]><span
+  style='mso-ignore:vglayout2'>
+  <table cellpadding=0 cellspacing=0>
+   <tr>
+    <td height=22 width=51 style='height:16.5pt;width:38pt'></td>
+   </tr>
+  </table>
+  </span></td>
+  <td colspan=7 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+  <td colspan=11 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+  <td colspan=11 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=22 style='height:16.5pt'>
+  <td height=22 style='height:16.5pt'></td>
+  <td colspan=11 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=20 style='width:15pt'></td>
+  <td width=73 style='width:55pt'></td>
+  <td width=51 style='width:38pt'></td>
+  <td width=51 style='width:38pt'></td>
+  <td width=51 style='width:38pt'></td>
+  <td width=51 style='width:38pt'></td>
+  <td width=51 style='width:38pt'></td>
+  <td width=51 style='width:38pt'></td>
+  <td width=51 style='width:38pt'></td>
+  <td width=51 style='width:38pt'></td>
+  <td width=51 style='width:38pt'></td>
+  <td width=51 style='width:38pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>

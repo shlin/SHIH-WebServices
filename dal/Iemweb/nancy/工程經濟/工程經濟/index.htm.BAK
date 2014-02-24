@@ -1,0 +1,68 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<title>index</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+</head>
+
+<body background="背景5.jpg">
+
+<p align="center"><strong><img src="工經字.gif" width="277" height="89"
+alt="工經字.gif (9353 個位元組)"></strong></p>
+<div align="center"><center>
+
+<table border="1" width="454" height="99">
+  <tr>
+    <td width="454" height="99"><p align="center"><img src="Dollars2.gif" width="407"
+    height="52" alt="Dollars2.gif (43209 bytes)"></p>
+    <p><font color="#FF0000"> 
+    不論個人購屋置產、退休之規劃、乃至於各項投資之評估等，均需了解貨幣時間價值之概念。工程經濟可以應用於個人的投資及理財政策，幫你作出最佳的選擇......</font></td>
+  </tr>
+</table>
+</center></div>
+
+<p align="center">　</p>
+
+<table border="1" width="100%">
+  <tr>
+    <td width="28%" rowspan="2"><p align="center"><strong><img src="31.gif" width="163"
+    height="120" alt="大一學生"></strong></td>
+    <td width="72%">Q1：<font color="#FF0000"><strong>念工程經濟學到底有什麼用處呢？</strong></font><p><strong><font
+    color="#FF0000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+    </font><big><input type="button" value="Q1答案鈕" 
+    onclick="window.open('Q1答案.htm', 'Win3', 'resizeable=yes,status=yes,width=605,height=250')" 
+    style="background-color: rgb(192,192,192); font-size: small; color: rgb(255,55,155); font-family: 華康少女文字W6"></big></strong></td> 
+  </tr> 
+  <tr> 
+    <td width="72%">Q2：<font color="#0000FF"><strong>那麼生活中有哪些是屬於工程經濟呢？</strong></font><p><strong><font 
+    color="#0000FF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+    </font><big><input type="button" value="Q2答案鈕" 
+    onclick="window.open('Q2答案.htm', 'Win3', 'resizeable=yes,status=yes,width=650,height=300')" 
+    style="background-color: rgb(192,192,192); font-size: small; color: rgb(255,55,155); font-family: 華康少女文字W6"></big></strong></td> 
+  </tr> 
+</table> 
+ 
+<p align="center"> 
+<applet code="fphover.class" codebase="./" width="120" height="24">
+  <param name="textcolor" value="#FFFFFF">
+  <param name="text" value="單一問題">
+  <param name="color" value="#FF0000">
+  <param name="hovercolor" value="#00FF00">
+  <param name="effect" value="glow">
+  <param name="url" valuetype="ref" value="單一問題第一頁.htm">
+</applet>
+</p>
+
+<p align="center">
+<applet code="fphover.class" codebase="./" width="120" height="24">
+  <param name="color" value="#000080">
+  <param name="textcolor" value="#FFFFFF">
+  <param name="text" value="決策方案">
+  <param name="hovercolor" value="#00FFFF">
+  <param name="effect" value="average">
+  <param name="url" valuetype="ref" value="工經決策方案範例.htm">
+</applet>
+</p>
+</body>
+</html>

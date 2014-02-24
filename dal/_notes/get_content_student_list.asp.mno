@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="MMGuideColor" value="#00FF00" />
+	<infoitem key="MMGuideVisible" value="true" />
+	<infoitem key="MMGuideLocked" value="false" />
+	<infoitem key="MMSnapToGuide" value="true" />
+	<infoitem key="MMGuidesSnapToElements" value="true" />
+	<infoitem key="MMDistanceColor" value="#0000FF" />
+	<infoitem key="UD_GetContent" value="name:id;datatype:129,name:cname;datatype:200,name:name;datatype:200,name:Content;datatype:203,name:date;datatype:129" />
+	<infoitem key="UD_StudentDB" value="name:MemId;datatype:3,name:Topic;datatype:200,name:year;datatype:129,name:name;datatype:203,name:class;datatype:201,name:type;datatype:201,name:content;datatype:203" />
+	<infoitem key="UD_studentDB" value="name:MemId;datatype:3,name:type;datatype:200,name:Topic;datatype:200,name:year;datatype:129,name:name;datatype:203,name:class;datatype:201,name:content;datatype:203" />
+	<infoitem key="MMGuideCount" value="1" />
+	<infoitem key="MMGuide0" value="vertical: user 2 px" />
+</info>

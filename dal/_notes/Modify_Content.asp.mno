@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Modify_Content" value="name:id;datatype:129,name:name;datatype:200,name:content;datatype:203,name:date;datatype:129" />
+	<infoitem key="UD_modify" value="name:id;datatype:129,name:name;datatype:200,name:content;datatype:203,name:date;datatype:129" />
+	<infoitem key="UD_DalDB" value="name:id;datatype:129,name:name;datatype:200,name:content;datatype:203,name:date;datatype:129" />
+</info>

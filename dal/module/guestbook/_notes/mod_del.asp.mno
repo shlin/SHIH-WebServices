@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="MMGuideColor" value="#00FF00" />
+	<infoitem key="MMGuideVisible" value="true" />
+	<infoitem key="MMGuideLocked" value="false" />
+	<infoitem key="MMSnapToGuide" value="true" />
+	<infoitem key="MMGuidesSnapToElements" value="true" />
+	<infoitem key="MMDistanceColor" value="#0000FF" />
+	<infoitem key="UD_GetContent" value="name:id;datatype:129,name:cname;datatype:200,name:name;datatype:200,name:Content;datatype:203,name:date;datatype:129" />
+	<infoitem key="UD_gb" value="name:mid;datatype:3,name:Name;datatype:202,name:Email;datatype:202,name:Subject;datatype:203,name:Memo;datatype:203,name:Time;datatype:135,name:ClientIP;datatype:202" />
+	<infoitem key="MMGuideCount" value="1" />
+	<infoitem key="MMGuide0" value="vertical: user 2 px" />
+</info>

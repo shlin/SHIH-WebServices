@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_userdb" value="name:id;datatype:3,name:login;datatype:129,name:password;datatype:129,name:level;datatype:129" />
+</info>

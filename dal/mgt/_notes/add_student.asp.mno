@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_studentDB" value="name:MemId;datatype:3,name:Topic;datatype:200,name:year;datatype:129,name:name;datatype:200,name:class;datatype:129,name:type;datatype:200,name:content;datatype:203" />
+</info>

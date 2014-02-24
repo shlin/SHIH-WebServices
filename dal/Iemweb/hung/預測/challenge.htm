@@ -1,0 +1,403 @@
+<html>
+
+<head>
+<title>挑戰區</title>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<script language="JavaScript"></script>
+<script language="JavaScript"
+src="scripts/behActions.js">
+function MM_callJS(){}function MM_changeProp(){}function MM_checkBrowser(){}function MM_checkPlugin(){}function MM_controlShockwave(){}function MM_controlSound(){}function MM_displayStatusMsg(){}function MM_goToURL(){}function MM_openBrWindow(){}function MM_popupMsg(){}function MM_preloadImages(){}function MM_showHideLayers(){}function MM_swapImgRestore(){}function MM_swapImage(){}function MM_validateForm(){}
+</script>
+<script language="JavaScript"
+src="scripts/behAttainObjects.js">
+function MM_cmiCheckInstall(){}function MM_cmiSendInteractionInfo(){}function MM_cmiSendObjectiveInfo(){}function MM_cmiSendScore(){}function MM_cmiSetLessonStatus(){}function MM_cmiSetTime(){}function MM_judgeAttainObj(){}function MM_resetAttainObj(){}function MM_setAttainObjProps(){}function MM_initAttainObj(){}function MM_writeToFrame(){}function MM_writeToLayer(){}function MM_writeToPopup(){}function MM_writeToTextfield(){}
+</script>
+<script language="JavaScript"
+src="scripts/attainObjClass.js"></script>
+<script language="JavaScript"
+src="scripts/elemInptClass.js"></script>
+</head>
+
+<body bgcolor="#FFFFFF" onLoad="MM_initAttainObj()">
+<attain-object name="MultCh_Radios01" object="G01" template="010_Multiple Choice/020_MultCh_Radios_03.agt" includeSrc="attainObjClass.js,elemInptClass.js">
+<div name="G01Layer"
+style="position:absolute; left:168px; width:200px; height:115px; z-index:1; visibility:visible;; top: 270px"
+id="G01Layer"><span name="G01question"> 
+  <p>
+
+<font color="#008000">1. 利用移動平均法</font> <br>
+    <font color="#008000"> a. MA3=?</font></p>     
+  </span>       
+      
+<form name="G01choices">      
+  <p><span name="G01choice1"><input name="G01RadioInp" type="radio"      
+  onClick="G01.e['choice1'].update()"> 253.67<br>      
+  </span><span name="G01choice2"><input name="G01RadioInp" type="radio"      
+  onClick="G01.e['choice2'].update()"> 222.45<br>      
+  </span><span name="G01choice3"><input name="G01RadioInp" type="radio"      
+  onClick="G01.e['choice3'].update()"> 265.73<br>      
+  </span></p>      
+</form>      
+      
+<form name="G01controls">      
+</form>      
+</div><script language="JavaScript">      
+<!--      
+  // Copyright 1998,1999 Macromedia, Inc. All rights reserved.      
+  function newG01() {      
+    G01 = new AttainObj('G01',1,0,0,null,0,0,0,'','','c','',0);      
+    G01.add('inpt','choice1',0,1,1,0);      
+    G01.add('inpt','choice2',0,1,0,0);      
+    G01.add('inpt','choice3',0,1,0,0);      
+    G01.init();      
+    G01.am('segm','Segment: Check Time_',1,1);      
+    G01.am('cond','Time At Limit_','G01.timeAtLimit == true',0);      
+    G01.am('actn','Write To Popup','MM_writeToPopup(\'You are out of time\')','pm');      
+    G01.am('actn','Set Attain Properties: Disable Object','MM_setAttainObjProps(\'G01.setDisabled(true);\')','sp');      
+    G01.am('end');      
+    G01.am('segm','Segment: Correctness_',1,0);      
+    G01.am('cond','Correct_01','G01.correct == true',0);      
+    G01.am('actn','Write To Popup','MM_writeToPopup(\'Correct\')','');      
+    G01.am('end');      
+    G01.am('cond','Incorrect_','G01.correct == (false)',0);      
+    G01.am('actn','Write To Popup','MM_writeToPopup(\'Incorrect\')','');      
+    G01.am('end');      
+    G01.am('cond','Unknown Response_','G01.knownResponse == false',0);      
+    G01.am('actn','Write To Popup','MM_writeToPopup(\'Unknown Response\')','');      
+    G01.am('end');      
+    G01.am('segm','Segment: Check Tries_',1,1);      
+    G01.am('cond','Tries At Limit_','G01.triesAtLimit == true',0);      
+    G01.am('actn','Write To Popup','MM_writeToPopup(\'You are out of tries\')','pm');      
+    G01.am('actn','Set Attain Properties: Disable Object','MM_setAttainObjProps(\'G01.setDisabled(true);\')','sp');      
+    G01.am('end');      
+  }      
+  if (window.newG01 == null) window.newG01 = newG01;      
+  if (!window.initAttainObjFns) window.initAttainObjFns = ''; window.initAttainObjFns += 'newG01();';      
+//-->      
+</script>      
+<attain-select object="G01">      
+</attain-object>      
+<attain-object name="MultCh_Radios02" object="G02" template="010_Multiple Choice/020_MultCh_Radios_03.agt" includeSrc="attainObjClass.js,elemInptClass.js">      
+<div name="G02Layer"      
+style="position:absolute; left: 369px; width:200px; height:115px; z-index:1; visibility:visible;; top: 284px"      
+id="G02Layer"><span name="G02question">   
+  <p>      
+      
+<font color="#008000">b. MA5=? </font><br>      
+</p></span>      
+      
+<form name="G02choices">      
+  <p><span name="G02choice1"><input name="G02RadioInp" type="radio"      
+  onClick="G02.e['choice1'].update()"> 231.25<br>      
+  </span><span name="G02choice2"><input name="G02RadioInp" type="radio"      
+  onClick="G02.e['choice2'].update()"> 253.45<br>      
+  </span><span name="G02choice3"><input name="G02RadioInp" type="radio"      
+  onClick="G02.e['choice3'].update()"> 246.2<br>      
+  </span></p>      
+</form>      
+      
+<form name="G02controls">      
+</form>      
+</div><script language="JavaScript">      
+<!--      
+  // Copyright 1998,1999 Macromedia, Inc. All rights reserved.      
+  function newG02() {      
+    G02 = new AttainObj('G02',1,0,0,null,0,0,0,'','','c','',0);      
+    G02.add('inpt','choice1',0,1,0,0);      
+    G02.add('inpt','choice2',0,1,0,0);      
+    G02.add('inpt','choice3',0,1,1,0);      
+    G02.init();      
+    G02.am('segm','Segment: Check Time_',1,1);      
+    G02.am('cond','Time At Limit_','G02.timeAtLimit == true',0);      
+    G02.am('actn','Write To Popup','MM_writeToPopup(\'You are out of time\')','pm');      
+    G02.am('actn','Set Attain Properties: Disable Object','MM_setAttainObjProps(\'G02.setDisabled(true);\')','sp');      
+    G02.am('end');      
+    G02.am('segm','Segment: Correctness_',1,0);      
+    G02.am('cond','Correct_01','G02.correct == true',0);      
+    G02.am('actn','Write To Popup','MM_writeToPopup(\'Correct\')','');      
+    G02.am('end');      
+    G02.am('cond','Incorrect_','G02.correct == (false)',0);      
+    G02.am('actn','Write To Popup','MM_writeToPopup(\'Incorrect\')','');      
+    G02.am('end');      
+    G02.am('cond','Unknown Response_','G02.knownResponse == false',0);      
+    G02.am('actn','Write To Popup','MM_writeToPopup(\'Unknown Response\')','');      
+    G02.am('end');      
+    G02.am('segm','Segment: Check Tries_',1,1);      
+    G02.am('cond','Tries At Limit_','G02.triesAtLimit == true',0);      
+    G02.am('actn','Write To Popup','MM_writeToPopup(\'You are out of tries\')','pm');      
+    G02.am('actn','Set Attain Properties: Disable Object','MM_setAttainObjProps(\'G02.setDisabled(true);\')','sp');      
+    G02.am('end');      
+  }      
+  if (window.newG02 == null) window.newG02 = newG02;      
+  if (!window.initAttainObjFns) window.initAttainObjFns = ''; window.initAttainObjFns += 'newG02();';      
+//-->      
+</script>      
+<attain-select object="G02">      
+</attain-object>      
+<attain-object name="MultCh_Radios04" object="G04" template="010_Multiple Choice/020_MultCh_Radios_03.agt" includeSrc="attainObjClass.js,elemInptClass.js">      
+<div name="G04Layer"      
+style="position:absolute; left: 169px; width:200px; height:156px; z-index:1; visibility:visible;; top: 412px"      
+id="G04Layer">   
+  <p><span name="G04question"><font color="#008000">2. 利用指數平滑,假設Ao=188,Fo=195</font>       
+<br>      
+<font color="#008000">a.α=0.3</font> </span></p>      
+      
+<form name="G04choices">      
+  <p><span name="G04choice1"><input name="G04RadioInp" type="radio"      
+  onClick="G04.e['choice1'].update()"> 233.35<br>      
+  </span><span name="G04choice2"><input name="G04RadioInp" type="radio"      
+  onClick="G04.e['choice2'].update()"> 246.85<br>      
+  </span><span name="G04choice3"><input name="G04RadioInp" type="radio"      
+  onClick="G04.e['choice3'].update()">  
+      250.23 </span></p>      
+</form>      
+      
+<form name="G04controls">      
+</form>      
+</div><script language="JavaScript">      
+<!--      
+  // Copyright 1998,1999 Macromedia, Inc. All rights reserved.      
+  function newG04() {      
+    G04 = new AttainObj('G04',1,0,0,null,0,0,0,'','','c','',0);      
+    G04.add('inpt','choice1',0,1,0,0);      
+    G04.add('inpt','choice2',0,1,1,0);      
+    G04.add('inpt','choice3',0,1,0,0);      
+    G04.init();      
+    G04.am('segm','Segment: Check Time_',1,1);      
+    G04.am('cond','Time At Limit_','G04.timeAtLimit == true',0);      
+    G04.am('actn','Write To Popup','MM_writeToPopup(\'You are out of time\')','pm');      
+    G04.am('actn','Set Attain Properties: Disable Object','MM_setAttainObjProps(\'G04.setDisabled(true);\')','sp');      
+    G04.am('end');      
+    G04.am('segm','Segment: Correctness_',1,0);      
+    G04.am('cond','Correct_01','G04.correct == true',0);      
+    G04.am('actn','Write To Popup','MM_writeToPopup(\'Correct\')','');      
+    G04.am('end');      
+    G04.am('cond','Incorrect_','G04.correct == (false)',0);      
+    G04.am('actn','Write To Popup','MM_writeToPopup(\'Incorrect\')','');      
+    G04.am('end');      
+    G04.am('cond','Unknown Response_','G04.knownResponse == false',0);      
+    G04.am('actn','Write To Popup','MM_writeToPopup(\'Unknown Response\')','');      
+    G04.am('end');      
+    G04.am('segm','Segment: Check Tries_',1,1);      
+    G04.am('cond','Tries At Limit_','G04.triesAtLimit == true',0);      
+    G04.am('actn','Write To Popup','MM_writeToPopup(\'You are out of tries\')','pm');      
+    G04.am('actn','Set Attain Properties: Disable Object','MM_setAttainObjProps(\'G04.setDisabled(true);\')','sp');      
+    G04.am('end');      
+  }      
+  if (window.newG04 == null) window.newG04 = newG04;      
+  if (!window.initAttainObjFns) window.initAttainObjFns = ''; window.initAttainObjFns += 'newG04();';      
+//-->      
+</script>      
+<attain-select object="G04">      
+</attain-object>      
+<attain-object name="MultCh_Radios05" object="G05" template="010_Multiple Choice/020_MultCh_Radios_03.agt" includeSrc="attainObjClass.js,elemInptClass.js">      
+<div name="G05Layer"      
+style="position:absolute; left: 370px; width:200px; height:111px; z-index:1; visibility:visible;; top: 442px"      
+id="G05Layer"><span name="G05question">   
+  <p>      
+      
+<font color="#008000">b. α=0.2 </font><br>      
+</p></span>      
+      
+<form name="G05choices">      
+  <p><span name="G05choice1"><input name="G05RadioInp" type="radio"      
+  onClick="G05.e['choice1'].update()"> 244.85<br>      
+  </span><span name="G05choice2"><input name="G05RadioInp" type="radio"      
+  onClick="G05.e['choice2'].update()"> 211.53<br>      
+  </span><span name="G05choice3"><input name="G05RadioInp" type="radio"      
+  onClick="G05.e['choice3'].update()">  
+      237.85 </span></p>      
+</form>      
+      
+<form name="G05controls">      
+</form>      
+</div><script language="JavaScript">      
+<!--      
+  // Copyright 1998,1999 Macromedia, Inc. All rights reserved.      
+  function newG05() {      
+    G05 = new AttainObj('G05',1,0,0,null,0,0,0,'','','c','',0);      
+    G05.add('inpt','choice1',0,1,0,0);      
+    G05.add('inpt','choice2',0,1,0,0);      
+    G05.add('inpt','choice3',0,1,1,0);      
+    G05.init();      
+    G05.am('segm','Segment: Check Time_',1,1);      
+    G05.am('cond','Time At Limit_','G05.timeAtLimit == true',0);      
+    G05.am('actn','Write To Popup','MM_writeToPopup(\'You are out of time\')','pm');      
+    G05.am('actn','Set Attain Properties: Disable Object','MM_setAttainObjProps(\'G05.setDisabled(true);\')','sp');      
+    G05.am('end');      
+    G05.am('segm','Segment: Correctness_',1,0);      
+    G05.am('cond','Correct_01','G05.correct == true',0);      
+    G05.am('actn','Write To Popup','MM_writeToPopup(\'Correct\')','');      
+    G05.am('end');      
+    G05.am('cond','Incorrect_','G05.correct == (false)',0);      
+    G05.am('actn','Write To Popup','MM_writeToPopup(\'Incorrect\')','');      
+    G05.am('end');      
+    G05.am('cond','Unknown Response_','G05.knownResponse == false',0);      
+    G05.am('actn','Write To Popup','MM_writeToPopup(\'Unknown Response\')','');      
+    G05.am('end');      
+    G05.am('segm','Segment: Check Tries_',1,1);      
+    G05.am('cond','Tries At Limit_','G05.triesAtLimit == true',0);      
+    G05.am('actn','Write To Popup','MM_writeToPopup(\'You are out of tries\')','pm');      
+    G05.am('actn','Set Attain Properties: Disable Object','MM_setAttainObjProps(\'G05.setDisabled(true);\')','sp');      
+    G05.am('end');      
+  }      
+  if (window.newG05 == null) window.newG05 = newG05;      
+  if (!window.initAttainObjFns) window.initAttainObjFns = ''; window.initAttainObjFns += 'newG05();';      
+//-->      
+</script>      
+<attain-select object="G05">      
+</attain-object>      
+<attain-object name="MultCh_Radios06" object="G06" template="010_Multiple Choice/020_MultCh_Radios_03.agt" includeSrc="attainObjClass.js,elemInptClass.js">      
+<div name="G06Layer"      
+style="position:absolute; left: 169px; width:200px; height:128px; z-index:1; visibility:visible;; top: 584px"      
+id="G06Layer"><span name="G06question">   
+  <p>      
+      
+<font color="#008000">3. 利用迴歸模式</font> <br>      
+</p></span>      
+      
+<form name="G06choices">      
+  <p><span name="G06choice1"><input name="G06RadioInp" type="radio"      
+  onClick="G06.e['choice1'].update()"> 233.35<br>      
+  </span><span name="G06choice2"><input name="G06RadioInp" type="radio"      
+  onClick="G06.e['choice2'].update()"> 264.41<br>      
+  </span><span name="G06choice3"><input name="G06RadioInp" type="radio"      
+  onClick="G06.e['choice3'].update()"> 253.2<br>      
+  </span></p>      
+</form>      
+      
+<form name="G06controls">      
+</form>      
+</div><script language="JavaScript">      
+<!--      
+  // Copyright 1998,1999 Macromedia, Inc. All rights reserved.      
+  function newG06() {      
+    G06 = new AttainObj('G06',1,0,0,null,0,0,0,'','','c','',0);      
+    G06.add('inpt','choice1',0,1,0,0);      
+    G06.add('inpt','choice2',0,1,1,0);      
+    G06.add('inpt','choice3',0,1,0,0);      
+    G06.init();      
+    G06.am('segm','Segment: Check Time_',1,1);      
+    G06.am('cond','Time At Limit_','G06.timeAtLimit == true',0);      
+    G06.am('actn','Write To Popup','MM_writeToPopup(\'You are out of time\')','pm');      
+    G06.am('actn','Set Attain Properties: Disable Object','MM_setAttainObjProps(\'G06.setDisabled(true);\')','sp');      
+    G06.am('end');      
+    G06.am('segm','Segment: Correctness_',1,0);      
+    G06.am('cond','Correct_01','G06.correct == true',0);      
+    G06.am('actn','Write To Popup','MM_writeToPopup(\'Correct\')','');      
+    G06.am('end');      
+    G06.am('cond','Incorrect_','G06.correct == (false)',0);      
+    G06.am('actn','Write To Popup','MM_writeToPopup(\'Incorrect\')','');      
+    G06.am('end');      
+    G06.am('cond','Unknown Response_','G06.knownResponse == false',0);      
+    G06.am('actn','Write To Popup','MM_writeToPopup(\'Unknown Response\')','');      
+    G06.am('end');      
+    G06.am('segm','Segment: Check Tries_',1,1);      
+    G06.am('cond','Tries At Limit_','G06.triesAtLimit == true',0);      
+    G06.am('actn','Write To Popup','MM_writeToPopup(\'You are out of tries\')','pm');      
+    G06.am('actn','Set Attain Properties: Disable Object','MM_setAttainObjProps(\'G06.setDisabled(true);\')','sp');      
+    G06.am('end');      
+  }      
+  if (window.newG06 == null) window.newG06 = newG06;      
+  if (!window.initAttainObjFns) window.initAttainObjFns = ''; window.initAttainObjFns += 'newG06();';      
+//-->      
+</script>      
+<attain-select object="G06">      
+</attain-object>      
+      
+<dl>   
+  <dd align="center">   
+    <p align="center"><img border="0" src="challenge.gif" width="350" height="80">　 
+    　 
+    <table border="0" cellspacing="1" width="75%">
+      <tr> 
+        <td width="9%"></td>
+        <td width="91%"><font color="#9966FF">看完了預測方法的講解後，比較了解預測了吧!!!</font></td>
+      </tr>
+      <tr> 
+        <td width="9%"></td>
+        <td width="91%"><font color="#9966FF">下面的題目就</font><font color="#9966FF">自己試看看會不會做囉!!!</font></td>
+      </tr>
+      <tr> 
+        <td width="9%"></td>
+        <td width="91%"><font color="#FF6699">下面是一麵包店的每日銷售量</font></td>
+      </tr>
+      <tr> 
+        <td width="9%"></td>
+        <td width="91%"> 
+          <table border="1" cellspacing="1" width="100%" height="42">
+            <tr> 
+              <td width="9%" align="center" height="14" bgcolor="#FFCCFF">日</td>
+              <td width="9%" align="center" height="14" bgcolor="#99CCFF">1</td>
+              <td width="9%" align="center" height="14" bgcolor="#99CCFF">2</td>
+              <td width="9%" align="center" height="14" bgcolor="#99CCFF">3</td>
+              <td width="9%" align="center" height="14" bgcolor="#99CCFF">4</td>
+              <td width="9%" align="center" height="14" bgcolor="#99CCFF">5</td>
+              <td width="9%" align="center" height="14" bgcolor="#99CCFF">6</td>
+              <td width="9%" align="center" height="14" bgcolor="#99CCFF">7</td>
+              <td width="9%" align="center" height="14" bgcolor="#99CCFF">8</td>
+              <td width="9%" align="center" height="14" bgcolor="#99CCFF">9</td>
+              <td width="10%" align="center" height="14" bgcolor="#99CCFF">10</td>
+            </tr>
+            <tr> 
+              <td width="9%" align="center" height="16" bgcolor="#FFCCFF">sales</td>
+              <td width="9%" align="center" height="16">200</td>
+              <td width="9%" align="center" height="16">214</td>
+              <td width="9%" align="center" height="16">211</td>
+              <td width="9%" align="center" height="16">228</td>
+              <td width="9%" align="center" height="16">235</td>
+              <td width="9%" align="center" height="16">222</td>
+              <td width="9%" align="center" height="16">248</td>
+              <td width="9%" align="center" height="16">241</td>
+              <td width="9%" align="center" height="16">253</td>
+              <td width="10%" align="center" height="16">267</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr> 
+        <td width="9%"></td>
+        <td width="91%"><font color="#FF6699">請利用移動平均、指數平滑、迴歸模式算出第11天的預測值？</font></td>
+      </tr>
+    </table>
+  </dd>
+  <blockquote> 
+    <blockquote> 
+      <blockquote> 
+        <blockquote> 
+          <p>　</p>
+          <p align="center">　</p>
+          <p align="center">　</p>
+          <p align="center">　</p>
+          <p align="center">　</p>
+          <p align="center">　</p>
+          <p align="center">　</p>
+          <blockquote> 
+            <p>&nbsp;</p>
+            <p><br>
+            </p>
+            <p>&nbsp;</p>
+            <p><br>
+              <br>
+              <br>
+              <br>
+              <br>
+            </p>
+          </blockquote>
+        </blockquote>
+      </blockquote>
+    </blockquote>
+  </blockquote>
+</dl>    
+<table width="90%" cellspacing="0" cellpadding="2" align="CENTER">  
+  <tr>  
+    <td align="right" bgcolor="#FAD900" width="633"> 
+      <p align="right"><font face="新細明體" size="2" class="tool">&nbsp;|           
+      <a href="javascript:history.back();">回上頁</a> | <a href="最後的叮嚀.htm" target="_self"> 下一頁&nbsp; 
+      </a>|</font></p>    
+    </td>       
+  </tr>       
+</table>      
+            
+</body>   
+</html>   

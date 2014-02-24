@@ -1,0 +1,97 @@
+<style>
+.mstheme
+{
+	nav-banner-image: url(tidbane.gif);
+	separator-image: url(tidrulee.gif);
+	list-image-1: url(tidbul1e.gif);
+	list-image-2: url(tidbul2e.gif);
+	list-image-3: url(tidbul3e.gif);
+
+
+	navbutton-horiz-normal: url(tidhorzbtnne.gif);
+	navbutton-horiz-hovered: url(tidhorzbtnhe.gif);
+	navbutton-horiz-pushed: url(tidhorzbtnse.gif);
+
+	navbutton-vert-normal: url(tidvertbtnne.gif);
+	navbutton-vert-pushed: url(tidvertbtnse.gif);
+	navbutton-vert-hovered: url(tidvertbtnhe.gif);
+
+	navbutton-home-normal: url(tidhomebtnne.gif);
+	navbutton-home-hovered: url(tidhomebtnhe.gif);
+	navbutton-home-pushed: url(tidhomebtnse.gif);
+
+	navbutton-next-normal: url(tidnextbtnne.gif);
+	navbutton-next-hovered: url(tidnextbtnhe.gif);
+	navbutton-next-pushed: url(tidnextbtnse.gif);
+
+	navbutton-prev-normal: url(tidprevbtnne.gif);
+	navbutton-prev-hovered: url(tidprevbtnhe.gif);
+	navbutton-prev-pushed: url(tidprevbtnse.gif);
+
+	navbutton-up-normal: url(tidupbtnne.gif);
+	navbutton-up-hovered: url(tidupbtnhe.gif);
+	navbutton-up-pushed: url(tidupbtnse.gif);
+
+}
+
+.mstheme-bannertxt
+{
+	font-family: Comic Sans MS, Arial, Helvetica;
+	color: rgb(0,0,102);
+	text-align: center;
+	vertical-align: middle;
+}
+.mstheme-horiz-navtxt
+{
+	font-family: Comic Sans MS, Arial, Helvetica;
+
+	color: rgb(255,255,204);
+	text-align: center;
+	vertical-align: middle;
+}
+
+.mstheme-vert-navtxt
+{
+	font-family: Comic Sans MS, Arial, Helvetica;
+
+	color: rgb(255,255,204);
+	text-align: center;
+	vertical-align: middle;
+}
+
+.mstheme-navtxthome
+{
+	font-family: Comic Sans MS, Arial, Helvetica;
+
+	color: rgb(255,255,204);
+	text-align: center;
+	vertical-align: middle;
+}
+
+.mstheme-navtxtnext
+{
+	font-family: Comic Sans MS, Arial, Helvetica;
+
+	color: rgb(255,255,204);
+	text-align: center;
+	vertical-align: middle;
+}
+
+.mstheme-navtxtprev
+{
+	font-family: Comic Sans MS, Arial, Helvetica;
+
+	color: rgb(255,255,204);
+	text-align: center;
+	vertical-align: middle;
+}
+
+.mstheme-navtxtup
+{
+	font-family: Comic Sans MS, Arial, Helvetica;
+
+	color: rgb(255,255,204);
+	text-align: center;
+	vertical-align: middle;
+}
+</style>.
