@@ -10,9 +10,8 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 <div id="nowsite">時光序曲 &raquo; 企業交流</div>
         <div id="showalbum">
-            <div id="showalbum-sub"><div class="x"><img src="photo/IMG_6980m_士林電機重電廠_20121123.JPG" /></div><div id="showalbum-sub-text">參訪士林電機重電廠，2012/11/23</div></div>
             <div id="showalbum-sub"><div class="x"><img src="photo/IMG_7105m_20130109大安工研淡水新廠.JPG" /></div><div id="showalbum-sub-text">參訪大安工研淡水新廠，2013/01/09</div></div>
-        	<div id="showalbum-sub"><div class="x"><img src="photo/business/20121123_IMG_6980.jpg" /></div><div id="showalbum-sub-text">參訪大安工研淡水新廠，2012/01/04</div></div>
+            <div id="showalbum-sub"><div class="x"><img src="photo/IMG_6980m_士林電機重電廠_20121123.JPG" /></div><div id="showalbum-sub-text">參訪士林電機重電廠，2012/11/23</div></div>
             <div id="showalbum-sub"><div class="x"><img src="photo/business/20120104.jpg" /></div><div id="showalbum-sub-text">參訪大安工研淡水新廠，2012/01/04</div></div>
             <div id="showalbum-sub"><div class="x"><img src="photo/business/20111108.jpg" /></div><div id="showalbum-sub-text">參訪捷盟物流(中壢)，2011/11/08</div></div>
             <div id="showalbum-sub"><div class="x"><img src="photo/business/20110111.jpg" /></div><div id="showalbum-sub-text">參訪大安工研淡水新廠，2011/01/11</div></div>

@@ -10,8 +10,9 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 <div id="nowsite">時光序曲 &raquo; 學術交流</div>
         <div id="showalbum">
+            <div id="showalbum-sub"><div class="y"><img src="photo/teach/IMG_7308.jpg" /></div><div id="showalbum-sub-text">清大工工系演講，2013/10</div></div>
             <!-- 2013/7/22新增 -->
-            <div id="showalbum-sub"><div class="y"><img src="photo/DSC08511m2_20130620_Prof Steuer.JPG" /></div><div id="showalbum-sub-text">參加 MCDM 2013 與 Professor R.E. Steuer (USA) 合影，Malaga, Spain, 2013/06</div></div>
+            <div id="showalbum-sub"><div class="y"><img src="photo/DSC08511m2_20130620_Prof Steuer.JPG" /></div><div id="showalbum-sub-text">參加 MCDM 2013 與 Professor R.E. Steuer (USA) 合影，Malaga, Spain，2013/06</div></div>
             <!-- 2013/6/22新增 -->
             <!-- 2013/6/01新增 -->
             <div id="showalbum-sub"><div class="x"><img src="photo/teach/IMG_7238r1_Prof D Olson_Tamkang_2013May.JPG" /></div><div id="showalbum-sub-text">Professor D. Olson (USA) 來訪淡江大學，2013/05</div></div>

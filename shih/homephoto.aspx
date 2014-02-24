@@ -11,9 +11,9 @@
 <div id="nowsite">時光序曲 &raquo; 生活剪影</div>
         <div id="showalbum">
             <!-- 2013/07/22 -->
-            <div id="showalbum-sub"><div class="x"><img src="photo/DSC08119m2_Granada_Spain_20130618.JPG" /></div><div id="showalbum-sub-text">Granada, Spain, 2013/06/18</div></div>
+            <div id="showalbum-sub"><div class="x"><img src="photo/DSC09399m2_Lisbon_Portugal_20130629.JPG" /></div><div id="showalbum-sub-text">Lisbon, Portugal，2013/06/29</div></div>
             
-            <div id="showalbum-sub"><div class="x"><img src="photo/DSC09399m2_Lisbon_Portugal_20130629.JPG" /></div><div id="showalbum-sub-text">Lisbon, Portugal, 2013/06/29</div></div>
+            <div id="showalbum-sub"><div class="x"><img src="photo/DSC08119m2_Granada_Spain_20130618.JPG" /></div><div id="showalbum-sub-text">Granada, Spain，2013/06/18</div></div>
             <!-- 2013/07/22 -->
 			<!-- 2012/10/09新增 -->
 			<div id="showalbum-sub"><div class="x"><img src="photo/home/DSC04193_20120902.JPG" /></div><div id="showalbum-sub-text">Rome, Italy, 2012/09/02</div></div>
