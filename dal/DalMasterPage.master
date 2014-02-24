@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="DalMasterPage.master.cs" Inherits="DalMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>::: DAL - 決策分析實驗室 :::</title>
+    <link type="text/css" rel="stylesheet" href="StyleSheet.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form class="jquery-shadow-raised" id="form1" runat="server">
+        <div>
+            <div id="header"></div>
+            <div id="date">
+                <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
+            </div>
+            <div id="menuPanel">
+                <ul>
+                    <li><a href="mission-statement.aspx">成立宗旨</a></li>
+                    <li><a href="decision-books.aspx">決策系藏經閣</a></li>
+                    <li><a href="research.aspx">研究成員成果</a></li>
+                    <li><a href="">研究設備</a></li>
+                    <li><a href="">教學支援系統</a></li>
+                    <li><a href="">決策支援系統</a></li>
+                    <li><a href="">課程支援</a></li>
+                    <li><a href="">各項連結</a></li>
+                    <li><a href="">網站導覽</a></li>
+                    <li><a href="">留言板</a></li>
+                </ul>
+                <div id="quick"><span>Quick Link</span></div>
+                <div id="links">
+                    <h6>元智工工</h6>
+                    <a href="http://decision.iem.yzu.edu.tw/">決策與最佳化實驗室</a>
+                    <h6>清華工工</h6>
+                    <a href="http://dalab.ie.nthu.edu.tw/">決策分析研究室</a>
+                    <a href="http://upwen.ie.nthu.edu.tw/internet.htm">作業研究與管理科學研究室</a>
+                    <h6>華梵工管</h6>
+                    <a href="http://cat.hfu.edu.tw/~m9823013/jyteng/newweb/myweb/iidex.htm">運籌管理與決策分析研究室</a>
+                    <h6>義守工管</h6>
+                    <a href="http://140.127.189.81/dalab/modules/news/">決策與分析研究室</a>
+                </div>
+            </div>
+            <h1>Every decision you make is a mistake. -- Edward Dahlberg</h1>
+            <div id="ContentPlace">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+                <div id="footer">
+                    工業工程推廣影片：<a href="http://www.ciie.org.tw/Video/IEM_05.wmv">五分鐘版</a>|<a href="http://www.ciie.org.tw/Video/IEM_10.wmv">十分鐘版</a>
+                </div>
+            </div>
+        </div>
+    </form>
+    <script type="text/javascript">
+        document.getElementById('header').onclick = function () {
+            location.href = "Default.aspx";
+        }
+    </script>
+    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:2007DALConnectionString %>" ProviderName="<%$ ConnectionStrings:2007DALConnectionString.ProviderName %>"></asp:SqlDataSource>
+</body>
+</html>

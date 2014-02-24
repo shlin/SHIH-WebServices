@@ -1,0 +1,1 @@
+<font color=red>友言板 V 2.0</font> Design By junior <a href=http://www.gya.com.tw/marge/index.asp>友緣故事</a> 1999/08/29

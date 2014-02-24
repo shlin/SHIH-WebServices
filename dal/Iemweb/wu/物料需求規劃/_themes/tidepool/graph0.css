@@ -1,0 +1,87 @@
+<style>
+.mstheme
+{
+	separator-image: url(tidrulec.gif);
+	list-image-1: url(tidbul1c.gif);
+	list-image-2: url(tidbul2c.gif);
+	list-image-3: url(tidbul3c.gif);
+
+	nav-banner-image: url(tidbanc.gif);
+
+	navbutton-horiz-normal: url(tidhorzbtnnc.gif);
+	navbutton-horiz-pushed: url(tidhorzbtnsc.gif);
+
+	navbutton-vert-normal: url(tidvertbtnnc.gif);
+	navbutton-vert-pushed: url(tidvertbtnsc.gif);
+
+	navbutton-home-normal: url(tidhomebtnc.gif);
+
+	navbutton-next-normal: url(tidnextbtnc.gif);
+
+	navbutton-prev-normal: url(tidprevbtnc.gif);
+
+	navbutton-up-normal: url(tidupbtnc.gif);
+
+}
+
+.mstheme-bannertxt
+{
+	font-family: Comic Sans MS, Arial, Helvetica;
+	color: rgb(153,0,0);
+	text-align: center;
+	vertical-align: middle;
+}
+.mstheme-horiz-navtxt
+{
+	font-family: Comic Sans MS, Arial, Helvetica;
+
+	color: rgb(255,255,204);
+	text-align: center;
+	vertical-align: middle;
+}
+
+.mstheme-vert-navtxt
+{
+	font-family: Comic Sans MS, Arial, Helvetica;
+
+	color: rgb(255,255,204);
+	text-align: center;
+	vertical-align: middle;
+}
+
+.mstheme-navtxthome
+{
+	font-family: Comic Sans MS, Arial, Helvetica;
+
+	color: rgb(255,255,204);
+	text-align: center;
+	vertical-align: middle;
+}
+
+.mstheme-navtxtnext
+{
+	font-family: Comic Sans MS, Arial, Helvetica;
+
+	color: rgb(255,255,204);
+	text-align: center;
+	vertical-align: middle;
+}
+
+.mstheme-navtxtprev
+{
+	font-family: Comic Sans MS, Arial, Helvetica;
+
+	color: rgb(255,255,204);
+	text-align: center;
+	vertical-align: middle;
+}
+
+.mstheme-navtxtup
+{
+	font-family: Comic Sans MS, Arial, Helvetica;
+
+	color: rgb(255,255,204);
+	text-align: center;
+	vertical-align: middle;
+}
+</style>.

@@ -1,0 +1,130 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<title>新網頁18</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<base target="main">
+</head>
+<script language="JavaScript">
+/* 小時鐘 */
+<!--
+var timerID = null
+var timerRunning = false
+function stopclock(){
+if(timerRunning)
+clearTimeout(timerID)
+timerRunning = false
+}
+
+function startclock(){
+stopclock()
+showtime()
+}
+
+function showtime(){
+var now = new Date()
+var hours = now.getHours()
+var minutes = now.getMinutes()
+var seconds = now.getSeconds()
+var timeValue = "" + ((hours > 12) ? hours - 12 : hours)
+timeValue += ((minutes < 10) ? ":0" : ":") + minutes
+timeValue += ((seconds < 10) ? ":0" : ":") + seconds
+if (hours>=6 && hours<=12)
+{timeValue += ("上午")}
+if(hours>12 && hours<=18)
+{timeValue += ("下午")}
+if(hours>18 && hours <=24)
+{timeValue +=("晚上")}
+if(hours<6)
+{timeValue += ("凌晨")}
+document.clock.face.value = timeValue
+timerID = setTimeout("showtime()",1000)
+timerRunning = true
+}
+
+//-->
+</script>
+
+
+<body onload="startclock();" background="綠.jpg">
+<center>
+<p><img src="Welc0009.gif" width="109" height="22" alt="Welc0009.gif (3939 bytes)"></p>
+
+<p><img src="星星.gif" width="44" height="26"
+alt="星星.gif (1354 bytes)"></p>
+
+<form name="clock" onsubmit="0">
+  <p><input type="text" size="9" name="face"></p>
+</form>
+
+<p>
+<applet classbase="." code="BUTTON.CLASS" align="baseline" width="100" height="225">
+  <param name="border width" value="3">
+  <param name="buttons" value="7">
+  <param name="color" value="0080FF">
+  <param name="degree" value="120">
+  <param name="direction" value="0">
+  <param name="f_color" value="FFFFFF">
+  <param name="f_color2" value="00FF00">
+  <param name="f_offset" value="0">
+  <param name="f_size" value="14">
+  <param name="f_style" value="1">
+  <param name="font" value="新細明體">
+  
+  <param name="label 0" value="網路課程">
+  <param name="label 1" value="相關網站">
+  <param name="label 2" value="下載區">
+  <param name="label 3" value="公佈欄">
+  <param name="label 4" value="留言板">
+  <param name="label 5" value="個人網頁">
+  <param name="label 6" value="回首頁">
+  
+  <param name="link 0" value="web_course.htm">
+  <param name="link 1" value="link.htm">
+  <param name="link 2" value="download.htm">
+  <param name="link 3" value="bullentin.htm">
+  <param name="link 4" value="guestbook.htm">
+  <param name="link 5" value="personal.htm">
+  <param name="link 6" value="index.htm">
+  <param name="position" value="0">
+  <param name="style" value="1">
+</applet>
+</p>
+<script language="JavaScript">
+<!--
+function mid() {
+if(document.chatmid.selectmid.selectedIndex > 0)
+{location.href="http://www.im.isu.edu.tw/smguo/iemweb/midi/"+document.chatmid.selectmid.value+".mid"}
+
+}
+//-->
+</script>
+
+
+<form name="chatmid">
+  <p><select name="selectmid" onChange="mid()" size="1">
+    <option>聽個音樂吧</option>
+    <option value="c1">x檔案 </option>
+    <option value="c2">小美人魚 </option>
+    <option value="c3">天空之城 </option>
+    <option value="c4">龍貓 </option>
+    <option value="c5">灌籃高手 </option>
+    <option value="c6">鋼彈 </option>
+    <option value="maruko">櫻桃小丸子 </option>
+    <option value="c8">侏儸紀公園 </option>
+    <option value="c9">飛狼 </option>
+    <option value="c10">我願意</option>
+    <option value="c11">馬蓋仙</option>
+    <option value="c12">左右為難 </option>
+    <option value="c13">白蓮 </option>
+    <option value="c14">莫召奴 </option>
+    <option value="c15">創世狂人 </option>
+    <option value="c16">愁月仙子</option>
+    <option value="c17">葉小釵S </option>
+    <option value="c18">龍王魛 </option>
+  </select> </p>
+</form>
+</center>
+</body>
+</html>

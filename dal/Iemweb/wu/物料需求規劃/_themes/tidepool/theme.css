@@ -1,0 +1,43 @@
+<style>
+.mstheme
+{
+	top-bar-button: url(tidglobalc.gif);
+	version: 1.0;
+	navbutton-background-color:  rgb(153,153,102);
+}
+.mstheme-topbar-font
+{
+	font-family: Comic Sans MS, Arial, Helvetica;
+	color: rgb(255,255,204);
+}
+body
+{
+	font-family: Comic Sans MS, Arial, Helvetica;
+	background-image: url(tidbkgde.jpg); 
+}
+
+h1
+{
+	font-family: Comic Sans MS, Arial, Helvetica;
+}
+h2
+{
+	font-family: Comic Sans MS, Arial, Helvetica;
+}
+h3
+{
+	font-family: Comic Sans MS, Arial, Helvetica;
+}
+h4
+{
+	font-family: Comic Sans MS, Arial, Helvetica;
+}
+h5
+{
+	font-family: Comic Sans MS, Arial, Helvetica;
+}
+h6
+{
+	font-family: Comic Sans MS, Arial, Helvetica;
+}
+</style>.

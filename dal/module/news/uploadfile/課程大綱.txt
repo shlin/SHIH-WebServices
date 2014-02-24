@@ -1,0 +1,51 @@
+課程大綱線性代數二   (94年度下學期)
+            　
+                  課 號學分授課教師上 課 時 間上課地點備 註
+                  一二三四五
+                  201 14420-013林紹雄--34-34N304限學號單號 
+
+
+
+
+              課程說明
+            　 
+              We will cover almost every topic in the text by Strang (except 
+              some sections). The detailed contents will be announced in the 
+              first hour of the course. The use of Matlab or Mathematica in 
+              matrix computation will be introduced at suitable time of the 
+              course. There will be a weekly or biweekly homework assignments, 
+              and the TA section will be held biweekly. 
+
+
+               建議先修 
+
+              High School Mathematics 
+
+               教科書 
+
+              Textbook: G. Strang, Linear Algebra and its Applications, 4th 
+              edition
+
+              評量
+
+              Midterm: 30%
+              Final: 40%
+              TA section and HW: 30% 
+
+               其他注意事項
+
+              The objective of the course is to familiarize the students with 
+              the basic properties of matrices and linear transformation, and 
+              their applications to various subjects such as linear programming, 
+              game theory, differential equations etc… 
+
+      　 
+      　
+        [ 回上頁 ] 
+
+        課程總覽
+
+        代數類課程
+
+        台大選課系統
+

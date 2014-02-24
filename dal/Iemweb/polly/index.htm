@@ -1,0 +1,116 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<title>ching's home</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta name="Microsoft Border" content="none, default">
+</head>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function scroll(seed)
+{
+var m1 = "歡迎光臨^_^...!" 
+var m2 = "希望你們會喜歡我們的網頁！ "
+var msg=m1+m2; 
+var out = " ";
+var c = 1;
+if (seed >100) {
+seed--;
+var cmd="scroll(" + seed + ")";
+timerTwo=window.setTimeout(cmd,100)
+}
+else if (seed <= 100 && seed> 0) {
+for (c=0 ; c<seed ; c++) {
+out+=" ";
+}
+out+=msg;
+seed--;
+var cmd="scroll(" + seed + ")";
+window.status=out;
+timerTwo=window.setTimeout(cmd,100);
+} else if (seed<=0) {
+if (-seed < msg.length) {
+out+=msg.substring(-seed,msg.length);
+seed--;
+var cmd="scroll(" + seed + ")";
+window.status=out;
+timerTwo=window.setTimeout(cmd,100);
+}
+else {
+window.status=" ";
+timerTwo=window.setTimeout("scroll(100)",7);
+}
+}
+}
+timerONE=window.setTimeout('scroll(100)',50);
+//-->
+</SCRIPT>
+<script language="JavaScript">
+<!-- hide script from old browser
+var DifferenceHour = -1
+var DifferenceMinute = -1
+var DifferenceSecond = -1
+var Tday = new Date("January 1, 2001 00:00:00")
+var daysms = 24 * 60 * 60 * 1000
+var hoursms = 60 * 60 * 1000
+var Secondms = 60 * 1000
+var microsecond = 1000
+function clock()
+{
+var time = new Date()
+var hour = time.getHours()
+var minute = time.getMinutes()
+var second = time.getSeconds()
+var timevalue = ""+((hour > 12) ? hour-12:hour)
+timevalue +=((minute < 10) ? ":0":":")+minute
+timevalue +=((second < 10) ? ":0":":")+second
+timevalue +=((hour < 12 ) ? "PM":"AM")
+// document.formnow.now.value = timevalue
+var convertHour = DifferenceHour
+var convertMinute = DifferenceMinute
+var convertSecond = DifferenceSecond
+var Diffms =Tday.getTime() - time.getTime()
+DifferenceHour = Math.floor(Diffms / daysms)
+Diffms -= DifferenceHour * daysms
+DifferenceMinute = Math.floor(Diffms / hoursms)
+Diffms -= DifferenceMinute * hoursms
+DifferenceSecond = Math.floor(Diffms / Secondms)
+Diffms -= DifferenceSecond * Secondms
+var dSecs = Math.floor(Diffms / microsecond)
+if(convertHour != DifferenceHour) document.formnow.dd.value=DifferenceHour
+if(convertMinute != DifferenceMinute) document.formnow.hh.value=DifferenceMinute
+if(convertSecond != DifferenceSecond) document.formnow.mm.value=DifferenceSecond
+document.formnow.ss.value=dSecs
+// document.formnow.Tnow.value= DifferenceHour DifferenceMinute + DifferenceSecond + dSecs
+setTimeout("clock()",1000)
+}
+// end hiding --
+</script>
+<body onload="clock();return true" background="背景1.bmp" bgproperties="fixed"> 
+ 
+<table border="0" width="100%">
+  <tr>
+    <td width="33%" valign="bottom">
+      <p align="right"><img border="0" src="girl_0107.gif" width="60" height="45"></td>
+    <td width="33%" valign="bottom">
+      <p align="center">&nbsp;&nbsp;&nbsp;&nbsp; <img border="0" src="46.gif" width="145" height="60"></p>
+      <p align="center"><map name="FPMap0">
+      <area href="new_page_1.htm" shape="rect" coords="32, 152, 169, 188">
+      <area href="new_page_2.htm" shape="rect" coords="217, 148, 346, 185"></map><img border="0" src="index.gif" usemap="#FPMap0" width="388" height="253"></td>
+    <td width="34%" valign="bottom">
+      <p align="left"><img border="0" src="girl_0106.gif" width="60" height="45"></td>
+  </tr>
+</table>
+ 
+<form name="formnow"> 
+<p align="center"><font color="#660066" size="3"><font face="標楷體">距離21世紀</font><br>  
+<font face="標楷體">  
+還剩下 <input type="text" size="2" name="dd"> 天     
+<input type="text" size="2" name="hh"> 小時 <input type="text" name="mm" size="2"> 分 <input type="text" size="2" name="ss">秒</font></font></p>    
+</form>    
+    
+</body>   
+   
+</html>   

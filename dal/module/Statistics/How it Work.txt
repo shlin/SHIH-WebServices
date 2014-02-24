@@ -1,0 +1,61 @@
+'########################################################################################
+'# Program Editor By 
+'# (c) hANjAN STUDIO jAnArA. last edit on 2004,08. Version 1.4c 
+'# Home : www.hanjan.biz (網頁設計論壇)
+'########################################################################################
+
+	********************
+	*** 個人用(免費版) ***
+	********************
+
+	感謝小額贊助 ! 技術支援 !
+	
+	三信商業銀行
+	帳號 05-3-0591737
+	台中西屯分行 (147-0059)
+	聯絡 email : service@hanjan.biz
+
+	請勿在未作者同意下作商業用途
+	版本及更新,相關資訊請查看  ----> http://www.hanjan.biz/?redirectID=731
+	
+	開始始用 :
+	使用前先執行一次 delete_statistics.asp 讓資料庫有當時的日期記錄.
+	 * (此時 OS / Browser 作業系統 及 瀏覽器等分類數據 / 統計 值各為 1 是文計算百分比使用)
+
+	Demo.asp 計數頁範例, 可加入您的網頁中.
+
+	修改 Statistics.asp 起啟日期(顯示用)
+	strSinceDate 	= "2003, 09." 	' # You Counter Since Date
+	
+	檔案說明 :
+	Statistics.asp -> 查看計數內容
+	inc_function.asp -> 計數程式使用的函數(function).
+	inc_counter.asp -> 計數程式. (每執行一次,計算一次)
+	delete_statistics.asp -> 清除計數並自動加入空白資料
+	
+	
+	修改記載
+	* 2003-06-25 更新如果間隔一天以上沒有計數,則自動補上間隔日數.
+	   (因為分析以最近 30 天計算)
+	* 2004-08-01 結構更新,分析新訪客及重返訪客.
+	   (如要配合論壇會員重返請至 www.hanjan.biz 論壇討論 (ASP).
+
+
+
+'########################################################################################
+
+Windows IIS 下使用附記
+
+錯誤類型：
+Microsoft OLE DB Provider for ODBC Drivers (0x80004005)
+[Microsoft][ODBC Microsoft Access Driver] 運作必須使用更新查詢。
+
+= 資料庫權限沒有設好.
+
+請查看  ----> http://www.hanjan.biz/?redirectID=505
+
+
+
+
+
+
