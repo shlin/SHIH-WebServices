@@ -9,12 +9,12 @@
         時光序曲 &raquo; 時光序曲</div>
     <center>
         <div id="showalbum-shih">
-            <img src="images/Shih.jpg" /></div>
+            <img src="images/Shih.jpg" alt="Shih" /></div>
     </center>
     <h3>
         個人興趣</h3>
     旅遊、慢跑、攝影、音樂<br />
-    <br>
+    <br />
     <h3>
         主要學歷</h3>
     <div align="center">
@@ -38,7 +38,8 @@
                     </td>
                 </tr>
             </thead>
-            <tbody id="eduTable" runat="server"></tbody>
+            <tbody id="eduTable" runat="server">
+            </tbody>
         </table>
     </div>
     <br />
@@ -79,8 +80,10 @@
     <br />
     <h3>
         服務</h3>
-    <ol type="1" id="serviceList" runat="server"></ol>
+    <ol type="1" id="serviceList" runat="server">
+    </ol>
     <h3>
         榮譽</h3>
-    <ol type="1" id="honorList" runat="server"></ol>
+    <ol type="1" id="honorList" runat="server">
+    </ol>
 </asp:Content>
