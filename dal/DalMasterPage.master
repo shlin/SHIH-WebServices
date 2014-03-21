@@ -22,12 +22,12 @@
                     <li><a href="mission-statement.aspx">成立宗旨</a></li>
                     <li><a href="decision-books.aspx">決策系藏經閣</a></li>
                     <li><a href="research.aspx">研究成員成果</a></li>
-                    <li><a href="#">研究設備</a></li>
-                    <li><a href="#">教學支援系統</a></li>
-                    <li><a href="#">決策支援系統</a></li>
-                    <li><a href="#">課程支援</a></li>
-                    <li><a href="#">各項連結</a></li>
-                    <li><a href="#">網站導覽</a></li>
+                    <li><a href="ResearchPlatforms.aspx">研究設備</a></li>
+                    <li><a href="TeachingSupportSystem.aspx">教學支援系統</a></li>
+                    <li><a href="DecisionSupportSystem.aspx">決策支援系統</a></li>
+                    <li><a href="CourseSupports.aspx">課程支援</a></li>
+                    <li><a href="Links.aspx">各項連結</a></li>
+                    <li><a href="SiteMap.aspx">網站導覽</a></li>
                     <%--<li><a href="">留言板</a></li>--%>
                 </ul>
                 <div id="quick"><span>Quick Link</span></div>
