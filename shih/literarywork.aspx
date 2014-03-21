@@ -17,7 +17,7 @@
 			<li>
 				Hsu-Shih Shih*, Szu-Hua Chen (Jun. 2013), 
 				<strong>
-					<a href="http://shih.ms.tku.edu.tw/paperdata/Conceptual_Design_of_a_Mobile_Healthcare_Device_QFD_ANP_TRIZ_ijor_2013.pdf">
+					<a href="ftp://shih@shih.ms.tku.edu.tw/Conceptual_Design_of_a_Mobile_Healthcare_Device_QFD_ANP_TRIZ_ijor_2013.pdf">
 						A conceptual design of a mobile healthcare device – An application of three-stage QFD with ANP and TRIZ. 
 					</a>
 				</strong>
@@ -26,7 +26,7 @@
             <li>
 				Chiau-Ching Chen, Hsu-Shih Shih*, Huan-Jyh Shyur, Kun-Shan Wu (Oct. 2012), 
 				<strong>
-					<a href="http://shih.ms.tku.edu.tw/paperdata/Businessstrategy_ANP_camwa7085_2012.pdf">
+					<a href="ftp://shih@shih.ms.tku.edu.tw/Businessstrategy_ANP_camwa7085_2012.pdf">
 						A business strategy selection of green supply chain management via an analytic network process.
 					</a>
 				</strong>
@@ -45,7 +45,7 @@
 			<li>
 				Hsu-Shih Shih*, E. Stanley Lee, Shun-Hsiang Chuang, Chiau-Ching Chen (Sept. 2012), 
 				<strong>
-					<a href="http://shih.ms.tku.edu.tw/paperdata/Forecastingdecision_camwa6766_2012.pdf">
+					<a href="ftp://shih@shih.ms.tku.edu.tw/Forecastingdecision_camwa6766_2012.pdf">
 						A forecasting decision on the sales volume of printers in Taiwan: An exploitation of the analytic network process.
 					</a>
 				</strong>
@@ -55,7 +55,7 @@
 			<li>
 				Hsu-Shih Shih, Chi-bin Cheng*, Ue-Pyng Wen, Yueh-Cheng Huang, Meng-Yin Peng (Jan. 2012), 
 				<strong>
-					<a href="http://shih.ms.tku.edu.tw/paperdata/Determining a subsidy rate for Taiwans recycling glass industry_JORS_201201.pdf">
+					<a href="ftp://shih@shih.ms.tku.edu.tw/Determining a subsidy rate for Taiwans recycling glass industry_JORS_201201.pdf">
 						Determining a subsidy rate for Taiwan’s recycling glass industry: An application of bi-level programming.
 					</a>
 				</strong>
@@ -65,7 +65,7 @@
             <li>
 				Fu-Chia Hor, Liang-Chih Huang*, Hsu-Shih Shih, Yen-Hua Lee, E. Stanley Lee (Aug. 2010), 
 				<strong>
-					<a href="http://shih.ms.tku.edu.tw/paperdata/EstablishingtalentmanagementforcompanyssuccessionplanningthroughANP_hor_huang_shih_cma_2010.pdf">
+					<a href="ftp://shih@shih.ms.tku.edu.tw/EstablishingtalentmanagementforcompanyssuccessionplanningthroughANP_hor_huang_shih_cma_2010.pdf">
 						Establishing talent management for company's succession planning through analytic network process: Application to an MNC semiconductor company in Taiwan.
 					</a>
 				</strong>
@@ -75,7 +75,7 @@
             <li>
 				Thomas L. Saaty*, Hsu-Shih Shih (Dec. 2009), 
 				<strong>
-					<a href="http://shih.ms.tku.edu.tw/paperdata/StructuresinDM_onthesubjectivegeometryofhierarchiesandnetworks_saaty_shih_2009.pdf">
+					<a href="ftp://shih@shih.ms.tku.edu.tw/StructuresinDM_onthesubjectivegeometryofhierarchiesandnetworks_saaty_shih_2009.pdf">
 						Structures in Decision Making: On the Subjective Geometry of Hierarchies and Networks.
 					</a>
 				</strong> 
@@ -85,7 +85,7 @@
             <li>
 				Ue-Pyng Wen, Kuen-Ming Lan, Hsu-Shih Shih* (Nov. 2009),
 				<strong>
-					<a href="http://shih.ms.tku.edu.tw/aperdata/AreviewofHopfieldNNforsolvingMPP.pdf">
+					<a href="ftp://shih@shih.ms.tku.edu.tw/aperdata/AreviewofHopfieldNNforsolvingMPP.pdf">
 						A Review of Hopfield Neural Networks for Solving Mathematical Programming Problems.
 					</a>
 				</strong>
@@ -95,7 +95,7 @@
             <li>
 				Hsu-Shih Shih* (Apr. 2008), 
 				<strong>
-					<a href="http://shih.ms.tku.edu.tw/paperdata/IAforMCDM_TOPSIS_shih_ejor_2008.pdf">
+					<a href="ftp://shih@shih.ms.tku.edu.tw/IAforMCDM_TOPSIS_shih_ejor_2008.pdf">
 						An Incremental Analysis for MCDM with an Application to Group TOPSIS.
 					</a>
 				</strong>
@@ -105,7 +105,7 @@
             <li>
 				Kuen-Ming Lan, Ue-Pyng Wen, Hsu-Shih Shih, E. Stanley Lee,
 				<strong>
-					<a href="http://shih.ms.tku.edu.tw/paperdata/AhybridNNapproachtoBLPP_lan_aml_2007.pdf">
+					<a href="ftp://shih@shih.ms.tku.edu.tw/AhybridNNapproachtoBLPP_lan_aml_2007.pdf">
 						A hybrid neural network approach to bilevel programming problems
 					</a>
 				</strong>
@@ -115,45 +115,45 @@
             <li>
 				Hsu-Shih Shih, Huan-Jyh Shyur, E. Stanley Lee,
 				<strong>
-					<a href="http://shih.ms.tku.edu.tw/paperdata/AnextensionofTOPSISforGDM_shih_mcm_2007.pdf">
+					<a href="ftp://shih@shih.ms.tku.edu.tw/AnextensionofTOPSISforGDM_shih_mcm_2007.pdf">
 						An extension of TOPSIS for group decision making
 					</a>
 				</strong>
 				,Mathematical and Computer Modelling 45 (2007) 801–813,[90-2218-E-214-010, NSC 91-2213-E-032-035, NSC 92-2213-E-032-032, and NSC 92-2213-E-032-020]<strong>(SCI, Scopus)</strong>
 			</li>
 			
-			<li>Hsu-Shih ShihU, THuan-JyhT Shyur, and E. Stanley Lee (Apr. 2007), An Extension of TOPSIS for Group Decision Making. Mathematical and Computer Modelling, 45(7-8), 801-813.</li>
-			<li>Hsu-Shih ShihU, Liang-Chih Huang, THuan-JyhT Shyur (Nov.-Dec. 2005), Recruitment and Selection Processes through an Effective GDSS. Computers and Mathematics with Applications, 50(10-12), 1543-1558.</li>
-			<li>Hsu-Shih ShihU (May 2005), Fuzzy Approach to Multilevel Knapsack Problems. Computers and Mathematics with Applications, 49(7-8), 1157-1176.</li>
+			<li>Hsu-Shih Shih, Huan-Jyh Shyur, and E. Stanley Lee* (Apr. 2007), An Extension of TOPSIS for Group Decision Making. Mathematical and Computer Modelling, 45(7-8), 801-813.</li>
+			<li>Hsu-Shih Shih*, Liang-Chih Huang, Huan-Jyh Shyur (Nov.-Dec. 2005), Recruitment and Selection Processes through an Effective GDSS. Computers and Mathematics with Applications, 50(10-12), 1543-1558.</li>
+			<li>Hsu-Shih Shih* (May 2005), Fuzzy Approach to Multilevel Knapsack Problems. Computers and Mathematics with Applications, 49(7-8), 1157-1176.</li>
 
             <li>
 				Huan-Jyh Shyur, Hsu-Shih Shih*, 
 				<strong>
-					<a href="http://shih.ms.tku.edu.tw/paperdata/AhybridMCDMmodelforstrategicvendorselection_shyur_mcm_2006.pdf">
-						A Hybrid Model for Strategic Vendor Selection.
+					<a href="ftp://shih@shih.ms.tku.edu.tw/AhybridMCDMmodelforstrategicvendorselection_shyur_mcm_2006.pdf">
+                    A Hybrid Model for Strategic Vendor Selection.
 					</a>
 				</strong>
-				Mathematical and Computer Modelling (Accepted for publication in Apr. 2005, #MCM 5051) [NSC 90-2218-E-214-010, NSC 91-2213-E-032-035, and NSC 92-2213-E-032-032]. <strong>(SCI, Scopus)</strong>
+				Mathematical and Computer Modelling, 44(7-8), 749-761 [NSC 90-2218-E-214-010, NSC 91-2213-E-032-035, and NSC 92-2213-E-032-032]. <strong>(SCI, Scopus)</strong>
 			</li>
 			
             <li>
-				Hsu-Shih Shih*, Liang-Chih Huang, and Huan-Jyh Shyur, An Effective Decision Support for Recruitment and Selection Processes (Submitted to Decision Support Systems in Jan. 2005) [NSC 90-2218-E-214-010, NSC 91-2213-E-032-035, and NSC 92-2213-E-032-032].<strong>(SCI, EI, Scopus)</strong>
+				Hsu-Shih Shih*, Liang-Chih Huang, and Huan-Jyh Shyur, An Effective Decision Support for Recruitment and Selection Processes, 50(10-12), 1543-1558 [NSC 90-2218-E-214-010, NSC 91-2213-E-032-035, and NSC 92-2213-E-032-032].<strong>(SCI, EI, Scopus)</strong>
 			</li>
 			
             <li>
 				Hsu-Shih Shih*, 
 				<strong>
-					<a href="http://shih.ms.tku.edu.tw/paperdata/Fuzzy Approach for Multi-level Programming_1996.pdf">
+					<a href="ftp://shih@shih.ms.tku.edu.tw/Fuzzy Approach for Multi-level Programming_1996.pdf">
 						Fuzzy Approach to Multi-level Knapsack Problems.
 					</a>
 				</strong>
-				Computers and Mathematics with Applications (Accepted for publication in Jul. 2004, #CAM 6047). <strong>(SCI, EI, Scopus)</strong>
+				Computers and Mathematics with Applications, 49(7-8), 1157-1176. <strong>(SCI, EI, Scopus)</strong>
 			</li>
 			
             <li>
 				Hsu-Shih Shih*, Ue-Pyng Wen, E. Stanley Lee, Kuen-Ming Lan, and Han-Chyi Hsiao (Jul. 2004), 
 				<strong>
-					<a href="http://shih.ms.tku.edu.tw/paperdata/ANNapproachtoMOPandMLPproblems_shih_cam_2004.pdf">
+					<a href="ftp://shih@shih.ms.tku.edu.tw/ANNapproachtoMOPandMLPproblems_shih_cam_2004.pdf">
 						An Artificial Neural Network Approach to Multi-objective Programming and Multi-level Programming Problems
 					</a>
 				</strong>
@@ -163,7 +163,7 @@
             <li>
 				Hsu-Shih Shih*, Chih-Hung Wang, and E. Stanley Lee (Jun. 2004), 
 				<strong>
-					<a href="http://shih.ms.tku.edu.tw/paperdata/AmultiattributeGDSSforaidingproblemsolving_shih_mcm_2004.pdf">
+					<a href="ftp://shih@shih.ms.tku.edu.tw/AmultiattributeGDSSforaidingproblemsolving_shih_mcm_2004.pdf">
 						A Multiattribute GDSS for Aiding Problem-solving.
 					</a>
 				</strong> 
@@ -173,7 +173,7 @@
             <li>
 				Hsu-Shih Shih* (Sept. 2002), 
 				<strong>
-					<a href="http://shih.ms.tku.edu.tw/paperdata/Interactiveapproachfor MLP_2002.pdf">
+					<a href="ftp://shih@shih.ms.tku.edu.tw/Interactiveapproachfor MLP_2002.pdf">
 						An Interactive Approach for Integrated Multi-level Systems in a Fuzzy Environment.
 					</a>
 				</strong>
@@ -183,7 +183,7 @@
             <li>
 				Hsu-Shih Shih and E. Stanley Lee* (Aug. 2000), 
 				<strong>
-					<a href="http://shih.ms.tku.edu.tw/paperdata/Compensatory fuzzy multiple level DM_2000.pdf">
+					<a href="ftp://shih@shih.ms.tku.edu.tw/Compensatory fuzzy multiple level DM_2000.pdf">
 						Compensatory Fuzzy Multiple Level Decision Making.
 					</a>
 				</strong>
@@ -193,7 +193,7 @@
             <li>
 				Hsu-Shih Shih and E. Stanley Lee* (Oct. 1999), 
 				<strong>
-					<a href="http://shih.ms.tku.edu.tw/paperdata/Fuzzy multi-level minimum cost flow_1999.pdf">
+					<a href="ftp://shih@shih.ms.tku.edu.tw/Fuzzy multi-level minimum cost flow_1999.pdf">
 						Fuzzy Multi-level Minimum-Cost Flow Problems.
 					</a>
 				</strong>
@@ -203,7 +203,7 @@
             <li>
 				Hsu-Shih Shih, Young-Jou Lai* and E. Stanley Lee (Jan. 1996), 
 				<strong>
-					<a href="http://shih.ms.tku.edu.tw/paperdata/Fuzzy Approach for Multi-level Programming_1996.pdf">
+					<a href="ftp://shih@shih.ms.tku.edu.tw/Fuzzy Approach for Multi-level Programming_1996.pdf">
 						Fuzzy Approach for Multi-level Programming Problems.
 					</a>
 				</strong>
@@ -259,7 +259,7 @@
 			
             <li>
 				Hsu-Shih Shih* (2009), 
-				<a href="http://shih.ms.tku.edu.tw/paperdata/A Brief Review of Multi-level Non-linear Programming_DSI40_2009.pdf">
+				<a href="ftp://shih@shih.ms.tku.edu.tw/A Brief Review of Multi-level Non-linear Programming_DSI40_2009.pdf">
 					A brief review of multi-level nonlinear programming.
 				</a> 
 				DSI 40th Annual Meeting, Decision Sciences Institute, 14-17 November 2009, New Orleans, Louisiana, USA.
@@ -267,7 +267,7 @@
 			
             <li>
 				Chiau-Ching Chen*, Hsu-Shih Shih, Kun-Shan Wu, Huan-Jyh Shyur (2009), 
-				<a href="http://shih.ms.tku.edu.tw/paperdata/Selection_of_GreenSupplyChainStrategies_ISAHP2009.pdf">
+				<a href="ftp://shih@shih.ms.tku.edu.tw/Selection_of_GreenSupplyChainStrategies_ISAHP2009.pdf">
 					Using ANP for the selection of GSCM strategies.
 				</a>
 				The Tenth International Symposium on the Analytic Hierarchy Process, ISAHP 2009, 25, July 29-August 1, 2009, University of Pittsburgh, Pittsburgh, Pennsylvania, USA. 
@@ -275,7 +275,7 @@
 			
             <li>
 				彭孟吟、時序時* (2009)，
-				<a href="http://shih.ms.tku.edu.tw/paperdata/兩階層供應鏈中獎勵補貼費率制訂之研究_2009.pdf">
+				<a href="ftp://shih@shih.ms.tku.edu.tw/兩階層供應鏈中獎勵補貼費率制訂之研究_2009.pdf">
 					兩階層供應鏈中獎勵補貼補貼費率制訂之研究－ 以台灣廢玻璃容器資源回收為例。
 				</a>
 				金融危機下企業發展戰略與經營決策：兩岸學術論壇，277-290，首都經濟貿易大學，北京，2009年 7月 3日。
@@ -283,7 +283,7 @@
 			
             <li>
 				Hsu-Shih Shih* (2008), 
-				<a href="http://shih.ms.tku.edu.tw/paperdata/A Strategy Selection of Green Supply and Manufacturing through ANP_INFORMS_2008.pdf">
+				<a href="ftp://shih@shih.ms.tku.edu.tw/A Strategy Selection of Green Supply and Manufacturing through ANP_INFORMS_2008.pdf">
 					A strategy selection of green supply and manufacturing through ANP
 				</a>
 				, INFORMS Annual Meeting, 40, 12-15 October 2008, Washington, DC, USA.
@@ -291,7 +291,7 @@
 			
             <li>
 				徐煥智、時序時*、方姿文 (2008)，
-				<a href="http://shih.ms.tku.edu.tw/paperdata/建構一個以多屬性價值函數權衡之採購協商支援系統_2008.pdf">
+				<a href="ftp://shih@shih.ms.tku.edu.tw/建構一個以多屬性價值函數權衡之採購協商支援系統_2008.pdf">
 					建構一以多屬性價值函數權衡之採購協商支援系統。
 				</a>
 				<em>2008</em>年兩岸管理科學暨經營決策學術研討會，219-232，淡江大學，淡水，台北， 2008年 5月 25日。
@@ -299,7 +299,7 @@
 			
             <li>
 				Hsu-Shih Shih*, Huan-Jyh Shyur, Chi-chang Jou (2008), 
-				<a href="http://shih.ms.tku.edu.tw/paperdata/A Multi-attribute NSS for Purchasing Negotiation_MCDM_2008.pdf">
+				<a href="ftp://shih@shih.ms.tku.edu.tw/A Multi-attribute NSS for Purchasing Negotiation_MCDM_2008.pdf">
 					A multi-attribute NSS for purchasing negotiation.
 				</a> 
 				19th International Conference on Multiple Criteria Decision Making (MCDM 2008), 40, 7-12 January 2008, Auckland, New Zealand.
@@ -307,7 +307,7 @@
 			
             <li>
 				劉臺雄、時序時*、周清江、徐煥智、楊維楨 (2007)，
-				<a href="http://shih.ms.tku.edu.tw/paperdata/同仁審查之流程與關鍵因素探討_2007.pdf">
+				<a href="ftp://shih@shih.ms.tku.edu.tw/同仁審查之流程與關鍵因素探討_2007.pdf">
 					同仁審查之流程與關鍵因素探討－ 以台灣證券交易所系統設計審查為例。
 				</a>
 				<em>2007 </em>年兩岸三地管理科學暨企業經營學術研討會，173-192，中國科學院，西雙版納，雲南，2007年 6月 25日。
@@ -315,7 +315,7 @@
 			
             <li>
 				Hsu-Shih Shih* (2007), 
-				<a href="http://shih.ms.tku.edu.tw/paperdata/A Note on the Incremental Analysis for Multiple Criteria Decision Making_MCDA65_2007.pdf">
+				<a href="ftp://shih@shih.ms.tku.edu.tw/A Note on the Incremental Analysis for Multiple Criteria Decision Making_MCDA65_2007.pdf">
 					A Note on the Incremental Analysis for MCDM.
 				</a> 
 				<em>65th Meeting of the European Working Group </em>(<em>Multiple Criteria Decision Aiding</em>), 65, 12-14 April, 2007, Poznan, Poland.
@@ -323,14 +323,14 @@
 			
             <li>
 				時序時*、徐煥智 (2006)，
-				<a href="http://shih.ms.tku.edu.tw/paperdata/一具多屬性特質之採購協商支援系統之建置_2006.pdf">
+				<a href="ftp://shih@shih.ms.tku.edu.tw/一具多屬性特質之採購協商支援系統之建置_2006.pdf">
 					一具多屬性特質之採購協商支援系統之建置。
 				</a><em>2006 </em>年兩岸管理科學暨經營決策學術研討會－華人管理論壇，235-246，江西財經大學，南昌，江西，2006年 7月 28日。
 			</li>
 			
             <li>
 				時序時*、徐煥智 (2005)，
-				<a href="http://shih.ms.tku.edu.tw/paperdata/一有效供應商評選之群體決策支援系統的建構_2005.pdf">
+				<a href="ftp://shih@shih.ms.tku.edu.tw/一有效供應商評選之群體決策支援系統的建構_2005.pdf">
 					一有效供應商評選之群體決策支援系統的建構。
 				</a>
 				2005 年兩岸管理科學暨經營決策學術研討會，771-785，吉林大學，長春，吉林， 2004年 4月 19-20日。
@@ -338,7 +338,7 @@
 			
             <li>
 				黃良志*、時序時、葉俊逸 (2004)，
-				<a href="http://shih.ms.tku.edu.tw/paperdata/多屬性群體決策支援系統應用於招募遴選之建構_2004.pdf">
+				<a href="ftp://shih@shih.ms.tku.edu.tw/多屬性群體決策支援系統應用於招募遴選之建構_2004.pdf">
 					多屬性群體決策支援系統應用於招募遴選之建構。
 				</a>
 				第一屆台灣作業研究學會學術研討會暨2004年科技與管理學術研討會，895-906，台北科技大學，台北，2004年 11月 12日。
@@ -346,7 +346,7 @@
 			
             <li>
 				時序時*，黃良志、徐煥智、黃明典、陳采玉、何靜儀 (2004)，
-				<a href="http://shih.ms.tku.edu.tw/paperdata/一人力遴選決策支援系統之建構_2004.pdf">
+				<a href="ftp://shih@shih.ms.tku.edu.tw/一人力遴選決策支援系統之建構_2004.pdf">
 					一人力遴選決策支援系統之建構。
 				</a>
 				2004 年兩岸管理科學暨經營決策學術研討會，339-356，貴州大學，貴陽，貴州， 2004年 6月 21日。
@@ -354,7 +354,7 @@
 			
             <li>
 				時序時*，潘怡婷，湯慧如、黃婉倩 (2003)，
-				<a href="http://shih.ms.tku.edu.tw/paperdata/一整合型二維品質機能展開模式之建立與驗證_2d_qfd_2003.pdf">
+				<a href="ftp://shih@shih.ms.tku.edu.tw/一整合型二維品質機能展開模式之建立與驗證_2d_qfd_2003.pdf">
 					一整合型二維品質機能展開模式之建立與驗證。
 				</a>
 				2003 年兩岸管理科學暨經營決策學術研討會，395-408，西南財經大學，成都，四川， 2003年 9月 8日。
@@ -367,7 +367,7 @@
             <li>
 				Hsu-Shih Shih*, Wen-Yuan Lin, and E. Stanley Lee (2001), 
 				<strong>
-					<a href="http://shih.ms.tku.edu.tw/paperdata/GDMforTOPSIS_shih_ifsa_2001.pdf">
+					<a href="ftp://shih@shih.ms.tku.edu.tw/GDMforTOPSIS_shih_ifsa_2001.pdf">
 						Group decision making for TOPSIS.
 					</a>
 				</strong>
@@ -376,7 +376,7 @@
 			
             <li>
 				Hsu-Shih Shih* and E. Stanley Lee (1999), 
-				<a href="http://shih.ms.tku.edu.tw/paperdata/An Interactive Approach for Fuzzy Multi-level Programming_IFSA99_1999.pdf">
+				<a href="ftp://shih@shih.ms.tku.edu.tw/An Interactive Approach for Fuzzy Multi-level Programming_IFSA99_1999.pdf">
 					An Interactive Approach to Fuzzy Multi-Level Programming.
 				</a>
 				The Eighth International Fuzzy Systems Association World Congress (IFSA ’99), 179-183, August 17-20, 1999, Taipei, Taiwan, ROC.
@@ -403,9 +403,9 @@
         <!-- 20120910依教授要求，調整與系網頁上格式一樣，新增font-size:12px; letter-spacing:1px; 屬性 -->
         <!-- 以廢棄 <ol type="1" style="line-height:30px;"> -->
 		<ol type="1">
-			<li>時序時（民國一Ｏ三年一月），TOPSIS Method for Multiple Criteria Decision Making under Uncertainty. Polish-Taiwanese Joint Research Project (Project-based Personnel Exchange Program, PPP). 2014/01/01 – 2015/12/31, National Science Council, Taipei, Taiwan.</li>
+			<li>時序時（民國一Ｏ三年一月），Enhancing TOPSIS Method for Multiple Criteria Decision Making (2/2)。台灣－波蘭國際合作研究計畫結案報告（計畫編號：NSC 101-2911-I-032-501，執行期間：102年1月1日至102年12月31日），國科會，台北。</li>
             <%--<li>時序時（民國一Ｏ二年十月），</li>--%>
-            <li>時序時（民國一Ｏ一年一月），Enhancing TOPSIS Method for Multiple Criteria Decision Making (1/2)。台灣－波蘭國際合作研究計畫期中進度報告（計畫編號：NSC 101-2911-I-032-501，執行期間：101年1月1日至101年12月31日），國科會，台北。</li>
+            <li>時序時（民國一Ｏ二年一月），Enhancing TOPSIS Method for Multiple Criteria Decision Making (1/2)。台灣－波蘭國際合作研究計畫期中進度報告（計畫編號：NSC 101-2911-I-032-501，執行期間：101年1月1日至101年12月31日），國科會，台北。</li>
 			<!-- 20120910新增 -->
 			<li>時序時（民國一Ｏ一年十月），資訊廢棄物回收處理補貼費率制定之研究－多階層隨機規劃之應用。專題研究計畫期末報告（計畫編號：NSC 99-2221-E-032-025-MY2，執行期間：99年8月1日至101年7月31日），國科會，台北。</li>
 			<!-- 20120910新增 -->
