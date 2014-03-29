@@ -14,7 +14,7 @@
             <div id="showalbum-sub-height"><img src="photo/工工大專生專題優選_高英婷_20130610.jpg
 " /><div id="showalbum-sub-text">工業工程大專生專題優選，高英婷等七位，2013/06/10</div></div>
             <div id="showalbum-sub-height"><img src="photo/作業研究大專生專題佳作_高英婷等_20130531.jpg
-" /><div id="showalbum-sub-text">作業研究大專生專題第二名，高英婷等七位，2012/06/08</div></div>
+" /><div id="showalbum-sub-text">作業研究大專生專題佳作，高英婷等七位，2013/05/31</div></div>
             
             
             <!-- 2013/07/22 -->
