@@ -22,20 +22,19 @@
         </ol>
         <h3>國外短期研究計畫</h3>
         <ol type="1">
-            <li>在不確定情況下的多準則決策TOPSIS方法（台灣－波蘭國際合作人員交流PPP計畫，Systems Research Institute, Polish Academy of Sciences, Warsaw, Poland）（2014.01.01 ～ 2015.12.31，兩年期），計畫編號：NSC 103-2911-I-032-502，國科會，台北。</li>
-            <li>具有隨機變數之多階層規劃的研究，Norwegian School of Economics （Norges Handelshoyskole, NHH）, Norway（103/01/31 ～ 103/08/20）。103年度（第52屆）補助科學與技術人員國外短期研究計畫編號：NSC 103-2918-I-032-003，國科會，台北。</li>
+            <li>具有隨機變數之多階層規劃的研究，Norwegian School of Economics （Norges Handeølshoyskole, NHH）, Norway（103/01/31 ～ 103/08/20）。103年度（第52屆）補助科學與技術人員國外短期研究計畫編號：NSC 103-2918-I-032-003，國科會，台北。</li>
             <li>中介協商模型之研究，Systems Analysis Labortory, Aalto University, Finland（99/06/14 ～ 99/09/13）。99年度（第48屆）補助科學與技術人員國外短期研究計畫編號：NSC 99-2918-I-032-003，國科會，台北。</li>
             <li>分析網路程序法之研究，Joseph M. Katz Graduate School of Business,  University of Pittsburgh, USA（96/06/17 ～ 96/09/16）。96年度（第45屆）補助科學與技術人員國外短期研究計畫編號：NSC 96-2918-I-032-001，國科會，台北。</li>
         </ol>
 
         <h3>國際合作研究計畫</h3>
         <ol type="1">
+            <li>在不確定情況下的多準則決策TOPSIS方法（台灣－波蘭國際合作人員交流PPP計畫，Systems Research Institute, Polish Academy of Sciences, Warsaw, Poland）（2014.01.01 ～ 2015.12.31，兩年期），計畫編號：NSC 103-2911-I-032-502，國科會，台北。</li>
 			<!-- 20120909新增 -->
 			<li>Enhancing TOPSIS Method for Multiple Criteria Decision Making（台灣－波蘭國際合作人員交流PPP計畫：Systems Research Institute, Polish Academy of Sciences, Warsaw, Poland）（2012.01.01 ～ 2013.12.31，兩年期）。計畫編號：NSC 101-2911-I-032-501，國科會，台北。</li>
 			<!-- 20120909新增 -->
             <li>中介協商模型之研究（赴國外短期研究：Systems Analysis Laboratory, Aalto University School of Science and Technology (Helsinki University of Technology), Espoo, Finland）（2010.06.14 ～ 2010.09.13，三個月）。計畫編號：NSC 99-2918-I-032-003，國科會，台北。</li>
             <li>A Study on the Management Support System for Supply Chains（台灣－波蘭國際合作研究：Systems Research Institute, Polish Academy of Sciences, Warsaw, Poland）（2008.01.01 ～ 2009.12.31，兩年期）。計畫編號：NSC 97-2911-I-032-003-2，NSC 98-2911-I-032-2，國科會，台北。</li>
-
             <li>分析網路程序法之研究（赴國外短期研究：Joseph M. Katz Graduate School of Business, University of Pittsburgh, Pittsburgh, USA）（2007.06.17 ～ 2007.09.16，三個月）。計畫編號：NSC 99-2918-I-032-003，國科會，台北。</li>
         </ol>
 
