@@ -33,9 +33,7 @@
 			<!-- 20120909新增 -->
 			<li>Enhancing TOPSIS Method for Multiple Criteria Decision Making（台灣－波蘭國際合作人員交流PPP計畫：Systems Research Institute, Polish Academy of Sciences, Warsaw, Poland）（2012.01.01 ～ 2013.12.31，兩年期）。計畫編號：NSC 101-2911-I-032-501，國科會，台北。</li>
 			<!-- 20120909新增 -->
-            <li>中介協商模型之研究（赴國外短期研究：Systems Analysis Laboratory, Aalto University School of Science and Technology (Helsinki University of Technology), Espoo, Finland）（2010.06.14 ～ 2010.09.13，三個月）。計畫編號：NSC 99-2918-I-032-003，國科會，台北。</li>
             <li>A Study on the Management Support System for Supply Chains（台灣－波蘭國際合作研究：Systems Research Institute, Polish Academy of Sciences, Warsaw, Poland）（2008.01.01 ～ 2009.12.31，兩年期）。計畫編號：NSC 97-2911-I-032-003-2，NSC 98-2911-I-032-2，國科會，台北。</li>
-            <li>分析網路程序法之研究（赴國外短期研究：Joseph M. Katz Graduate School of Business, University of Pittsburgh, Pittsburgh, USA）（2007.06.17 ～ 2007.09.16，三個月）。計畫編號：NSC 99-2918-I-032-003，國科會，台北。</li>
         </ol>
 
 		<h3>國際學者邀訪計畫</h3>
