@@ -10,12 +10,13 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 <div id="nowsite">時光序曲 &raquo; 學術交流</div>
         <div id="showalbum">
-            <div id="showalbum-sub"><div class="y"><img src="photo/teach/IMG_7308.jpg" /></div><div id="showalbum-sub-text">清大工工系演講，2013/10</div></div>
+            <div id="showalbum-sub"><div class="x"><img src="photo/teach/IMG_7308.jpg" /></div><div id="showalbum-sub-text">清大工工系演講，2013/10/31</div></div>
+            <div id="showalbum-sub"><div class="x"><img src="photo/teach/DSC00523m_20131002.JPG" /></div><div id="showalbum-sub-text">Professor A.M.J. Skulimowski (Poland) 來訪淡江大學，2013/10/02</div></div>
             <!-- 2013/7/22新增 -->
             <div id="showalbum-sub"><div class="y"><img src="photo/DSC08511m2_20130620_Prof Steuer.JPG" /></div><div id="showalbum-sub-text">參加 MCDM 2013 與 Professor R.E. Steuer (USA) 合影，Malaga, Spain，2013/06</div></div>
             <!-- 2013/6/22新增 -->
             <!-- 2013/6/01新增 -->
-            <div id="showalbum-sub"><div class="x"><img src="photo/teach/IMG_7238r1_Prof D Olson_Tamkang_2013May.JPG" /></div><div id="showalbum-sub-text">Professor D. Olson (USA) 來訪淡江大學，2013/05</div></div>
+            <div id="showalbum-sub"><div class="x"><img src="photo/teach/IMG_7238r1_Prof D Olson_Tamkang_2013May.JPG" /></div><div id="showalbum-sub-text">Professor D.L. Olson (USA) 來訪淡江大學，2013/05</div></div>
             <!-- 2013/6/01新增 -->
         	<!-- 2013/1/8新增 -->
 			<div id="showalbum-sub"><div class="x"><img src="photo/teach/Group photo_cscms2012_xmu.JPG" /></div><div id="showalbum-sub-text">訪問廈門大學，2012/11/12</div></div>
@@ -25,7 +26,6 @@
 			<!-- 2012/10/16新增 -->
 			<!-- 2012/10/09新增 -->
 			<div id="showalbum-sub"><div class="x"><img src="photo/teach/DSCN3322_20121003台大.JPG" /></div><div id="showalbum-sub-text">2012/10/03 台大工工所演講</div></div>
-            <div id="showalbum-sub"><div class="x"><img src="photo/teach/200406.jpg" /></div><div id="showalbum-sub-text">訪問湖南大學，2004/06</div></div>
 			<div id="showalbum-sub"><div class="x"><img src="photo/teach/DSCN2906_PAS_20120823.jpg" /></div><div id="showalbum-sub-text">Polish Academy of Sciences 演講，2012/08/23</div></div>
 			<div id="showalbum-sub"><div class="x"><img src="photo/teach/DSC00314_20120730開南.JPG" /></div><div id="showalbum-sub-text">2012/07/30 開南大學講學</div></div>
 			<!-- 2012/10/09新增 -->
@@ -49,7 +49,7 @@
 
             <div id="showalbum-sub"><div class="x"><img src="photo/teach/200504.jpg" /></div><div id="showalbum-sub-text">訪問吉林大學，2005/04</div></div>
             
-
+            <div id="showalbum-sub"><div class="x"><img src="photo/teach/200406.jpg" /></div><div id="showalbum-sub-text">訪問湖南大學，2004/06</div></div>
             <div id="showalbum-sub"><div class="x"><img src="photo/teach/200405.jpg" /></div><div id="showalbum-sub-text">Professor E.S. Lee (USA) 來訪談淡江大學，2004/05</div></div>
             <div id="showalbum-sub"><div class="x"><img src="photo/teach/200309.jpg" /></div><div id="showalbum-sub-text">四川學術訪問，2003/09</div></div>
 
