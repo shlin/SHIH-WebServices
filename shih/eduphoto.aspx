@@ -10,6 +10,8 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 <div id="nowsite">時光序曲 &raquo; 學術交流</div>
         <div id="showalbum">
+            <div id="showalbum-sub"><div class="x"><img src="photo/teach/DSC06044m.jpg" /></div><div id="showalbum-sub-text">Professor S.W. Wallace, 訪問 Norwegian School of Economics (NHH), Bergen, Norway, 2014/04</div></div>
+            <div id="showalbum-sub"><div class="y"><img src="photo/teach/DSC05148m.jpg" /></div><div id="showalbum-sub-text">訪問 Uppsala University, Sweden, 2014/04</div></div>
             <div id="showalbum-sub"><div class="x"><img src="photo/teach/IMG_7308.jpg" /></div><div id="showalbum-sub-text">清大工工系演講，2013/10/31</div></div>
             <div id="showalbum-sub"><div class="x"><img src="photo/teach/DSC00523m_20131002.JPG" /></div><div id="showalbum-sub-text">Professor A.M.J. Skulimowski (Poland) 來訪淡江大學，2013/10/02</div></div>
             <!-- 2013/7/22新增 -->
