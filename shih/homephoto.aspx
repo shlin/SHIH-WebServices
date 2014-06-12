@@ -10,11 +10,12 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 <div id="nowsite">時光序曲 &raquo; 生活剪影</div>
         <div id="showalbum">
+            <div id="showalbum-sub"><div class="x"><img src="photo/home/DSC06956m.jpg" /></div><div id="showalbum-sub-text">Bergen, Norway, 2014/05</div></div>
             <!-- 2013/07/22 -->
             <div id="showalbum-sub"><div class="x"><img src="photo/home/DSC00472m_20130928家瑋婚禮.jpg" /></div><div id="showalbum-sub-text">家瑋婚禮，2013/09/28</div></div>
-			<div id="showalbum-sub"><div class="x"><img src="photo/DSC09399m2_Lisbon_Portugal_20130629.JPG" /></div><div id="showalbum-sub-text">Lisbon, Portugal，2013/06/29</div></div>
+			<div id="showalbum-sub"><div class="x"><img src="photo/DSC09399m2_Lisbon_Portugal_20130629.JPG" /></div><div id="showalbum-sub-text">Lisbon, Portugal, 2013/06/29</div></div>
             
-            <div id="showalbum-sub"><div class="x"><img src="photo/DSC08119m2_Granada_Spain_20130618.JPG" /></div><div id="showalbum-sub-text">Granada, Spain，2013/06/18</div></div>
+            <div id="showalbum-sub"><div class="x"><img src="photo/DSC08119m2_Granada_Spain_20130618.JPG" /></div><div id="showalbum-sub-text">Granada, Spain, 2013/06/18</div></div>
             <!-- 2013/07/22 -->
 			<!-- 2012/10/09新增 -->
 			<div id="showalbum-sub"><div class="x"><img src="photo/home/DSC04193_20120902.JPG" /></div><div id="showalbum-sub-text">Rome, Italy, 2012/09/02</div></div>
