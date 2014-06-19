@@ -10,6 +10,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 <div id="nowsite">時光序曲 &raquo; 生活剪影</div>
         <div id="showalbum">
+            <div id="showalbum-sub"><div class="x"><img src="photo/home/DSC00479m.jpg" /></div><div id="showalbum-sub-text">Reykjavík, Iceland, 2014/06</div></div>
             <div id="showalbum-sub"><div class="x"><img src="photo/home/DSC06956m.jpg" /></div><div id="showalbum-sub-text">Bergen, Norway, 2014/05</div></div>
             <!-- 2013/07/22 -->
             <div id="showalbum-sub"><div class="x"><img src="photo/home/DSC00472m_20130928家瑋婚禮.jpg" /></div><div id="showalbum-sub-text">家瑋婚禮，2013/09/28</div></div>
