@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true"
-    CodeFile="homephoto.aspx.cs" Inherits="homephoto" %>
+     CodeFile="homephoto.aspx.cs" Inherits="homephoto" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <link href="css/frame.css" rel="stylesheet" type="text/css" />
@@ -10,6 +10,8 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 <div id="nowsite">時光序曲 &raquo; 生活剪影</div>
         <div id="showalbum">
+            <div id="showalbum-sub"><div class="y"><img src="photo/home/DSC06364m_Oxford.jpg" /></div><div id="showalbum-sub-text">Oxford University, UK, 2014/08</div></div>
+            <div id="showalbum-sub"><div class="x"><img src="photo/home/DSC07138n_Cambridge.jpg" /></div><div id="showalbum-sub-text">Cambridge University, UK, 2014/08</div></div>
             <div id="showalbum-sub"><div class="x"><img src="photo/home/DSC00479m.jpg" /></div><div id="showalbum-sub-text">Reykjavík, Iceland, 2014/06</div></div>
             <div id="showalbum-sub"><div class="x"><img src="photo/home/DSC06956m.jpg" /></div><div id="showalbum-sub-text">Bergen, Norway, 2014/05</div></div>
             <!-- 2013/07/22 -->
