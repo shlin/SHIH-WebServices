@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="sthonorphoto.aspx.cs" Inherits="sthonorphoto" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="MasterPage.master" AutoEventWireup="true" CodeFile="sthonorphoto.aspx.cs" Inherits="sthonorphoto" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
     <link href="css/frame.css" rel="stylesheet" type="text/css" />
