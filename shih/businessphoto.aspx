@@ -10,6 +10,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 <div id="nowsite">時光序曲 &raquo; 企業交流</div>
         <div id="showalbum">
+            <div id="showalbum-sub"><div class="x"><img src="photo/business/DSC08240m.jpg" /></div><div id="showalbum-sub-text">參訪新竹物流三重所，2014/11/27</div></div>
             <div id="showalbum-sub"><div class="x"><img src="photo/IMG_7105m_20130109大安工研淡水新廠.JPG" /></div><div id="showalbum-sub-text">參訪大安工研淡水新廠，2013/01/09</div></div>
             <div id="showalbum-sub"><div class="x"><img src="photo/IMG_6980m_士林電機重電廠_20121123.JPG" /></div><div id="showalbum-sub-text">參訪士林電機重電廠，2012/11/23</div></div>
             <div id="showalbum-sub"><div class="x"><img src="photo/business/20120104.jpg" /></div><div id="showalbum-sub-text">參訪大安工研淡水新廠，2012/01/04</div></div>
