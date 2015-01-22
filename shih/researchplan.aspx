@@ -38,7 +38,7 @@
 
 		<h3>國際學者邀訪計畫</h3>
 		<ol type="1">
-            <li>國際科技人士短期訪問：Professor Josef Jablonsky, University of Economics, Prague, Czech（2014.11.29 ～ 2014.12.06），計畫編號：103-2912-I-032-507，科技會，台北。</li>
+            <li>國際科技人士短期訪問：Professor Josef Jablonskỳ, University of Economics, Prague, Czech（2014.11.29 ～ 2014.12.06），計畫編號：103-2912-I-032-507，科技會，台北。</li>
             <li>國際科技人士短期訪問：Professor Andrzej Maciej Skulimowski, AGH University of Science & Technology, Krakow, Poland（2013.09.28 ～ 2013.10.06），計畫編號：NSC 102-2912-I-032-505，國科會，台北。</li>
 			<li>國際科技人士短期訪問：Professor Minghe Sun, University of Texas at San Antonio, USA（2012.05.16 ～ 2012.05.22）。計畫編號：NSC 101-2912-I-032-502，國科會，台北。</li>
 			<li>國際科技人士短期訪問：Professor Jennifer S. Shang, University of Pittsburgh, USA（2010.05.30 ～ 2010.06.08）。計畫編號：NSC 099-2912-I-032-004，國科會，台北。</li>
