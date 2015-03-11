@@ -6,6 +6,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <div id="nowsite">時光序曲 &raquo; 時光榮耀</div>
         <div id="showalbum">
+            <div id="showalbum-sub-height"><img src="photo/myhonor/DSC01796n_專題研究成效_20150206.jpg" /><div id="showalbum-sub-text">專題研究成效，2015/02/06</div></div>
             <div id="showalbum-sub-height"><img src="photo/Best paper award_ISAHP2013_jun252013.jpg" /><div id="showalbum-sub-text">ISAHP 2013 最佳論文獎第一名，2013/06/25</div></div>
             <div id="showalbum-sub-height"><img src="photo/myhonor/20131231_orstw感謝函.jpg" /><div id="showalbum-sub-text">台灣作業研究學會感謝狀，2013/12/31</div></div>
             <!-- 2013/07/22 -->
